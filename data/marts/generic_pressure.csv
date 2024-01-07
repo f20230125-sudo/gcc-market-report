@@ -1,0 +1,17 @@
+ingredient,msd_products,msd_lowest_price_per_unit_sar,other_versions,generic_or_other,generic_companies,cheapest_generic_per_unit_sar,cheapest_vs_msd,other_brands,other_brand_names,cheapest_other_brand_per_unit_sar
+SITAGLIPTIN,JANUMET; JANUMET XR; JANUVIA 100MG F.C. TABLETS; JANUVIA 25 mg; JANUVIA 50 mg,1.594642857142857,80,80,27,0.76,-0.5234042553191489,0,,
+SUGAMMADEX,BRIDION 100 MG/ML SOLUTION FOR INJECTION; BRIDION 100 mg/ml Solution for Injection,217.825,19,19,14,141.42000000000002,-0.35076322736141385,0,,
+RALTEGRAVIR,ISENTRESS 600MG F.C.TABLET,27.999166666666667,1,1,1,26.13,-0.06675793922438178,0,,
+BELZUTIFAN,Welireg,756.25,0,0,0,,,0,,
+Hepatitis B vaccines,RECOMBIVAX HB,46.7,0,0,0,,,0,,
+CEFTOLOZANE,ZERBAXA Powder For Injection Vial,328.21,0,0,0,,,0,,
+DORAVIRINE,Delstrigo; Pifeltro,45.39333333333333,0,0,0,,,0,,
+HPV vaccines,Gardasil 9,605.0,1,0,0,,,1,CERVARIX,266.25
+PEMBROLIZUMAB,KEYTRUDA 25 mg/ml Concentrate For Solution For Infusion; Keytruda,14680.0,0,0,0,,,0,,
+"Measles, mumps and rubella vaccines",M.M.R II 0.5ML VACCINE+ 0.7ML DILUENT,51.9,2,0,0,,,2,PRIORIX,45.507
+LETERMOVIR,PREVYMIS,739.0535714285714,0,0,0,,,0,,
+Pneumococcal vaccines,Capvaxive; Pneumovax 23 Pneumococcal Vaccine Polyvalent; Vaxneuvance,135.5,4,0,0,,,4,PREVENAR; SYNFLORIX,165.5
+Rotavirus vaccines,ROTATEQ ORAL VACCINE,199.55,1,0,0,,,1,ROTARIX,200.65
+RELEBACTAM,Recarbrio,620.376,0,0,0,,,0,,
+SOTATERCEPT,Winrevair,36247.2,0,0,0,,,0,,
+Varicella and zoster vaccines,VARIVAX 1350 PFU VIAL,152.1,2,0,0,,,2,SHINGRIX; VARILRIX,166.6
