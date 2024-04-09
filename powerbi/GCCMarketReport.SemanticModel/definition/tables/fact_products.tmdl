@@ -1,0 +1,144 @@
+table fact_products
+	lineageTag: 69473b76-b64e-5943-a125-b2759b29ec90
+
+	measure Products = COUNTROWS(fact_products)
+		formatString: #,##0
+		displayFolder: Measures
+		lineageTag: de3f766f-b76c-5b10-83b4-02736164830e
+
+	measure 'MSD Products' = CALCULATE(COUNTROWS(fact_products), fact_products[role] = "MSD")
+		formatString: #,##0
+		displayFolder: Measures
+		lineageTag: 21d8dd1d-e5cb-52fc-8ac4-fe4548540c4c
+
+	measure 'Generic Versions' = CALCULATE(COUNTROWS(fact_products), fact_products[role] = "Generic or other")
+		formatString: #,##0
+		displayFolder: Measures
+		lineageTag: ce148a71-e96c-51db-afaa-a8a62005a16c
+
+	measure 'Other Brands' = CALCULATE(COUNTROWS(fact_products), fact_products[role] = "Originator")
+		formatString: #,##0
+		displayFolder: Measures
+		lineageTag: 347699c3-40ff-547b-b9a7-6c96b8ff8595
+
+	measure Companies = DISTINCTCOUNT(fact_products[company])
+		formatString: #,##0
+		displayFolder: Measures
+		lineageTag: 4212675c-bfba-57a1-802f-09f9279401d5
+
+	measure 'Median Price per Unit USD' = MEDIAN(fact_products[price_per_unit_usd])
+		formatString: "$"#,##0.00
+		displayFolder: Measures
+		lineageTag: cea61826-0658-5f2d-a580-46042c1217b2
+
+	measure 'MSD Lowest per Unit USD' = CALCULATE(MIN(fact_products[price_per_unit_usd]), fact_products[role] = "MSD")
+		formatString: "$"#,##0.00
+		displayFolder: Measures
+		lineageTag: e5cc5047-11ff-53d6-8ff4-434eaeae2095
+
+	measure 'Cheapest Generic per Unit USD' = CALCULATE(MIN(fact_products[price_per_unit_usd]), fact_products[role] = "Generic or other")
+		formatString: "$"#,##0.00
+		displayFolder: Measures
+		lineageTag: 2c4218ac-2f4a-5a63-914f-dcad8ba73a06
+
+	measure 'Cheapest Generic vs MSD' = IF(ISBLANK([Cheapest Generic per Unit USD]) || ISBLANK([MSD Lowest per Unit USD]), BLANK(), DIVIDE([Cheapest Generic per Unit USD], [MSD Lowest per Unit USD]) - 1)
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: e4163538-753e-502c-b56f-d0fe799463fe
+
+	column pid
+		dataType: int64
+		formatString: 0
+		lineageTag: 215008f9-a7c3-5f67-8c82-835975273f48
+		summarizeBy: none
+		sourceColumn: pid
+
+	column country
+		dataType: string
+		lineageTag: 5b1cda49-a6ca-56b8-9194-5fb3cde08caf
+		summarizeBy: none
+		sourceColumn: country
+
+	column atc5
+		dataType: string
+		lineageTag: 73361e58-edca-59e9-97dc-ba943f4fa9a5
+		summarizeBy: none
+		sourceColumn: atc5
+
+	column ingredient
+		dataType: string
+		lineageTag: 6b5eac8c-a9cb-5c43-be1a-7ba323d13d53
+		summarizeBy: none
+		sourceColumn: ingredient
+
+	column name
+		dataType: string
+		lineageTag: 39bcf995-1d0c-552a-95c8-576aef74bc3b
+		summarizeBy: none
+		sourceColumn: name
+
+	column brand
+		dataType: string
+		lineageTag: cd334d82-b612-55c1-9810-b643ac888702
+		summarizeBy: none
+		sourceColumn: brand
+
+	column strength
+		dataType: string
+		lineageTag: f8ca6c67-191d-57c9-bea0-b36eb2c5f639
+		summarizeBy: none
+		sourceColumn: strength
+
+	column form
+		dataType: string
+		lineageTag: 0b8b106c-3220-592e-8d94-e76b3c4cd5a3
+		summarizeBy: none
+		sourceColumn: form
+
+	column units_per_pack
+		dataType: double
+		lineageTag: de00288c-c352-5f2d-b0d7-ab226e60fdf2
+		summarizeBy: none
+		sourceColumn: units_per_pack
+
+	column pack_price_local
+		dataType: double
+		lineageTag: fa09cb50-d185-5654-abb9-e2ee2ffd13d8
+		summarizeBy: none
+		sourceColumn: pack_price_local
+
+	column currency
+		dataType: string
+		lineageTag: afff9917-5874-53aa-b480-a978004a00e1
+		summarizeBy: none
+		sourceColumn: currency
+
+	column price_per_unit_usd
+		dataType: double
+		lineageTag: bb5eb922-624c-57e2-a572-9af19165e275
+		summarizeBy: none
+		sourceColumn: price_per_unit_usd
+
+	column role
+		dataType: string
+		lineageTag: 68025f06-ef5b-58d9-8d86-07600b138ac3
+		summarizeBy: none
+		sourceColumn: role
+
+	column company
+		dataType: string
+		lineageTag: 49ced2a0-8f01-5276-af5a-6eb3b45b705c
+		summarizeBy: none
+		sourceColumn: company
+
+	partition fact_products = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_products.csv"), [Delimiter=",", Columns=14, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"pid", Int64.Type}, {"country", type text}, {"atc5", type text}, {"ingredient", type text}, {"name", type text}, {"brand", type text}, {"strength", type text}, {"form", type text}, {"units_per_pack", type number}, {"pack_price_local", type number}, {"currency", type text}, {"price_per_unit_usd", type number}, {"role", type text}, {"company", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
