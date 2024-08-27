@@ -49,6 +49,7 @@ test("the Excel pack downloads", async ({ page, request }) => {
 for (const scheme of ["light", "dark"] as const) {
   test(`axe finds no violations (${scheme})`, async ({ page }) => {
     await page.emulateMedia({ colorScheme: scheme });
+    if (scheme === "dark") await page.addInitScript(() => localStorage.setItem("gcc-theme", "dark"));
     await page.goto("/");
     expect(await violations(page)).toEqual([]);
   });
@@ -61,3 +62,9 @@ for (const width of [390, 320]) {
     expect(await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)).toBeLessThanOrEqual(1);
   });
 }
+
+test("opens in light mode even when the system prefers dark", async ({ page }) => {
+  await page.emulateMedia({ colorScheme: "dark" });
+  await page.goto("/");
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+});

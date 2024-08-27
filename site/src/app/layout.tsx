@@ -17,16 +17,13 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#faf8f3" },
-    { media: "(prefers-color-scheme: dark)", color: "#15131a" },
-  ],
+  themeColor: "#faf8f3",
   width: "device-width",
   initialScale: 1,
 };
 
-// Sets the saved theme before first paint so there is no flash of the wrong one.
-const themeScript = `try{var t=localStorage.getItem("gcc-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t)}catch(e){}`;
+// Sets the theme before first paint so there is no flash: the saved choice, otherwise light.
+const themeScript = `var t;try{t=localStorage.getItem("gcc-theme")}catch(e){}document.documentElement.setAttribute("data-theme",t==="dark"?"dark":"light")`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
