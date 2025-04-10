@@ -1,0 +1,268 @@
+reg_no,name,list_2024,price_feb_2024_bd,price_sep_2026_bd,change,direction
+DRN-07704/09,ACTEMRA,innovator,189.26,152.48,-0.1943358343020184,Cut
+DRN-07705/09,ACTEMRA,innovator,374.38,304.96,-0.1854265719322614,Cut
+DRN-09684/21,VEXAL XR,generics,8.67,8.67,0.0,Unchanged
+DRN-09583/21,RINVOQ,innovator,482.61,482.61,0.0,Unchanged
+DRN-09614/21,THYROGEN,innovator,476.15,476.15,0.0,Unchanged
+DRN-09622/21,VISIPAQUE,innovator,71.66,71.66,0.0,Unchanged
+DRN-09623/21,VISIPAQUE,innovator,135.51,135.51,0.0,Unchanged
+DRN-09628/21,ZOLIX,generics,0.88,0.88,0.0,Unchanged
+DRN-09629/21,LORVAST,generics,7.14,7.14,0.0,Unchanged
+DRN-09631/21,TORVAST 10,generics,6.42,6.42,0.0,Unchanged
+DRN-09650/21,PAQUIX,generics,27.19,27.19,0.0,Unchanged
+DRN-09667/21,MODLIP-10,generics,5.78,5.78,0.0,Unchanged
+DRN-09668/21,MODLIP-20,generics,10.62,10.62,0.0,Unchanged
+DRN-09669/21,STORVAS,generics,5.2,5.2,0.0,Unchanged
+DRN-09670/21,STORVAS,generics,9.56,9.56,0.0,Unchanged
+DRN-09671/21,STORVAS,generics,12.03,12.03,0.0,Unchanged
+DRN-09683/21,VEXAL XR,generics,4.71,4.71,0.0,Unchanged
+DRN-09581/21,MOXIVE,generics,5.35,5.35,0.0,Unchanged
+DRN-03356/94,CIPROBAY,innovator,6.85,6.85,0.0,Unchanged
+DRN-00109/89,TENORMIN,innovator,2.17,2.17,0.0,Unchanged
+DRN-00193/90,ZESTRIL,innovator,4.33,4.33,0.0,Unchanged
+DRN-00194/90,ZESTRIL,innovator,1.52,1.52,0.0,Unchanged
+DRN-00195/90,ZESTRIL,innovator,2.52,2.52,0.0,Unchanged
+DRN-09746/21,MUXAVA,generics,5.35,5.35,0.0,Unchanged
+DRN-01168/92,GYNERA,innovator,1.74,1.74,0.0,Unchanged
+DRN-01623/92,ZOFRAN,innovator,10.81,10.81,0.0,Unchanged
+DRN-01625/92,ZOFRAN,innovator,15.56,15.56,0.0,Unchanged
+DRN-09898/22,HERZUMA,innovator,134.33,134.33,0.0,Unchanged
+DRN-02206/93,CONCOR,innovator,3.48,3.48,0.0,Unchanged
+DRN-02207/93,CONCOR,innovator,2.88,2.88,0.0,Unchanged
+DRN-02758/93,TENORETIC,innovator,2.85,2.85,0.0,Unchanged
+DRN-02959/93,ULTRAVIST,innovator,57.74,57.74,0.0,Unchanged
+DRN-03300/94,VASCOTEN,generics,1.32,1.32,0.0,Unchanged
+DRN-09690/21,KETESSE,innovator,2.41,2.41,0.0,Unchanged
+DRN-05229/00,APROVEL,innovator,8.26,8.26,0.0,Unchanged
+DRN-05243/00,PROGRAF,innovator,91.83,91.83,0.0,Unchanged
+DRN-05244/00,PROGRAF,innovator,418.92,418.92,0.0,Unchanged
+DRN-05336/00,ADALAT LA,innovator,4.57,4.57,0.0,Unchanged
+DRN-05366/00,ZYRTEC,innovator,3.19,3.19,0.0,Unchanged
+DRN-05462/01,AVALOX,innovator,6.09,6.09,0.0,Unchanged
+DRN-05463/01,AVALOX,innovator,8.63,8.63,0.0,Unchanged
+DRN-05477/01,LIPITOR,innovator,10.87,10.87,0.0,Unchanged
+DRN-05478/01,LIPITOR,innovator,17.4,17.4,0.0,Unchanged
+DRN-05501/01,BLOPRESS,generics,4.61,4.61,0.0,Unchanged
+DRN-09932/22,OSELTA,generics,7.28,7.28,0.0,Unchanged
+DRN-05508/01,CIPROMAX,generics,4.72,4.72,0.0,Unchanged
+DRN-05529/01,TAMIFLU,innovator,8.57,8.57,0.0,Unchanged
+DRN-05542/01,ATACAND,innovator,5.42,5.42,0.0,Unchanged
+DRN-05543/01,ATACAND,innovator,7.23,7.23,0.0,Unchanged
+DRN-05546/01,MIRENA INTRAUTERINE SYSTEM,innovator,39.42,39.42,0.0,Unchanged
+DRN-05624/01,FAMVIR,innovator,12.15,12.15,0.0,Unchanged
+DRN-05625/01,FAMVIR,innovator,43.07,43.07,0.0,Unchanged
+DRN-05649/01,IMPLANON NXT,innovator,46.2,46.2,0.0,Unchanged
+DRN-05699/02,SYMBICORT TURBUHALER,innovator,18.22,18.22,0.0,Unchanged
+DRN-05705/02,QUINOX,generics,4.25,4.25,0.0,Unchanged
+DRN-05745/02,EFEXOR XR,innovator,5.55,5.55,0.0,Unchanged
+DRN-05746/02,EFEXOR XR,innovator,10.2,10.2,0.0,Unchanged
+DRN-05783/02,VIROL,generics,2.12,2.12,0.0,Unchanged
+DRN-05813/02,CETRALON,generics,1.35,1.35,0.0,Unchanged
+DRN-05842/02,BETAFERON,innovator,319.01,319.01,0.0,Unchanged
+DRN-05913/02,LIPITOR,innovator,19.87,19.87,0.0,Unchanged
+DRN-06039/03,AVALOX,innovator,49.27,49.27,0.0,Unchanged
+DRN-09990/22,QUALCOX,generics,3.39,3.39,0.0,Unchanged
+DRN-06078/03,XYZAL,innovator,3.19,3.19,0.0,Unchanged
+DRN-06147/03,LOVRAK,generics,1.91,1.91,0.0,Unchanged
+DRN-06218/03,MYFORTIC,innovator,86.0,86.0,0.0,Unchanged
+DRN-06268/03,ATACAND PLUS,innovator,8.14,8.14,0.0,Unchanged
+DRN-06303/03,CIPROXEN,generics,4.25,4.25,0.0,Unchanged
+DRN-06323/03,SYMBICORT TURBUHALER,innovator,12.52,12.52,0.0,Unchanged
+DRN-06370/03,SYMBICORT TURBUHALER,innovator,14.53,14.53,0.0,Unchanged
+DRN-06373/03,LINOPRIL,generics,1.29,1.29,0.0,Unchanged
+DRN-06374/03,LINOPRIL,generics,2.14,2.14,0.0,Unchanged
+DRN-06375/03,LINOPRIL,generics,3.68,3.68,0.0,Unchanged
+DRN-06380/03,CONCERTA,innovator,11.98,11.98,0.0,Unchanged
+DRN-06381/03,CONCERTA,innovator,16.64,16.64,0.0,Unchanged
+DRN-06471/04,FLOXACIN,generics,4.25,4.25,0.0,Unchanged
+DRN-06494/04,ALBUREX,innovator,25.87,25.87,0.0,Unchanged
+DRN-06513/04,HYCAMTIN,innovator,254.37,254.37,0.0,Unchanged
+DRN-06514/04,CONCOR COR,innovator,1.92,1.92,0.0,Unchanged
+DRN-06593/04,COAPROVEL,innovator,6.2,6.2,0.0,Unchanged
+DRN-06594/04,COAPROVEL,innovator,8.26,8.26,0.0,Unchanged
+DRN-06721/05,OMACE,generics,1.16,1.16,0.0,Unchanged
+DRN-06722/05,OMACE,generics,1.93,1.93,0.0,Unchanged
+DRN-06723/05,OMACE,generics,3.31,3.31,0.0,Unchanged
+DRN-06724/05,BETATEN,generics,1.26,1.26,0.0,Unchanged
+DRN-06725/05,BETATEN,generics,1.49,1.49,0.0,Unchanged
+DRN-06755/05,LEVEMIR FLEXPEN,innovator,27.27,27.27,0.0,Unchanged
+DRN-06761/05,CIPRALEX,innovator,13.86,13.86,0.0,Unchanged
+DRN-06797/05,ATORMIN,generics,1.14,1.14,0.0,Unchanged
+DRN-06798/05,ATORMIN,generics,1.34,1.34,0.0,Unchanged
+DRN-06850/05,ALIMTA,innovator,401.04,401.04,0.0,Unchanged
+DRN-06870/05,CIFLOX,generics,4.25,4.25,0.0,Unchanged
+DRN-06965/06,TYGACIL,innovator,133.51,133.51,0.0,Unchanged
+DRN-07011/06,CIPROGEN,generics,4.25,4.25,0.0,Unchanged
+DRN-07025/06,LYRICA,innovator,1.83,1.83,0.0,Unchanged
+DRN-07026/06,LYRICA,innovator,4.32,4.32,0.0,Unchanged
+DRN-07028/06,LYRICA,innovator,26.63,26.63,0.0,Unchanged
+DRN-07043/06,VFEND,innovator,34.05,34.05,0.0,Unchanged
+DRN-07061/06,OMCET,generics,0.99,0.99,0.0,Unchanged
+DRN-07067/06,BLOPRESS,generics,6.14,6.14,0.0,Unchanged
+DRN-07155/06,EMICIPRO,generics,4.25,4.25,0.0,Unchanged
+DRN-07164/07,BLOPRESS PLUS,generics,6.92,6.92,0.0,Unchanged
+DRN-07205/07,CELEBREX,innovator,5.98,5.98,0.0,Unchanged
+DRN-07226/07,TYKERB,innovator,467.33,467.33,0.0,Unchanged
+DRN-07267/07,NOVIRAX,generics,2.57,2.57,0.0,Unchanged
+DRN-10038/22,PEMETREXED KOANAA ,generics,340.88,340.88,0.0,Unchanged
+DRN-07298/07,LIPITOR,innovator,19.87,19.87,0.0,Unchanged
+DRN-07336/07,EXFORGE,innovator,6.58,6.58,0.0,Unchanged
+DRN-07337/07,EXFORGE,innovator,7.94,7.94,0.0,Unchanged
+DRN-07354/07,LYRICA,innovator,15.09,15.09,0.0,Unchanged
+DRN-07355/07,COAPROVEL,innovator,8.26,8.26,0.0,Unchanged
+DRN-07424/08,TASIGNA,innovator,1586.41,1586.41,0.0,Unchanged
+DRN-07439/08,MEDVIROX,generics,2.32,2.32,0.0,Unchanged
+DRN-07506/08,NEUPRO,innovator,16.77,16.77,0.0,Unchanged
+DRN-08078/11,ECALTA,innovator,63.62,63.62,0.0,Unchanged
+DRN-08080/11,DEFORAX,generics,1.55,1.55,0.0,Unchanged
+DRN-07507/08,NEUPRO,innovator,26.42,26.42,0.0,Unchanged
+DRN-07508/08,NEUPRO,innovator,34.15,34.15,0.0,Unchanged
+DRN-07509/08,NEUPRO,innovator,45.54,45.54,0.0,Unchanged
+DRN-07514/08,REMERON SOLTAB,innovator,8.41,8.41,0.0,Unchanged
+DRN-10209/23,UBRELVY,innovator,65.67,65.67,0.0,Unchanged
+DRN-07648/09,AMARYL M,innovator,3.15,3.15,0.0,Unchanged
+DRN-07653/09,LISINO,generics,1.12,1.12,0.0,Unchanged
+DRN-07654/09,LISINO,generics,1.86,1.86,0.0,Unchanged
+DRN-07655/09,LISINO,generics,3.19,3.19,0.0,Unchanged
+DRN-07674/09,SEROQUEL XR,innovator,26.3,26.3,0.0,Unchanged
+DRN-07675/09,SEROQUEL XR,innovator,36.87,36.87,0.0,Unchanged
+DRN-07676/09,SEROQUEL XR,innovator,45.96,45.96,0.0,Unchanged
+DRN-07681/09,PRISTIQ,innovator,8.42,8.42,0.0,Unchanged
+DRN-07718/09,TAMIFLU,innovator,3.43,3.43,0.0,Unchanged
+DRN-08467/15,CIMZIA,innovator,304.01,304.01,0.0,Unchanged
+DRN-08507/15,STIVARGA,innovator,1206.82,1206.82,0.0,Unchanged
+DRN-07719/09,TAMIFLU,innovator,5.14,5.14,0.0,Unchanged
+DRN-07746/10,AMARYL,innovator,5.14,5.14,0.0,Unchanged
+DRN-07777/10,DEFORAX,generics,1.37,1.37,0.0,Unchanged
+DRN-07783/10,EXFORGE HCT,innovator,8.02,8.02,0.0,Unchanged
+DRN-07784/10,EXFORGE HCT,innovator,9.38,9.38,0.0,Unchanged
+DRN-07797/10,B-COR,generics,2.96,2.96,0.0,Unchanged
+DRN-07799/10,VICTOZA,innovator,41.23,41.23,0.0,Unchanged
+DRN-07800/10,REVOLADE,innovator,342.01,342.01,0.0,Unchanged
+DRN-07801/10,REVOLADE,innovator,684.03,684.03,0.0,Unchanged
+DRN-07819/10,DIAPRIDE,generics,2.17,2.17,0.0,Unchanged
+DRN-07825/10,GLUCOPHAGE XR,innovator,3.28,3.28,0.0,Unchanged
+DRN-07912/11,FAMVIR,innovator,57.43,57.43,0.0,Unchanged
+DRN-08047/11,VALDOXAN,innovator,11.26,11.26,0.0,Unchanged
+DRN-08076/11,DAIVOBET,innovator,15.92,15.92,0.0,Unchanged
+DRN-08750/16,DESFERAL,innovator,26.21,26.21,0.0,Unchanged
+DRN-08801/17,NOVOEIGHT,innovator,59.61,59.61,0.0,Unchanged
+DRN-08087/11,AMARYL M SR,innovator,3.15,3.15,0.0,Unchanged
+DRN-08156/12,TABUNEX,generics,3.98,3.98,0.0,Unchanged
+DRN-08211/12,L-CET,generics,1.2,1.2,0.0,Unchanged
+DRN-08216/12,G-PRIDE,generics,0.65,0.65,0.0,Unchanged
+DRN-08217/12,G-PRIDE,generics,1.06,1.06,0.0,Unchanged
+DRN-08218/12,G-PRIDE,generics,1.18,1.18,0.0,Unchanged
+DRN-08250/13,ELIQUIS,innovator,31.99,31.99,0.0,Unchanged
+DRN-08261/13,ZAHRA,generics,1.99,1.99,0.0,Unchanged
+DRN-08418/14,ELIQUIS,innovator,31.99,31.99,0.0,Unchanged
+DRN-08446/15,BILAXTEN,innovator,2.93,2.93,0.0,Unchanged
+DRN-08454/15,BUTRANS,innovator,10.25,10.25,0.0,Unchanged
+DRN-08455/15,BUTRANS,innovator,18.63,18.63,0.0,Unchanged
+DRN-08456/15,BUTRANS,innovator,31.36,31.36,0.0,Unchanged
+DRN-09100/19,TREVICTA,innovator,266.01,266.01,0.0,Unchanged
+DRN-09101/19,TREVICTA,innovator,300.65,300.65,0.0,Unchanged
+DRN-08548/15,PREGADEX,generics,6.87,6.87,0.0,Unchanged
+DRN-08605/16,XTANDI,innovator,1296.31,1296.31,0.0,Unchanged
+DRN-08612/16,ULTIBRO BREEZHALER,innovator,20.77,20.77,0.0,Unchanged
+DRN-08613/16,VFEND,innovator,67.34,67.34,0.0,Unchanged
+DRN-08614/16,VFEND,innovator,269.37,269.37,0.0,Unchanged
+DRN-08653/16,AUBAGIO,innovator,282.03,282.03,0.0,Unchanged
+DRN-08687/16,NERVAX,generics,4.12,4.12,0.0,Unchanged
+DRN-08690/16,IBRANCE,innovator,1184.11,1184.11,0.0,Unchanged
+DRN-08691/16,IBRANCE,innovator,1184.11,1184.11,0.0,Unchanged
+DRN-08692/16,IBRANCE,innovator,1184.11,1184.11,0.0,Unchanged
+DRN-08701/16,TECFIDERA,innovator,472.87,472.87,0.0,Unchanged
+DRN-08714/16,DEFONEX,generics,3.58,3.58,0.0,Unchanged
+DRN-08722/16,LIVAZO,innovator,7.24,7.24,0.0,Unchanged
+DRN-08723/16,LIVAZO,innovator,8.52,8.52,0.0,Unchanged
+DRN-08813/17,ATOZET,innovator,17.82,17.82,0.0,Unchanged
+DRN-08814/17,ATOZET,innovator,18.49,18.49,0.0,Unchanged
+DRN-08815/17,ATOZET,innovator,19.33,19.33,0.0,Unchanged
+DRN-08816/17,ATOZET,innovator,19.33,19.33,0.0,Unchanged
+DRN-08839/17,SAXENDA,innovator,103.07,103.07,0.0,Unchanged
+DRN-08877/17,NEO GABA,generics,2.6,2.6,0.0,Unchanged
+DRN-08879/17,NUCALA,innovator,489.1,489.1,0.0,Unchanged
+DRN-08929/18,G-PRIDE,generics,1.95,1.95,0.0,Unchanged
+DRN-08972/19,MUXAVA,generics,5.17,5.17,0.0,Unchanged
+DRN-09077/19,ADAZIO,generics,10.06,10.06,0.0,Unchanged
+DRN-09078/19,ADAZIO,generics,20.12,20.12,0.0,Unchanged
+DRN-09079/19,ADAZIO,generics,16.92,16.92,0.0,Unchanged
+DRN-09085/19,ADAZIO,generics,2.7,2.7,0.0,Unchanged
+DRN-09099/19,TREVICTA,innovator,215.74,215.74,0.0,Unchanged
+DRN-09383/19,MOXIQUIN,generics,5.35,5.35,0.0,Unchanged
+DRN-09427/20,GLENCET,generics,1.32,1.32,0.0,Unchanged
+DRN-09102/19,TREVICTA,innovator,369.71,369.71,0.0,Unchanged
+DRN-09133/19,BETATEN,generics,41.47,41.47,0.0,Unchanged
+DRN-09493/20,LEVAR 5,generics,1.32,1.32,0.0,Unchanged
+DRN-09186/19,GABEX,generics,5.01,5.01,0.0,Unchanged
+DRN-09191/19,LUCENTIS,innovator,305.59,305.59,0.0,Unchanged
+DRN-09230/19,XYRA-75,generics,2.34,2.34,0.0,Unchanged
+DRN-09240/19,RYDAPT,innovator,5092.88,5092.88,0.0,Unchanged
+DRN-09241/19,VENCLEXTA,innovator,44.67,44.67,0.0,Unchanged
+DRN-09251/19,LEVOZIN ,generics,1.08,1.08,0.0,Unchanged
+DRN-09572/21,VORICET,generics,28.94,28.94,0.0,Unchanged
+DRN-09580/21,MOXIVE,generics,3.77,3.77,0.0,Unchanged
+DRN-09268/19,AROX,generics,4.66,4.66,0.0,Unchanged
+DRN-09269/19,AROX,generics,5.94,5.94,0.0,Unchanged
+DRN-09295/19,OMACE,generics,32.33,32.33,0.0,Unchanged
+DRN-09296/19,OMACE,generics,53.54,53.54,0.0,Unchanged
+DRN-09297/19,OMACE,generics,91.94,91.94,0.0,Unchanged
+DRN-09299/19,AIMOVIG,innovator,139.48,139.48,0.0,Unchanged
+DRN-09334/19,LOTEVAN,generics,5.99,5.99,0.0,Unchanged
+DRN-09335/19,LOTEVAN,generics,7.23,7.23,0.0,Unchanged
+DRN-09346/19,VOMRAN,generics,9.19,9.19,0.0,Unchanged
+DRN-09347/19,VOMRAN,generics,13.23,13.23,0.0,Unchanged
+DRN-09348/19,ALLERCET,generics,1.46,1.46,0.0,Unchanged
+DRN-09349/19,ALLERCET,generics,4.88,4.88,0.0,Unchanged
+DRN-09350/19,AVANSART,generics,5.08,5.08,0.0,Unchanged
+DRN-05110/99,ZOFRAN MELT,innovator,16.61,16.61,0.0,Unchanged
+DRN-05228/00,APROVEL,innovator,6.2,6.2,0.0,Unchanged
+DRN-09482/20,XIGDUO XR,innovator,15.5,15.5,0.0,Unchanged
+DRN-09483/20,XIGDUO XR,innovator,17.3,17.3,0.0,Unchanged
+DRN-09484/20,XIGDUO XR,innovator,17.51,17.51,0.0,Unchanged
+DRN-09485/20,XIGDUO XR,innovator,17.51,17.51,0.0,Unchanged
+DRN-09492/20,LEVAR 5,generics,0.44,0.44,0.0,Unchanged
+DRN-00107/89,TENORMIN,innovator,1.83,1.83,0.0,Unchanged
+DRN-09505/20,OCALIVA,innovator,1021.72,1021.72,0.0,Unchanged
+DRN-09506/20,OCALIVA,innovator,1021.72,1021.72,0.0,Unchanged
+DRN-09518/21,GIZLAN,generics,4.57,4.57,0.0,Unchanged
+DRN-09520/21,GIZLAN PLUS,generics,5.27,5.27,0.0,Unchanged
+DRN-09546/21,TALZENNA,innovator,730.9,730.9,0.0,Unchanged
+DRN-09547/21,TALZENNA,innovator,2192.69,2192.69,0.0,Unchanged
+DRN-05109/99,ZOFRAN MELT,innovator,11.84,11.84,0.0,Unchanged
+DRN-09716/21,QUETTA XR,generics,15.23,15.23,0.0,Unchanged
+DRN-03992/96,TENOLOL,generics,1.4,1.4,0.0,Unchanged
+DRN-03993/96,TENOLOL,generics,0.83,0.83,0.0,Unchanged
+DRN-04332/97,CIPRODAR,generics,5.24,5.24,0.0,Unchanged
+DRN-04348/97,AMARYL,innovator,1.87,1.87,0.0,Unchanged
+DRN-04349/97,AMARYL,innovator,3.15,3.15,0.0,Unchanged
+DRN-04350/97,AMARYL,innovator,4.63,4.63,0.0,Unchanged
+DRN-04498/98,NATRILIX SR,innovator,2.71,2.71,0.0,Unchanged
+DRN-04561/98,SEROQUEL,innovator,9.51,9.51,0.0,Unchanged
+DRN-04562/98,SEROQUEL,innovator,11.83,11.83,0.0,Unchanged
+DRN-04563/98,SEROQUEL,innovator,23.67,23.67,0.0,Unchanged
+DRN-04712/98,ZOFRAN,innovator,11.25,11.25,0.0,Unchanged
+DRN-04791/99,NASONEX,innovator,4.68,4.68,0.0,Unchanged
+DRN-04922/99,SANDOSTATIN LAR,innovator,448.32,448.32,0.0,Unchanged
+DRN-09717/21,QUETTA XR,generics,21.09,21.09,0.0,Unchanged
+DRN-09737/21,VENEX XR,generics,4.24,4.24,0.0,Unchanged
+DRN-09738/21,VENEX XR,generics,7.8,7.8,0.0,Unchanged
+DRN-09154/19,TISSEEL LYO,innovator,50.09,50.44,0.0069874226392492,Raised
+DRN-09155/19,TISSEEL LYO,innovator,100.17,100.89,0.0071877807726863,Raised
+DRN-09259/19,SEVIKAR HCT,innovator,11.68,11.9,0.0188356164383562,Raised
+DRN-09260/19,SEVIKAR HCT,innovator,11.68,11.9,0.0188356164383562,Raised
+DRN-09258/19,SEVIKAR HCT,innovator,9.02,9.32,0.0332594235033261,Raised
+DRN-09262/19,SEVIKAR HCT,innovator,12.61,13.32,0.056304520222046,Raised
+DRN-09261/19,SEVIKAR HCT,innovator,12.61,13.32,0.056304520222046,Raised
+DRN-09156/19,TISSEEL LYO,innovator,227.96,252.21,0.1063783119845587,Raised
+DRN-05504/01,YASMIN,innovator,2.34,2.77,0.1837606837606837,Raised
+DRN-07280/07,MUCOSOLVAN,innovator,1.43,1.71,0.1958041958041958,Raised
+DRN-09500/20,XFLOX,generics,4.19,5.16,0.2315035799522671,Raised
+DRN-08397/14,DAIVOBET,innovator,15.92,20.34,0.2776381909547738,Raised
+DRN-07602/08,LANTUS SOLOSTAR,innovator,23.89,30.79,0.2888237756383423,Raised
+DRN-00269/90,NOLVADEX,innovator,2.86,3.72,0.3006993006993008,Raised
+DRN-06070/03,LANTUS,innovator,17.66,23.61,0.3369195922989807,Raised
+DRN-09501/20,XFLOX,generics,5.35,7.22,0.3495327102803738,Raised
+DRN-01740/92,ZOVIRAX,innovator,2.49,4.07,0.6345381526104417,Raised
+DRN-09376/19,LEVOZAL,generics,0.88,1.53,0.7386363636363638,Raised

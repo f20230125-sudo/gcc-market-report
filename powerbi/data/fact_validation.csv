@@ -1,0 +1,23 @@
+country,id,check,status,result
+Saudi Arabia,V01,List rows without an SFDA id are quarantined,warn,1 quarantined (Torixia)
+Saudi Arabia,V02,Ids are unique after de-duplication,pass,"8,207 rows, 8,207 ids"
+Saudi Arabia,V03,Share of the list's rows that are distinct products,warn,"8,208 distinct of 9,173 rows read (89.5%); 459 pages of up to 20 (9,180)"
+Saudi Arabia,V04,Every product has a positive public price,warn,2 without
+Saudi Arabia,V05,"Trade name, scientific name and dosage form are filled",warn,1 rows missing one
+Saudi Arabia,V06,Detail pages read for every followed product,pass,"338 read, 0 failed"
+Saudi Arabia,V07,Followed products carry an ATC code,pass,"2 without (OLPUNTRAMET, OLPUNTRAMET)"
+Saudi Arabia,V08,"Products found only by the ingredient search, not in the list read",info,5
+Saudi Arabia,V09,Pack size known for followed products,pass,338 of 338
+Saudi Arabia,V10,List price equals the price read again with the details,warn,5 differ
+Saudi Arabia,V11,Database holds every staged row,pass,"list 8,207, details 338"
+Bahrain,B01,Rows read from the 2026 list,info,"5,560"
+Bahrain,B02,Registration numbers have the DRN-nnnnn/yy form,pass,2 do not
+Bahrain,B03,Every product has a positive retail price,pass,0 without
+Bahrain,B04,A registration number and pack size appear once,pass,0 rows share one
+Bahrain,B05,Units per pack read from the pack-size text,pass,"5,461 of 5,560 (98.2%)"
+Bahrain,B06,Products in the followed molecules and vaccine classes,info,218 (MSD 46)
+Bahrain,B10,Active substances matched only after a spelling fix,info,"2 (e.g. DORAVIRIN, TINOFOVIR)"
+Bahrain,B11,MSD products in Bahrain outside the followed classes,info,"7: CANCIDAS, ENFLONSIA, ESMERON, INVANZ, NOXAFIL, TEMODAL, VAQTA"
+Bahrain,B07,Followed molecules given an ATC class from the Saudi data,pass,without a class: none
+Bahrain,B08,2024 price-list entries found in the 2026 list,info,267 of 280 (95.4%)
+Bahrain,B09,Database holds every staged Bahrain row,pass,"5,560"

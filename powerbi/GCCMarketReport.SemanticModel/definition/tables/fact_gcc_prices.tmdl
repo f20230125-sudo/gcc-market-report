@@ -1,0 +1,71 @@
+table fact_gcc_prices
+	lineageTag: 2d781043-da55-5990-b8c1-d9ce227bfbef
+
+	measure 'Products Compared' = COUNTROWS(FILTER(fact_gcc_prices, NOT ISBLANK(fact_gcc_prices[saudi_vs_bahrain])))
+		formatString: 0
+		displayFolder: Measures
+		lineageTag: b691288e-c849-5b0f-bcbc-eac513c06d24
+
+	measure 'Median Saudi vs Bahrain' = MEDIAN(fact_gcc_prices[saudi_vs_bahrain])
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: 743f2d1a-7c74-501f-9d48-faf40bc83e7d
+
+	measure 'Saudi Cheaper' = COUNTROWS(FILTER(fact_gcc_prices, fact_gcc_prices[saudi_vs_bahrain] < 0))
+		formatString: 0
+		displayFolder: Measures
+		lineageTag: 0b1bbb3e-32d3-57dd-8985-60a59b03244a
+
+	column brand
+		dataType: string
+		lineageTag: 84a29508-72b7-560a-8f37-d91654c17295
+		summarizeBy: none
+		sourceColumn: brand
+
+	column strength
+		dataType: string
+		lineageTag: 87b29da9-eda1-571c-87a9-1b54855efc1c
+		summarizeBy: none
+		sourceColumn: strength
+
+	column product
+		dataType: string
+		lineageTag: adfb71c2-42c6-54a4-ae02-629b3ca99043
+		summarizeBy: none
+		sourceColumn: product
+
+	column saudi_per_unit_usd
+		dataType: double
+		lineageTag: 4adfcaac-7770-53c5-b5eb-50c2a06dfb56
+		summarizeBy: none
+		sourceColumn: saudi_per_unit_usd
+
+	column bahrain_per_unit_usd
+		dataType: double
+		lineageTag: bd0dde92-e5a6-533c-8824-142cadcfcb88
+		summarizeBy: none
+		sourceColumn: bahrain_per_unit_usd
+
+	column saudi_vs_bahrain
+		dataType: double
+		lineageTag: f76becfb-c6cb-57b2-841e-368b30ef3f85
+		summarizeBy: none
+		sourceColumn: saudi_vs_bahrain
+
+	column note
+		dataType: string
+		lineageTag: 96bca548-6289-59c2-b305-7d61d2bef99d
+		summarizeBy: none
+		sourceColumn: note
+
+	partition fact_gcc_prices = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_gcc_prices.csv"), [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"brand", type text}, {"strength", type text}, {"product", type text}, {"saudi_per_unit_usd", type number}, {"bahrain_per_unit_usd", type number}, {"saudi_vs_bahrain", type number}, {"note", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
