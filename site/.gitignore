@@ -1,0 +1,11 @@
+
+
+# files the Next.js tooling can generate for coding assistants; not part of this project
+AGENTS.md
+CLAUDE.md
+
+.vercel
+.env*
+test-results/
+playwright-report/
+tsconfig.tsbuildinfo
