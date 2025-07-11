@@ -1,5 +1,7 @@
 # GCC Market Report: Saudi Arabia and Bahrain
 
+**Live:** https://gcc-market-report.vercel.app
+
 A monthly commercial reporting pipeline on **real GCC data**: two regulators' public medicine price lists, prepared and validated each month, loaded into one central database, harmonised onto one classification, and published as a Power BI report and an Excel pack with a quarterly forecast entry sheet.
 
 It mirrors the data side of a Commercial Operations analyst role at a pharmaceutical company in the Gulf: prepare and validate the month's data sources before they reach the central database, consolidate them into reports, keep the quarterly forecast inputs ready for the team, and say what changed since the last period. The data is prices and registrations, not sales: GCC sales by product are not public.
