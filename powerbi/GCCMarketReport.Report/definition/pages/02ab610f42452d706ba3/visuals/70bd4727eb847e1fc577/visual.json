@@ -1,0 +1,171 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "70bd4727eb847e1fc577",
+  "position": {
+    "x": 664,
+    "y": 100,
+    "z": 4,
+    "height": 588,
+    "width": 592,
+    "tabOrder": 4
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_reference"
+                    }
+                  },
+                  "Property": "brand"
+                }
+              },
+              "queryRef": "fact_reference.brand",
+              "nativeQueryRef": "brand",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_reference"
+                    }
+                  },
+                  "Property": "country"
+                }
+              },
+              "queryRef": "fact_reference.country",
+              "nativeQueryRef": "country",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_reference"
+                    }
+                  },
+                  "Property": "gcc_product"
+                }
+              },
+              "queryRef": "fact_reference.gcc_product",
+              "nativeQueryRef": "gcc_product",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_reference"
+                    }
+                  },
+                  "Property": "us_per_tablet_usd"
+                }
+              },
+              "queryRef": "fact_reference.us_per_tablet_usd",
+              "nativeQueryRef": "us_per_tablet_usd",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_reference"
+                    }
+                  },
+                  "Property": "gcc_per_tablet_usd"
+                }
+              },
+              "queryRef": "fact_reference.gcc_per_tablet_usd",
+              "nativeQueryRef": "gcc_per_tablet_usd",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_reference"
+                    }
+                  },
+                  "Property": "us_over_gcc"
+                }
+              },
+              "queryRef": "fact_reference.us_over_gcc",
+              "nativeQueryRef": "us_over_gcc",
+              "active": true
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fact_reference"
+                  }
+                },
+                "Property": "us_over_gcc"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Same-strength tablets'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#15302C'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "7bb7eb4f6291b7762741",
+  "position": {
+    "x": 664,
+    "y": 232,
+    "z": 6,
+    "height": 456,
+    "width": 592,
+    "tabOrder": 6
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_gcc_prices"
+                    }
+                  },
+                  "Property": "brand"
+                }
+              },
+              "queryRef": "fact_gcc_prices.brand",
+              "nativeQueryRef": "brand",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_gcc_prices"
+                    }
+                  },
+                  "Property": "strength"
+                }
+              },
+              "queryRef": "fact_gcc_prices.strength",
+              "nativeQueryRef": "strength",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_gcc_prices"
+                    }
+                  },
+                  "Property": "saudi_per_unit_usd"
+                }
+              },
+              "queryRef": "fact_gcc_prices.saudi_per_unit_usd",
+              "nativeQueryRef": "saudi_per_unit_usd",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_gcc_prices"
+                    }
+                  },
+                  "Property": "bahrain_per_unit_usd"
+                }
+              },
+              "queryRef": "fact_gcc_prices.bahrain_per_unit_usd",
+              "nativeQueryRef": "bahrain_per_unit_usd",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_gcc_prices"
+                    }
+                  },
+                  "Property": "saudi_vs_bahrain"
+                }
+              },
+              "queryRef": "fact_gcc_prices.saudi_vs_bahrain",
+              "nativeQueryRef": "saudi_vs_bahrain",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_gcc_prices"
+                    }
+                  },
+                  "Property": "note"
+                }
+              },
+              "queryRef": "fact_gcc_prices.note",
+              "nativeQueryRef": "note",
+              "active": true
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fact_gcc_prices"
+                  }
+                },
+                "Property": "saudi_vs_bahrain"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Matched products'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#15302C'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
