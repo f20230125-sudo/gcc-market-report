@@ -1,0 +1,12 @@
+id,check,status,result,rule
+B01,Rows read from the 2026 list,info,"5,560",every non-empty row of the sheet
+B02,Registration numbers have the DRN-nnnnn/yy form,pass,2 do not,at least 99%
+B03,Every product has a positive retail price,pass,0 without,price > 0 BD
+B04,A registration number and pack size appear once,pass,0 rows share one,one row per registration and pack
+B05,Units per pack read from the pack-size text,pass,"5,461 of 5,560 (98.2%)","at least 90%; the rest stay unknown, not guessed"
+B06,Products in the followed molecules and vaccine classes,info,218 (MSD 46),matched by active substance or vaccine brand
+B10,Active substances matched only after a spelling fix,info,"2 (e.g. DORAVIRIN, TINOFOVIR)",spelling variants listed in gr.analyse.SPELLINGS
+B11,MSD products in Bahrain outside the followed classes,info,"7: CANCIDAS, ENFLONSIA, ESMERON, INVANZ, NOXAFIL, TEMODAL, VAQTA",not compared: no Saudi detail pages for these molecules
+B07,Followed molecules given an ATC class from the Saudi data,pass,without a class: none,every followed molecule classed
+B08,2024 price-list entries found in the 2026 list,info,267 of 280 (95.4%),matched on the registration number; the rest were cancelled or renumbered
+B09,Database holds every staged Bahrain row,pass,"5,560",rows in = rows loaded

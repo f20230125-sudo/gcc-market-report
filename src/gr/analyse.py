@@ -54,8 +54,15 @@ CLASS_NAMES = {
 }
 
 
+# Spellings seen in the registers that differ from the international name. Each is a harmonisation fix; the
+# Bahrain checks count how many products needed one.
+SPELLINGS = {"DORAVIRIN ": "DORAVIRINE ", "TINOFOVIR": "TENOFOVIR"}
+
+
 def ingredient_key(sci: str) -> str | None:
-    s = (sci or "").upper()
+    s = f"{(sci or '').upper()} "
+    for wrong, right in SPELLINGS.items():
+        s = s.replace(wrong, right)
     for k in ORIGINATORS:
         if k in s:
             return k
