@@ -1,0 +1,12 @@
+id,check,status,result,rule
+V01,List rows without an SFDA id are quarantined,warn,1 quarantined (Torixia),"a row without a details link cannot be traced; it is kept aside, not loaded"
+V02,Ids are unique after de-duplication,pass,"8,207 rows, 8,207 ids",one row per id
+V03,Share of the list's rows that are distinct products,warn,"8,208 distinct of 9,173 rows read (89.5%); 459 pages of up to 20 (9,180)","the list's order shifts between pages, so a page read later can repeat products and skip others; class products are filled in by searching each ingredient (V08)"
+V04,Every product has a positive public price,warn,2 without,price > 0 SAR
+V05,"Trade name, scientific name and dosage form are filled",warn,1 rows missing one,0
+V06,Detail pages read for every followed product,pass,"338 read, 0 failed",0 failures
+V07,Followed products carry an ATC code,pass,"2 without (OLPUNTRAMET, OLPUNTRAMET)",at most 5% without
+V08,"Products found only by the ingredient search, not in the list read",info,5,the list read missed them (see V03)
+V09,Pack size known for followed products,pass,338 of 338,"at least 90%, needed for price per unit"
+V10,List price equals the price read again with the details,warn,5 differ,0 (the two reads were minutes apart)
+V11,Database holds every staged row,pass,"list 8,207, details 338",rows in = rows loaded
