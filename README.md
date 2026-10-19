@@ -44,6 +44,10 @@ tools/check_workbook.ps1 + gr.check_workbook (in Excel)                         
 - **Matching the same product.** Two countries' packs are compared only when brand, strengths, form, release and units per pack all agree, and only one to one. Bridion is set aside: Saudi Arabia lists 2 ml and 5 ml vials that its list does not tell apart. Vaccines are compared per dose, on the brand.
 - **Roles.** Within a molecule, a product is MSD's (Merck Sharp & Dohme, not Merck KGaA), an originator brand, or a generic or other version; a competing vaccine is another brand, not a generic.
 
+## The web report
+
+`site/` is a one-page report (Next.js, static) for people who will not open Excel or Power BI: competition per MSD molecule with a country switch, the same pack in both countries, US reference prices, every Bahrain price that moved since 2024, both validation gates, and the Excel pack to download. Every chart has a table behind it. `gr.export_json` writes the only file it reads (`site/public/data/report.json`) from the marts. Tests: 4 vitest (figures tie out), 8 Playwright (sections, country switch, tables, download, axe in light and dark, no sideways scroll at 390 and 320 px).
+
 ## The quarterly forecast entry sheet
 
 `Forecast input` in the workbook lists every MSD product in both countries. The team types the units it expects per quarter of 2027 and, if any, the quarter a first generic launches; the price per unit comes from the Products sheet and the exchange rate from Inputs, and revenue after a generic launch follows the median brand retention measured in Rx Market Pulse (77% of pre-entry revenue in the first quarter, 46% by the fourth), itself an input. `Forecast summary` adds it up by country and brand.
@@ -68,6 +72,7 @@ $env:PYTHONPATH = "src"
 powershell -File tools\check_workbook.ps1 -Path excel\GCC-Market-Report.xlsx -Out xl.json; .venv\Scripts\python -m gr.check_workbook xl.json
 powershell -File tools\check_powerbi_engine.ps1 -Pbip powerbi\GCCMarketReport.pbip -Out pbi.json; .venv\Scripts\python -m gr.check_powerbi pbi.json
 .venv\Scripts\python -m pytest -q
+.venv\Scripts\python -m gr.export_json; cd site; npm install; npm run build; npm run start   # http://localhost:3100; npx vitest run; npx playwright test
 ```
 
 Open `powerbi/GCCMarketReport.pbip` in Power BI Desktop and press Refresh once (the project carries no data cache). The data folder is an absolute path set when the project is generated; regenerate it after moving the repository.
