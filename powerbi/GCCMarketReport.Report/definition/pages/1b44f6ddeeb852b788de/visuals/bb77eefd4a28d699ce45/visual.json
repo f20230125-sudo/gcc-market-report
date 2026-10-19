@@ -1,0 +1,186 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "bb77eefd4a28d699ce45",
+  "position": {
+    "x": 600,
+    "y": 100,
+    "z": 4,
+    "height": 588,
+    "width": 656,
+    "tabOrder": 4
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_competition"
+                    }
+                  },
+                  "Property": "country"
+                }
+              },
+              "queryRef": "fact_competition.country",
+              "nativeQueryRef": "country",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_competition"
+                    }
+                  },
+                  "Property": "ingredient"
+                }
+              },
+              "queryRef": "fact_competition.ingredient",
+              "nativeQueryRef": "ingredient",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_competition"
+                    }
+                  },
+                  "Property": "generic_or_other"
+                }
+              },
+              "queryRef": "fact_competition.generic_or_other",
+              "nativeQueryRef": "generic_or_other",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_competition"
+                    }
+                  },
+                  "Property": "generic_companies"
+                }
+              },
+              "queryRef": "fact_competition.generic_companies",
+              "nativeQueryRef": "generic_companies",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_competition"
+                    }
+                  },
+                  "Property": "msd_lowest_per_unit_usd"
+                }
+              },
+              "queryRef": "fact_competition.msd_lowest_per_unit_usd",
+              "nativeQueryRef": "msd_lowest_per_unit_usd",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_competition"
+                    }
+                  },
+                  "Property": "cheapest_generic_per_unit_usd"
+                }
+              },
+              "queryRef": "fact_competition.cheapest_generic_per_unit_usd",
+              "nativeQueryRef": "cheapest_generic_per_unit_usd",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_competition"
+                    }
+                  },
+                  "Property": "cheapest_generic_vs_msd"
+                }
+              },
+              "queryRef": "fact_competition.cheapest_generic_vs_msd",
+              "nativeQueryRef": "cheapest_generic_vs_msd",
+              "active": true
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fact_competition"
+                  }
+                },
+                "Property": "generic_or_other"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Competition per country and molecule'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#15302C'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

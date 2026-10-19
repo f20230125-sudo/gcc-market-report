@@ -1,0 +1,71 @@
+table fact_bahrain_changes
+	lineageTag: ca8c107d-ff93-50da-b8c8-f4b88e84dfc7
+
+	measure 'Prices Matched' = COUNTROWS(fact_bahrain_changes)
+		formatString: 0
+		displayFolder: Measures
+		lineageTag: ddc067ff-2f8a-5261-bc6d-a0907dfb6b4a
+
+	measure 'Share Unchanged' = DIVIDE(CALCULATE(COUNTROWS(fact_bahrain_changes), fact_bahrain_changes[direction] = "Unchanged"), COUNTROWS(fact_bahrain_changes))
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: 8f1c8fa4-01c7-5d1a-a019-c4b1a9d08bd8
+
+	measure 'Median Change' = MEDIAN(fact_bahrain_changes[change])
+		formatString: 0.0%
+		displayFolder: Measures
+		lineageTag: acb14857-1cb7-52eb-b034-51331c6fce7b
+
+	column reg_no
+		dataType: string
+		lineageTag: c7e75eaa-880d-57d6-8ded-4297262af994
+		summarizeBy: none
+		sourceColumn: reg_no
+
+	column name
+		dataType: string
+		lineageTag: 1922f822-891f-55c6-ac97-e8b5d71fb211
+		summarizeBy: none
+		sourceColumn: name
+
+	column list_2024
+		dataType: string
+		lineageTag: 068d0e23-17b9-53d3-96fc-b46ab491c7b7
+		summarizeBy: none
+		sourceColumn: list_2024
+
+	column price_feb_2024_bd
+		dataType: double
+		lineageTag: 20aee471-8876-504c-a933-73bee2f10a28
+		summarizeBy: none
+		sourceColumn: price_feb_2024_bd
+
+	column price_sep_2026_bd
+		dataType: double
+		lineageTag: f8ad4a2d-484f-5a3d-976d-ea824160290c
+		summarizeBy: none
+		sourceColumn: price_sep_2026_bd
+
+	column change
+		dataType: double
+		lineageTag: 58fd3809-0eb8-54f5-af80-ab70ddffbd23
+		summarizeBy: none
+		sourceColumn: change
+
+	column direction
+		dataType: string
+		lineageTag: a8e38fe1-16c6-5eed-8adc-08ec309004cf
+		summarizeBy: none
+		sourceColumn: direction
+
+	partition fact_bahrain_changes = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_bahrain_changes.csv"), [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"reg_no", type text}, {"name", type text}, {"list_2024", type text}, {"price_feb_2024_bd", type number}, {"price_sep_2026_bd", type number}, {"change", type number}, {"direction", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

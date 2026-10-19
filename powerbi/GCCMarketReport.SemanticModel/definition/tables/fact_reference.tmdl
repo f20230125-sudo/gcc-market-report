@@ -1,0 +1,61 @@
+table fact_reference
+	lineageTag: df68c0c7-ba29-5e76-9ff0-465145c82754
+
+	measure 'US over GCC (median)' = MEDIAN(fact_reference[us_over_gcc])
+		formatString: 0.0"x"
+		displayFolder: Measures
+		lineageTag: 5e46c532-4075-5102-9621-34b39de9d57a
+
+	column brand
+		dataType: string
+		lineageTag: b6d98923-ae75-599c-a70f-baf8bbf4caa8
+		summarizeBy: none
+		sourceColumn: brand
+
+	column us_pack
+		dataType: string
+		lineageTag: be7cbd8d-82ff-5e25-85c1-5706a00ac068
+		summarizeBy: none
+		sourceColumn: us_pack
+
+	column us_per_tablet_usd
+		dataType: double
+		lineageTag: 209999a2-2ce7-563c-aca8-819d291d125e
+		summarizeBy: none
+		sourceColumn: us_per_tablet_usd
+
+	column country
+		dataType: string
+		lineageTag: d3bc133f-6c15-564d-bf54-d436f63c7bbd
+		summarizeBy: none
+		sourceColumn: country
+
+	column gcc_product
+		dataType: string
+		lineageTag: e3972060-c2e9-5f6e-9eeb-197eb3da803c
+		summarizeBy: none
+		sourceColumn: gcc_product
+
+	column gcc_per_tablet_usd
+		dataType: double
+		lineageTag: af276a3c-42b1-53ac-b8aa-bb95ab034e5c
+		summarizeBy: none
+		sourceColumn: gcc_per_tablet_usd
+
+	column us_over_gcc
+		dataType: double
+		lineageTag: a414ee60-fbf4-57d5-888d-c49ffa157688
+		summarizeBy: none
+		sourceColumn: us_over_gcc
+
+	partition fact_reference = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_reference.csv"), [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"brand", type text}, {"us_pack", type text}, {"us_per_tablet_usd", type number}, {"country", type text}, {"gcc_product", type text}, {"gcc_per_tablet_usd", type number}, {"us_over_gcc", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

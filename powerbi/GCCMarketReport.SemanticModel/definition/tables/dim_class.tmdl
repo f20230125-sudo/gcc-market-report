@@ -1,0 +1,26 @@
+table dim_class
+	lineageTag: edba5b21-3b83-5a82-b48b-991afaf167ae
+
+	column atc5
+		dataType: string
+		lineageTag: b9f01e6d-b0d3-5581-9ee1-e9ea0b97f625
+		summarizeBy: none
+		sourceColumn: atc5
+
+	column class_name
+		dataType: string
+		lineageTag: 51f6b073-2c22-56d8-a137-6d6194d499ae
+		summarizeBy: none
+		sourceColumn: class_name
+
+	partition dim_class = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_class.csv"), [Delimiter=",", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"atc5", type text}, {"class_name", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

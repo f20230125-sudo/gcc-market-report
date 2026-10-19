@@ -1,0 +1,4 @@
+expression DataFolder = "D:\claude-workspace\gcc-reporting\powerbi\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 2bbff477-4322-543b-993b-4e568e5d8e8a
+
+	annotation PBI_ResultType = Text

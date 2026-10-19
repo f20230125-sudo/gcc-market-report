@@ -1,0 +1,19 @@
+relationship 0c769e7a-f55b-5243-a002-a6aeaf3ab772
+	fromColumn: fact_products.country
+	toColumn: dim_country.country
+
+relationship 7c14c78b-627b-52e6-8ba2-4466f78dce50
+	fromColumn: fact_products.atc5
+	toColumn: dim_class.atc5
+
+relationship 6a51b49c-a6d2-52fd-80ee-3d7fd7ebb337
+	fromColumn: fact_competition.country
+	toColumn: dim_country.country
+
+relationship b31f8fcc-95fc-53e3-b3cd-719229a9b31e
+	fromColumn: fact_reference.country
+	toColumn: dim_country.country
+
+relationship 449faa39-8652-5b8e-a372-f073c725e02d
+	fromColumn: fact_validation.country
+	toColumn: dim_country.country

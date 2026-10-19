@@ -1,0 +1,156 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "98b378ae2b7d41f08dde",
+  "position": {
+    "x": 460,
+    "y": 232,
+    "z": 6,
+    "height": 456,
+    "width": 796,
+    "tabOrder": 6
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_bahrain_changes"
+                    }
+                  },
+                  "Property": "name"
+                }
+              },
+              "queryRef": "fact_bahrain_changes.name",
+              "nativeQueryRef": "name",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_bahrain_changes"
+                    }
+                  },
+                  "Property": "list_2024"
+                }
+              },
+              "queryRef": "fact_bahrain_changes.list_2024",
+              "nativeQueryRef": "list_2024",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_bahrain_changes"
+                    }
+                  },
+                  "Property": "price_feb_2024_bd"
+                }
+              },
+              "queryRef": "fact_bahrain_changes.price_feb_2024_bd",
+              "nativeQueryRef": "price_feb_2024_bd",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_bahrain_changes"
+                    }
+                  },
+                  "Property": "price_sep_2026_bd"
+                }
+              },
+              "queryRef": "fact_bahrain_changes.price_sep_2026_bd",
+              "nativeQueryRef": "price_sep_2026_bd",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_bahrain_changes"
+                    }
+                  },
+                  "Property": "change"
+                }
+              },
+              "queryRef": "fact_bahrain_changes.change",
+              "nativeQueryRef": "change",
+              "active": true
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fact_bahrain_changes"
+                  }
+                },
+                "Property": "change"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Every matched product'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#15302C'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

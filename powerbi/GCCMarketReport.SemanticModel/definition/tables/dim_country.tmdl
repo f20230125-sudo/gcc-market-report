@@ -1,0 +1,32 @@
+table dim_country
+	lineageTag: 6df2dbcd-6cf6-537e-b1ce-7183a4e23460
+
+	column country
+		dataType: string
+		lineageTag: ac2682f3-e5c7-5e48-9630-76097a9c51ab
+		summarizeBy: none
+		sourceColumn: country
+
+	column currency
+		dataType: string
+		lineageTag: d4728d67-b277-555b-a42b-bd24615bf368
+		summarizeBy: none
+		sourceColumn: currency
+
+	column source
+		dataType: string
+		lineageTag: 96c7c2c2-7332-580c-8fa8-81578c9e8903
+		summarizeBy: none
+		sourceColumn: source
+
+	partition dim_country = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_country.csv"), [Delimiter=",", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"country", type text}, {"currency", type text}, {"source", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "GCCMarketReport"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ad6b3925-1e7b-55ea-9077-28ceb9dffc07"
+  }
+}

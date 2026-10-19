@@ -1,0 +1,80 @@
+{
+  "name": "GCCReport",
+  "dataColors": [
+    "#008E7C",
+    "#B5731A",
+    "#5B6B73",
+    "#A8472A",
+    "#6FBFB2",
+    "#8A7A4A",
+    "#2D9C8B",
+    "#B9B29E"
+  ],
+  "background": "#FAF8F3",
+  "foreground": "#15302C",
+  "tableAccent": "#008E7C",
+  "textClasses": {
+    "title": {
+      "fontFace": "Georgia",
+      "fontSize": 12,
+      "color": "#15302C"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#15302C"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#15302C"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FAF8F3"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "fontFamily": "Georgia",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": "#15302C"
+              }
+            },
+            "alignment": "left"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FAF8F3"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}

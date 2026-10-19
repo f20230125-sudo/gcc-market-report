@@ -1,0 +1,70 @@
+table fact_competition
+	lineageTag: c0fff927-9629-5c8e-9cf2-1d8108d7a754
+
+	measure 'Generic Versions per Molecule' = SUM(fact_competition[generic_or_other])
+		formatString: #,##0
+		displayFolder: Measures
+		lineageTag: edcd5d0c-324f-52c2-8489-ae1f8ba6c10c
+
+	column country
+		dataType: string
+		lineageTag: 3fe47c5d-1ef9-51f4-884c-b7662d099a8d
+		summarizeBy: none
+		sourceColumn: country
+
+	column ingredient
+		dataType: string
+		lineageTag: 6e9685ff-2b45-57fc-b427-3caaba5ee85c
+		summarizeBy: none
+		sourceColumn: ingredient
+
+	column msd_lowest_per_unit_usd
+		dataType: double
+		lineageTag: fccc84b5-e90a-5d94-91bc-3ec69a1faf94
+		summarizeBy: none
+		sourceColumn: msd_lowest_per_unit_usd
+
+	column other_brands
+		dataType: int64
+		formatString: 0
+		lineageTag: 499b0280-dee0-5581-a43f-175330b69e15
+		summarizeBy: none
+		sourceColumn: other_brands
+
+	column generic_or_other
+		dataType: int64
+		formatString: 0
+		lineageTag: 98ad1759-361c-5c0f-9324-a3cfec89f24f
+		summarizeBy: none
+		sourceColumn: generic_or_other
+
+	column generic_companies
+		dataType: int64
+		formatString: 0
+		lineageTag: 4bfabbbb-f87e-5928-8015-6dc5599e332c
+		summarizeBy: none
+		sourceColumn: generic_companies
+
+	column cheapest_generic_per_unit_usd
+		dataType: double
+		lineageTag: f1cc5ef0-ecf4-56b5-8e4c-a684c1deb84a
+		summarizeBy: none
+		sourceColumn: cheapest_generic_per_unit_usd
+
+	column cheapest_generic_vs_msd
+		dataType: double
+		lineageTag: d8352366-8eac-5aa7-99b6-753262bebf2d
+		summarizeBy: none
+		sourceColumn: cheapest_generic_vs_msd
+
+	partition fact_competition = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_competition.csv"), [Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"country", type text}, {"ingredient", type text}, {"msd_lowest_per_unit_usd", type number}, {"other_brands", Int64.Type}, {"generic_or_other", Int64.Type}, {"generic_companies", Int64.Type}, {"cheapest_generic_per_unit_usd", type number}, {"cheapest_generic_vs_msd", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

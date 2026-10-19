@@ -1,0 +1,54 @@
+table fact_validation
+	lineageTag: 22e6fc47-0667-55ec-a1ed-bdad4ea37c02
+
+	measure Checks = COUNTROWS(fact_validation)
+		formatString: 0
+		displayFolder: Measures
+		lineageTag: bc744609-8e5a-5432-949f-4d9e3c7a9c6a
+
+	measure 'Checks Failed' = CALCULATE(COUNTROWS(fact_validation), fact_validation[status] = "fail") + 0
+		formatString: 0
+		displayFolder: Measures
+		lineageTag: befabd45-501d-561d-9b54-5d5ef0af0ca6
+
+	column country
+		dataType: string
+		lineageTag: 5353372d-36f1-53aa-9525-5c64e4af88d0
+		summarizeBy: none
+		sourceColumn: country
+
+	column id
+		dataType: string
+		lineageTag: 9444a97c-6c68-5f91-963b-ee655a02779b
+		summarizeBy: none
+		sourceColumn: id
+
+	column check
+		dataType: string
+		lineageTag: b5cb6d2f-260c-5477-a48a-752970612df6
+		summarizeBy: none
+		sourceColumn: check
+
+	column status
+		dataType: string
+		lineageTag: 7e6a4a22-c3f1-5999-ae45-18c9dd0d9165
+		summarizeBy: none
+		sourceColumn: status
+
+	column result
+		dataType: string
+		lineageTag: 2d7868d2-07c1-5ce3-9e07-f5733a94b748
+		summarizeBy: none
+		sourceColumn: result
+
+	partition fact_validation = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_validation.csv"), [Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"country", type text}, {"id", type text}, {"check", type text}, {"status", type text}, {"result", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

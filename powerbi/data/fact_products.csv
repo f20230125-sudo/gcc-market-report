@@ -1,0 +1,557 @@
+pid,country,atc5,ingredient,name,brand,strength,form,units_per_pack,pack_price_local,currency,price_per_unit_usd,role,company
+0,Saudi Arabia,,LINAGLIPTIN,OLPUNTRAMET,OLPUNTRAMET,"850,2.5",Film-coated tablet,60.0,123.3,SAR,0.548,Generic or other,ALPHA PHARMA INDUSTRY
+1,Saudi Arabia,,LINAGLIPTIN,OLPUNTRAMET,OLPUNTRAMET,"1000,25",Film-coated tablet,60.0,130.9,SAR,0.5817777777777777,Generic or other,ALPHA PHARMA INDUSTRY
+2,Saudi Arabia,A01BX,CANAGLIFLOZIN,INVOKANA 100 mg film-coated tablet,INVOKANA,100,Film-coated tablet,30.0,159.0,SAR,1.413333333333333,Originator,JANSSEN PHARMACEUTICA N.V
+3,Saudi Arabia,A01BX,CANAGLIFLOZIN,INVOKANA 300 mg film-coated tablet,INVOKANA,300,Film-coated tablet,30.0,159.0,SAR,1.413333333333333,Originator,JANSSEN PHARMACEUTICA N.V
+4,Saudi Arabia,A02BC,SITAGLIPTIN,GLIPTEN 100MG F.C. TABLET,GLIPTEN,100,Gastro-resistant tablet,15.0,98.2,SAR,1.745777777777778,Generic or other,ACINO PHARMA AG
+5,Saudi Arabia,A04AA,NETUPITANT,AKYNZEO 300 mg/0.5 mg hard capsules,AKYNZEO,"300,0.5","Capsule, hard",1.0,306.7,SAR,81.78666666666666,Originator,Helsinn Birex Pharmaceuticals Ltd
+6,Saudi Arabia,A04AD,APREPITANT,ENEVOM 80 MG CAPSULE,ENEVOM,80,"Capsule, hard",1.0,79.05,SAR,21.08,Generic or other,MS PHARMA for Pharmaceuticals
+7,Saudi Arabia,A04AD,APREPITANT,ENEVOM 125 MG CAPSULE,ENEVOM,125,"Capsule, hard",1.0,79.05,SAR,21.08,Generic or other,MS PHARMA for Pharmaceuticals
+8,Saudi Arabia,A04AD,APREPITANT,Fosaprepitant SPC,FOSAPREPITANT,150,powder for solution for injection,1.0,200.0,SAR,53.333333333333336,Generic or other,SUDAIR PHARMA COMPANY
+9,Saudi Arabia,A07AA,FIDAXOMICIN,DIFICLIR 200 mg Film Coated Tablet,DIFICLIR,200,Film-coated tablet,20.0,5677.5,SAR,75.7,Originator,Tillotts Pharma GmbH
+10,Saudi Arabia,A07CA,LINAGLIPTIN,GLYXAMBI,GLYXAMBI,"10,5",Powder for oral solution in sachet,10.0,226.05,SAR,6.0280000000000005,Generic or other,National Pharmaceutical Industries Co SAOC
+11,Saudi Arabia,A07CA,VILDAGLIPTIN,VILTIN 50 MG TABLET,VILTIN,50,Powder for oral solution in sachet,50.0,66.5,SAR,0.3546666666666667,Generic or other,National Pharmaceutical Industries Co SAOC
+12,Saudi Arabia,A10BA,SITAGLIPTIN,Glycimille,GLYCIMILLE,850/50,Film-coated tablet,60.0,90.6,SAR,0.4026666666666667,Generic or other,Pharco International pharmaceutical company
+13,Saudi Arabia,A10BA,SITAGLIPTIN,Glycimille,GLYCIMILLE,"1000,50",Film-coated tablet,60.0,93.85,SAR,0.417111111111111,Generic or other,Pharco International pharmaceutical company
+14,Saudi Arabia,A10BA,SITAGLIPTIN,Xitamet,XITAMET,"850,50",Film-coated tablet,56.0,88.0,SAR,0.419047619047619,Generic or other,AJA PHARMACEUTICAL INDUSTRIES
+15,Saudi Arabia,A10BA,SITAGLIPTIN,Sitagliptin/Metformin Cooper,SITAGLIPTIN/METFORMIN,"850,50",Film-coated tablet,60.0,94.3,SAR,0.4191111111111111,Generic or other,Cooper Pharma Arabia
+16,Saudi Arabia,A10BA,SITAGLIPTIN,SITagliptin - MetFORMIN Cooper,SITAGLIPTIN,"1000,50",Film-coated tablet,60.0,97.7,SAR,0.4342222222222222,Generic or other,Cooper Pharma Arabia
+17,Saudi Arabia,A10BA,SITAGLIPTIN,Xitamet,XITAMET,"1000,50",Film-coated tablet,56.0,91.2,SAR,0.4342857142857143,Generic or other,AJA PHARMACEUTICAL INDUSTRIES
+18,Saudi Arabia,A10BA,SITAGLIPTIN,Sitavic XR,SITAVIC XR,"1000,100",Modified-release film-coated tablet,30.0,126.5,SAR,1.1244444444444446,Generic or other,Jamjoom Pharmaceuticals Factory Company
+19,Saudi Arabia,A10BD,ALOGLIPTIN,VIPDOMET 12.5 mg/500 mg TABLETS,VIPDOMET,"500,12.5",Film-coated tablet,56.0,109.9,SAR,0.5233333333333333,Originator,Jazeera Pharmaceutical Industries (JPI)
+20,Saudi Arabia,A10BD,ALOGLIPTIN,VIPDOMET 12.5 mg/1000 mg TABLETS,VIPDOMET,"1000,12.5",Film-coated tablet,56.0,117.45,SAR,0.5592857142857143,Originator,Jazeera Pharmaceutical Industries (JPI)
+21,Saudi Arabia,A10BD,ALOGLIPTIN,INCRESYNC 25/15 mg Tablet,INCRESYNC,"25,15",Tablet,28.0,137.6,SAR,1.3104761904761904,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+22,Saudi Arabia,A10BD,ALOGLIPTIN,CYERO 25/15 mg Tablet,CYERO,"25,15",Film-coated tablet,28.0,137.6,SAR,1.3104761904761904,Generic or other,BATTERJEE PHARMACETICAL FACTORY
+23,Saudi Arabia,A10BD,ALOGLIPTIN,INCRESYNC 25/30 mg Tablet,INCRESYNC,"25,30",Tablet,28.0,159.75,SAR,1.5214285714285716,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+24,Saudi Arabia,A10BD,ALOGLIPTIN,CYERO 25/30 mg Tablet,CYERO,"25,30",Film-coated tablet,28.0,159.75,SAR,1.5214285714285716,Generic or other,BATTERJEE PHARMACETICAL FACTORY
+25,Saudi Arabia,A10BD,DAPAGLIFLOZIN,Depaxamet,DEPAXAMET,"5,1000",Film-coated tablet,30.0,54.85,SAR,0.4875555555555556,Generic or other,Pharco International pharmaceutical company
+26,Saudi Arabia,A10BD,DAPAGLIFLOZIN,Depaxamet,DEPAXAMET,"5,500",Film-coated tablet,30.0,54.85,SAR,0.4875555555555556,Generic or other,Pharco International pharmaceutical company
+27,Saudi Arabia,A10BD,DAPAGLIFLOZIN,Dapazin Met XR,DAPAZIN,"5,1000",Modified-release film-coated tablet,28.0,51.2,SAR,0.4876190476190477,Generic or other,Jamjoom Pharmaceuticals Factory Company
+28,Saudi Arabia,A10BD,DAPAGLIFLOZIN,Divinusmet,DIVINUSMET,"1000,5",Film-coated tablet,60.0,119.4,SAR,0.5306666666666666,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+29,Saudi Arabia,A10BD,DAPAGLIFLOZIN,XIGDUO XR 5 mg/1000 mg Film Coted Tablet,XIGDUO XR,"1000,5",Film-coated tablet,56.0,128.0,SAR,0.6095238095238095,Originator,AstraZeneca AB
+30,Saudi Arabia,A10BD,DAPAGLIFLOZIN,Depaxamet,DEPAXAMET,"10,500",Film-coated tablet,30.0,104.95,SAR,0.932888888888889,Generic or other,Pharco International pharmaceutical company
+31,Saudi Arabia,A10BD,DAPAGLIFLOZIN,Metflozin XR,METFLOZIN XR,"10,500",Film-coated tablet,30.0,105.0,SAR,0.9333333333333332,Generic or other,Saudi Pharmaceutical Industries & Medical Appliances Corporation
+32,Saudi Arabia,A10BD,DAPAGLIFLOZIN,Depaxamet,DEPAXAMET,"10,1000",Film-coated tablet,30.0,106.6,SAR,0.9475555555555556,Generic or other,Pharco International pharmaceutical company
+33,Saudi Arabia,A10BD,DAPAGLIFLOZIN,Dapazin Met XR,DAPAZIN,"10,1000",Modified-release film-coated tablet,28.0,99.5,SAR,0.9476190476190476,Generic or other,Jamjoom Pharmaceuticals Factory Company
+34,Saudi Arabia,A10BD,DAPAGLIFLOZIN,Divinusmet,DIVINUSMET,"1000,10",Film-coated tablet,30.0,116.1,SAR,1.0319999999999998,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+35,Saudi Arabia,A10BD,DAPAGLIFLOZIN,XIGDUO XR 10 mg/500 mg Film Coted Tablet,XIGDUO XR,"500,10",Film-coated tablet,28.0,122.45,SAR,1.1661904761904762,Originator,AstraZeneca AB
+36,Saudi Arabia,A10BD,DAPAGLIFLOZIN,XIGDUO XR 10 mg/1000 mg Film Coted Tablet,XIGDUO XR,"1000,10",Film-coated tablet,28.0,124.4,SAR,1.184761904761905,Originator,AstraZeneca AB
+37,Saudi Arabia,A10BD,EMPAGLIFLOZIN,Empamac Met,EMPAMAC,"12.5,1000",Tablet,60.0,120.05,SAR,0.5335555555555556,Generic or other,Pharma Pharmaceutical Industries (PPI)
+38,Saudi Arabia,A10BD,EMPAGLIFLOZIN,SYNJARDY 5/850 mg Film-coated Tablet,SYNJARDY,"850,5",Film-coated tablet,60.0,165.8,SAR,0.7368888888888889,Originator,BOEHRINGER INGELHEIM
+39,Saudi Arabia,A10BD,EMPAGLIFLOZIN,SYNJARDY 12.5/850 mg Film-coated Tablet,SYNJARDY,"850,12.5",Film-coated tablet,60.0,165.8,SAR,0.7368888888888889,Originator,BOEHRINGER INGELHEIM
+40,Saudi Arabia,A10BD,EMPAGLIFLOZIN,SYNJARDY 5/1000 mg Film-coated Tablet,SYNJARDY,"1000,5",Film-coated tablet,60.0,171.5,SAR,0.7622222222222222,Originator,BOEHRINGER INGELHEIM
+41,Saudi Arabia,A10BD,EMPAGLIFLOZIN,SYNJARDY 12.5/1000 mg Film-coated Tablet,SYNJARDY,"1000,12.5",Film-coated tablet,60.0,171.5,SAR,0.7622222222222222,Originator,BOEHRINGER INGELHEIM
+42,Saudi Arabia,A10BD,LINAGLIPTIN,Linajent-Met,LINAJENT,"2.5,850",Film-coated tablet,56.0,121.45,SAR,0.5783333333333334,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+43,Saudi Arabia,A10BD,LINAGLIPTIN,Linajent-Met,LINAJENT,"2.5,850",Film-coated tablet,28.0,60.75,SAR,0.5785714285714286,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+44,Saudi Arabia,A10BD,LINAGLIPTIN,Linajent -Met,LINAJENT,"2.5,1000",Film-coated tablet,28.0,64.5,SAR,0.6142857142857142,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+45,Saudi Arabia,A10BD,LINAGLIPTIN,Linajent -Met,LINAJENT,"2.5,1000",Film-coated tablet,56.0,129.0,SAR,0.6142857142857142,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+46,Saudi Arabia,A10BD,LINAGLIPTIN,TriGutirek,TRIGUTIREK,"25,5,1000",Prolonged-release film-coated tablet,30.0,230.3,SAR,2.047111111111111,Generic or other,Eva pharma for Industry
+47,Saudi Arabia,A10BD,LINAGLIPTIN,TriGutirek,TRIGUTIREK,"10,5,1000",Prolonged-release film-coated tablet,30.0,230.3,SAR,2.047111111111111,Generic or other,Eva pharma for Industry
+48,Saudi Arabia,A10BD,SITAGLIPTIN,Sitamend Met,SITAMEND,"50,500",Film-coated tablet,60.0,91.05,SAR,0.4046666666666666,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+49,Saudi Arabia,A10BD,SITAGLIPTIN,Sitamend Met,SITAMEND,"50,500",Film-coated tablet,28.0,42.5,SAR,0.4047619047619047,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+50,Saudi Arabia,A10BD,SITAGLIPTIN,Sitavic,SITAVIC,"50,850",Film-coated tablet,56.0,88.0,SAR,0.419047619047619,Generic or other,Jamjoom Pharmaceuticals Factory Company
+51,Saudi Arabia,A10BD,SITAGLIPTIN,CRONOXAM PLUS,CRONOXAM,"50,850",Film-coated tablet,56.0,88.0,SAR,0.419047619047619,Generic or other,APOTEX
+52,Saudi Arabia,A10BD,SITAGLIPTIN,Glytix met,GLYTIX,"50,850",Film-coated tablet,56.0,88.0,SAR,0.419047619047619,Generic or other,MS PHARMA for Pharmaceuticals
+53,Saudi Arabia,A10BD,SITAGLIPTIN,Sitamend Met,SITAMEND,"50,850",Film-coated tablet,60.0,94.3,SAR,0.4191111111111111,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+54,Saudi Arabia,A10BD,SITAGLIPTIN,Meligamet 50 mg / 850 mg,MELIGAMET,"850,50",Tablet,60.0,95.35,SAR,0.4237777777777777,Generic or other,Saudi Amarox
+55,Saudi Arabia,A10BD,SITAGLIPTIN,Sitamend Met,SITAMEND,"50,1000",Film-coated tablet,60.0,97.7,SAR,0.4342222222222222,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+56,Saudi Arabia,A10BD,SITAGLIPTIN,Sitavic,SITAVIC,"50,1000",Film-coated tablet,56.0,91.2,SAR,0.4342857142857143,Generic or other,Jamjoom Pharmaceuticals Factory Company
+57,Saudi Arabia,A10BD,SITAGLIPTIN,CRONOXAM PLUS,CRONOXAM,"50,1000",Film-coated tablet,56.0,91.2,SAR,0.4342857142857143,Generic or other,APOTEX
+58,Saudi Arabia,A10BD,SITAGLIPTIN,Sitamend Met,SITAMEND,"50,1000",Film-coated tablet,28.0,45.6,SAR,0.4342857142857143,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+59,Saudi Arabia,A10BD,SITAGLIPTIN,Asigemet,ASIGEMET,"1000, 50",Film-coated tablet,56.0,91.2,SAR,0.4342857142857143,Generic or other,KRKA D D NOVO MESTO
+60,Saudi Arabia,A10BD,SITAGLIPTIN,Meligamet 50 m / 1000 mg,MELIGAMET,"1000,50",Tablet,60.0,98.8,SAR,0.4391111111111111,Generic or other,Saudi Amarox
+61,Saudi Arabia,A10BD,SITAGLIPTIN,JANUMET,JANUMET,"1000,50",Tablet,56.0,94.7,SAR,0.4509523809523809,MSD,MERCK SHARP & DOHME
+62,Saudi Arabia,A10BD,SITAGLIPTIN,JANUMET,JANUMET,"850,50",Tablet,56.0,94.7,SAR,0.4509523809523809,MSD,MERCK SHARP & DOHME
+63,Saudi Arabia,A10BD,SITAGLIPTIN,GLIPTAMET,GLIPTAMET,"850,50",Film-coated tablet,56.0,102.7,SAR,0.489047619047619,Generic or other,SPIMACO ADDWAEIH
+64,Saudi Arabia,A10BD,SITAGLIPTIN,GLIPTAMET,GLIPTAMET,"1000,50",Film-coated tablet,56.0,106.4,SAR,0.5066666666666667,Generic or other,SPIMACO ADDWAEIH
+65,Saudi Arabia,A10BD,SITAGLIPTIN,JANUMET XR,JANUMET XR,"500,50",Extended-release tablet,56.0,126.5,SAR,0.6023809523809525,MSD,MERCK SHARP AND DOHME LLC
+66,Saudi Arabia,A10BD,SITAGLIPTIN,JANUMET XR,JANUMET XR,"1000,50",Extended-release tablet,56.0,126.5,SAR,0.6023809523809525,MSD,MERCK SHARP AND DOHME LLC
+67,Saudi Arabia,A10BD,SITAGLIPTIN,JANUMET XR,JANUMET XR,"1000,100",Extended-release tablet,28.0,126.5,SAR,1.204761904761905,MSD,MERCK SHARP AND DOHME LLC
+68,Saudi Arabia,A10BD,VILDAGLIPTIN,Galdiva-Met,GALDIVA,"850, 50",Film-coated tablet,60.0,80.35,SAR,0.3571111111111111,Generic or other,Kinnova manufacturing company
+69,Saudi Arabia,A10BD,VILDAGLIPTIN,Galdiva-Met,GALDIVA,"1000, 50",Modified-release film-coated tablet,60.0,84.6,SAR,0.376,Generic or other,Kinnova manufacturing company
+70,Saudi Arabia,A10BD,VILDAGLIPTIN,JALRA M,JALRA,"850,50",Film-coated tablet,60.0,93.7,SAR,0.4164444444444444,Generic or other,SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO
+71,Saudi Arabia,A10BD,VILDAGLIPTIN,JALRA M,JALRA,"1000,50",Film-coated tablet,60.0,98.7,SAR,0.4386666666666666,Generic or other,SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO
+72,Saudi Arabia,A10BD,VILDAGLIPTIN,GALVUS MET,GALVUS,"850,50",Film-coated tablet,60.0,100.4,SAR,0.4462222222222222,Originator,NOVARTIS
+73,Saudi Arabia,A10BD,VILDAGLIPTIN,GALVUS MET,GALVUS,"1000,50",Film-coated tablet,60.0,100.4,SAR,0.4462222222222222,Originator,NOVARTIS
+74,Saudi Arabia,A10BH,ALOGLIPTIN,ZYTERO 12.5 mg Film Coated Tablet,ZYTERO,12.5,Film-coated tablet,28.0,52.9,SAR,0.5038095238095238,Generic or other,BATTERJEE PHARMACETICAL FACTORY
+75,Saudi Arabia,A10BH,ALOGLIPTIN,VIPIDIA 12.5 mg film-coated tablet,VIPIDIA,12.5,Film-coated tablet,28.0,52.9,SAR,0.5038095238095238,Originator,Jazeera Pharmaceutical Industries (JPI)
+76,Saudi Arabia,A10BH,ALOGLIPTIN,ZYTERO PLUS 12.5 mg/ 500 mg Film Coated Tablet,ZYTERO,"500,12.5",Film-coated tablet,56.0,109.9,SAR,0.5233333333333333,Generic or other,BATTERJEE PHARMACETICAL FACTORY
+77,Saudi Arabia,A10BH,ALOGLIPTIN,ZYTERO PLUS 12.5 mg/ 1000 mg Film Coated Tablet,ZYTERO,"1000,12.5",Film-coated tablet,56.0,117.45,SAR,0.5592857142857143,Generic or other,BATTERJEE PHARMACETICAL FACTORY
+78,Saudi Arabia,A10BH,ALOGLIPTIN,ZYTERO 25 mg Film Coated Tablet,ZYTERO,25,Film-coated tablet,28.0,105.85,SAR,1.008095238095238,Generic or other,BATTERJEE PHARMACETICAL FACTORY
+79,Saudi Arabia,A10BH,ALOGLIPTIN,VIPIDIA 25 mg film-coated tablet,VIPIDIA,25,Film-coated tablet,28.0,105.85,SAR,1.008095238095238,Originator,Jazeera Pharmaceutical Industries (JPI)
+80,Saudi Arabia,A10BH,LINAGLIPTIN,Zylinamet,ZYLINAMET,"2.5,500",Film-coated tablet,56.0,124.35,SAR,0.5921428571428571,Generic or other,Alrai Pharmaceutical industry Co. (L.L.C)
+81,Saudi Arabia,A10BH,LINAGLIPTIN,Liptyn,LIPTYN,5,Tablet,30.0,68.05,SAR,0.6048888888888888,Generic or other,Saudi Amarox
+82,Saudi Arabia,A10BH,LINAGLIPTIN,Tralix,TRALIX,5,Film-coated tablet,30.0,68.05,SAR,0.6048888888888888,Generic or other,Alrai Pharmaceutical industry Co. (L.L.C)
+83,Saudi Arabia,A10BH,LINAGLIPTIN,Lijen,LIJEN,5,Film-coated tablet,30.0,68.05,SAR,0.6048888888888888,Generic or other,Med City Pharma
+84,Saudi Arabia,A10BH,LINAGLIPTIN,Glynta,GLYNTA,5,Film-coated tablet,30.0,68.05,SAR,0.6048888888888888,Generic or other,SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO
+85,Saudi Arabia,A10BH,LINAGLIPTIN,Jentarole,JENTAROLE,5,Film-coated tablet,30.0,68.05,SAR,0.6048888888888888,Generic or other,Pharma Pharmaceutical Industries (PPI)
+86,Saudi Arabia,A10BH,LINAGLIPTIN,Dixee,DIXEE,5,Film-coated tablet,30.0,68.05,SAR,0.6048888888888888,Generic or other,MS PHARMA for Pharmaceuticals
+87,Saudi Arabia,A10BH,LINAGLIPTIN,Lynxelin,LYNXELIN,5,Film-coated tablet,30.0,68.05,SAR,0.6048888888888888,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+88,Saudi Arabia,A10BH,LINAGLIPTIN,Nulina,NULINA,5,Film-coated tablet,30.0,68.05,SAR,0.6048888888888888,Generic or other,DAR Al DAWA
+89,Saudi Arabia,A10BH,LINAGLIPTIN,Lijen Met,LIJEN,"2.5,850",Film-coated tablet,60.0,137.0,SAR,0.6088888888888888,Generic or other,Med City Pharma
+90,Saudi Arabia,A10BH,LINAGLIPTIN,Zylinamet,ZYLINAMET,"2.5,850",Film-coated tablet,56.0,134.6,SAR,0.6409523809523809,Generic or other,Alrai Pharmaceutical industry Co. (L.L.C)
+91,Saudi Arabia,A10BH,LINAGLIPTIN,Lijen Met,LIJEN,"2.5,1000",Film-coated tablet,60.0,145.45,SAR,0.6464444444444444,Generic or other,Med City Pharma
+92,Saudi Arabia,A10BH,LINAGLIPTIN,Lavinda,LAVINDA,5,Film-coated tablet,30.0,73.7,SAR,0.6551111111111111,Generic or other,SPIMACO ADDWAEIH
+93,Saudi Arabia,A10BH,LINAGLIPTIN,Zylinamet,ZYLINAMET,"2.5,1000",Film-coated tablet,56.0,142.9,SAR,0.6804761904761905,Generic or other,Alrai Pharmaceutical industry Co. (L.L.C)
+94,Saudi Arabia,A10BH,LINAGLIPTIN,Lindueto XR,LINDUETO XR,"2.5,1000",modified-release tablet,28.0,75.35,SAR,0.7176190476190476,Generic or other,Jamjoom Pharmaceuticals Factory Company
+95,Saudi Arabia,A10BH,LINAGLIPTIN,Linajent,LINAJENT,5,Film-coated tablet,30.0,84.85,SAR,0.7542222222222221,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+96,Saudi Arabia,A10BH,LINAGLIPTIN,Lintra,LINTRA,5,Film-coated tablet,30.0,94.8,SAR,0.8426666666666666,Generic or other,Jamjoom Pharmaceuticals Factory Company
+97,Saudi Arabia,A10BH,LINAGLIPTIN,TRAJENTA 5MG FILM COATED TABLET,TRAJENTA,5,Film-coated tablet,30.0,99.8,SAR,0.8871111111111111,Originator,BOEHRINGER INGELHEIM
+98,Saudi Arabia,A10BH,LINAGLIPTIN,Lindueto XR,LINDUETO XR,"5,1000",modified-release tablet,28.0,119.6,SAR,1.139047619047619,Generic or other,Jamjoom Pharmaceuticals Factory Company
+99,Saudi Arabia,A10BH,SAXAGLIPTIN,Glipza,GLIPZA,5,Film-coated tablet,30.0,98.25,SAR,0.8733333333333333,Generic or other,Jamjoom Pharmaceuticals Factory Company
+100,Saudi Arabia,A10BH,SAXAGLIPTIN,ENFORZA,ENFORZA,"10,5",Film-coated tablet,30.0,214.75,SAR,1.9088888888888889,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+101,Saudi Arabia,A10BH,SITAGLIPTIN,Meliglptin,MELIGLPTIN,25,Film-coated tablet,30.0,22.8,SAR,0.2026666666666666,Generic or other,Saudi Amarox
+102,Saudi Arabia,A10BH,SITAGLIPTIN,Janor,JANOR,25,Film-coated tablet,30.0,26.0,SAR,0.2311111111111111,Generic or other,Spectro Pharma
+103,Saudi Arabia,A10BH,SITAGLIPTIN,Balivio,BALIVIO,25,Film-coated tablet,28.0,24.55,SAR,0.2338095238095238,Generic or other,Honessan Pharma
+104,Saudi Arabia,A10BH,SITAGLIPTIN,Glytix,GLYTIX,25,Film-coated tablet,28.0,31.25,SAR,0.2976190476190476,Generic or other,MS PHARMA for Pharmaceuticals
+105,Saudi Arabia,A10BH,SITAGLIPTIN,Juleen,JULEEN,25,Film-coated tablet,30.0,40.65,SAR,0.3613333333333333,Generic or other,SUDAIR PHARMA COMPANY
+106,Saudi Arabia,A10BH,SITAGLIPTIN,SITAJUB,SITAJUB,25,Film-coated tablet,30.0,40.65,SAR,0.3613333333333333,Generic or other,Alhobail Pharm
+107,Saudi Arabia,A10BH,SITAGLIPTIN,Wezovant,WEZOVANT,25,Film-coated tablet,30.0,40.65,SAR,0.3613333333333333,Generic or other,KEURO LIFE LIMITED COMPANY
+108,Saudi Arabia,A10BH,SITAGLIPTIN,Sitaglu,SITAGLU,25,Film-coated tablet,28.0,37.95,SAR,0.3614285714285714,Generic or other,Pharma Pharmaceutical Industries & Biological Products (PPI)
+109,Saudi Arabia,A10BH,SITAGLIPTIN,Sitavia-MET,SITAVIA,"50,500",Film-coated tablet,56.0,85.0,SAR,0.4047619047619047,Generic or other,Middle East Pharmaceutical Industries Co Ltd Avalon Pharma
+110,Saudi Arabia,A10BH,SITAGLIPTIN,Meliglptin,MELIGLPTIN,50,Film-coated tablet,30.0,45.6,SAR,0.4053333333333333,Generic or other,Saudi Amarox
+111,Saudi Arabia,A10BH,SITAGLIPTIN,Sitfort,SITFORT,"50,850",Film-coated tablet,56.0,88.0,SAR,0.419047619047619,Generic or other,RIYADH PHARMA
+112,Saudi Arabia,A10BH,SITAGLIPTIN,Sitavia-MET,SITAVIA,"50,850",Film-coated tablet,56.0,88.0,SAR,0.419047619047619,Generic or other,Middle East Pharmaceutical Industries Co Ltd Avalon Pharma
+113,Saudi Arabia,A10BH,SITAGLIPTIN,Sita Plus,SITA,"50,850",Film-coated tablet,56.0,88.0,SAR,0.419047619047619,Generic or other,Alrai Pharmaceutical industry Co. (L.L.C)
+114,Saudi Arabia,A10BH,SITAGLIPTIN,Sitagia Met,SITAGIA,"50,850",Film-coated tablet,60.0,94.3,SAR,0.4191111111111111,Generic or other,Alrazi Pharmaceutical Industries Factory Co
+115,Saudi Arabia,A10BH,SITAGLIPTIN,JANUVIA 25 mg,JANUVIA,25,Film-coated tablet,28.0,44.65,SAR,0.4252380952380952,MSD,MERCK SHARP & DOHME
+116,Saudi Arabia,A10BH,SITAGLIPTIN,SITAJUB,SITAJUB,50,Film-coated tablet,30.0,48.2,SAR,0.4284444444444444,Generic or other,Alhobail Pharm
+117,Saudi Arabia,A10BH,SITAGLIPTIN,Janor,JANOR,50,Film-coated tablet,30.0,48.2,SAR,0.4284444444444444,Generic or other,Spectro Pharma
+118,Saudi Arabia,A10BH,SITAGLIPTIN,Sitaglu,SITAGLU,50,Film-coated tablet,28.0,45.0,SAR,0.4285714285714286,Generic or other,Pharma Pharmaceutical Industries (PPI)
+119,Saudi Arabia,A10BH,SITAGLIPTIN,Balivio,BALIVIO,50,Film-coated tablet,28.0,45.0,SAR,0.4285714285714286,Generic or other,Honessan Pharma
+120,Saudi Arabia,A10BH,SITAGLIPTIN,Glytix,GLYTIX,50,Film-coated tablet,28.0,45.0,SAR,0.4285714285714286,Generic or other,MS PHARMA for Pharmaceuticals
+121,Saudi Arabia,A10BH,SITAGLIPTIN,Sitanova,SITANOVA,50,Film-coated tablet,28.0,45.0,SAR,0.4285714285714286,Generic or other,Laboratories SOTHEMA
+122,Saudi Arabia,A10BH,SITAGLIPTIN,Sitagia Met,SITAGIA,"50,1000",Film-coated tablet,60.0,97.7,SAR,0.4342222222222222,Generic or other,Alrazi Pharmaceutical Industries Factory Co
+123,Saudi Arabia,A10BH,SITAGLIPTIN,Sitfort,SITFORT,"50,1000",Film-coated tablet,56.0,91.2,SAR,0.4342857142857143,Generic or other,RIYADH PHARMA
+124,Saudi Arabia,A10BH,SITAGLIPTIN,Sitavia-MET,SITAVIA,"50,1000",Film-coated tablet,56.0,91.2,SAR,0.4342857142857143,Generic or other,Middle East Pharmaceutical Industries Co Ltd Avalon Pharma
+125,Saudi Arabia,A10BH,SITAGLIPTIN,Sita Plus,SITA,"50,1000",Film-coated tablet,56.0,91.2,SAR,0.4342857142857143,Generic or other,Alrai Pharmaceutical industry Co. (L.L.C)
+126,Saudi Arabia,A10BH,SITAGLIPTIN,sitaglumet,SITAGLUMET,"50,850",Film-coated tablet,56.0,94.3,SAR,0.449047619047619,Generic or other,Pharma Pharmaceutical Industries (PPI)
+127,Saudi Arabia,A10BH,SITAGLIPTIN,sitaglumet,SITAGLUMET,"50,1000",Film-coated tablet,56.0,97.7,SAR,0.4652380952380952,Generic or other,Pharma Pharmaceutical Industries (PPI)
+128,Saudi Arabia,A10BH,SITAGLIPTIN,Sita,SITA,50,Film-coated tablet,30.0,66.85,SAR,0.5942222222222221,Generic or other,Alrai Pharmaceutical industry Co. (L.L.C)
+129,Saudi Arabia,A10BH,SITAGLIPTIN,Sitamend,SITAMEND,50,Film-coated tablet,28.0,63.5,SAR,0.6047619047619047,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+130,Saudi Arabia,A10BH,SITAGLIPTIN,Sitagen,SITAGEN,50,Film-coated tablet,30.0,74.4,SAR,0.6613333333333333,Generic or other,Jamjoom Pharmaceuticals Factory Company
+131,Saudi Arabia,A10BH,SITAGLIPTIN,Juleen,JULEEN,50,Film-coated tablet,30.0,74.4,SAR,0.6613333333333333,Generic or other,SUDAIR PHARMA COMPANY
+132,Saudi Arabia,A10BH,SITAGLIPTIN,SITAVIA,SITAVIA,50,Film-coated tablet,30.0,74.4,SAR,0.6613333333333333,Generic or other,Middle East Pharmaceutical Industries Co Ltd Avalon Pharma
+133,Saudi Arabia,A10BH,SITAGLIPTIN,Wezovant,WEZOVANT,50,Film-coated tablet,30.0,74.4,SAR,0.6613333333333333,Generic or other,KEURO LIFE LIMITED COMPANY
+134,Saudi Arabia,A10BH,SITAGLIPTIN,Crentiva,CRENTIVA,100,Film-coated tablet,30.0,82.15,SAR,0.7302222222222223,Generic or other,ALPHA PHARMA INDUSTRY
+135,Saudi Arabia,A10BH,SITAGLIPTIN,JANUVIA 50 mg,JANUVIA,50,Film-coated tablet,28.0,81.7,SAR,0.7780952380952382,MSD,MERCK SHARP & DOHME
+136,Saudi Arabia,A10BH,SITAGLIPTIN,Sitagia,SITAGIA,100,Film-coated tablet,30.0,87.8,SAR,0.7804444444444445,Generic or other,Alrazi Pharmaceutical Industries Factory Co
+137,Saudi Arabia,A10BH,SITAGLIPTIN,Glyci,GLYCI,100,Film-coated tablet,30.0,87.8,SAR,0.7804444444444445,Generic or other,Pharco International pharmaceutical company
+138,Saudi Arabia,A10BH,SITAGLIPTIN,Cronoxam,CRONOXAM,100,Film-coated tablet,28.0,81.95,SAR,0.7804761904761904,Generic or other,APOTEX
+139,Saudi Arabia,A10BH,SITAGLIPTIN,Maysiglu,MAYSIGLU,100,Film-coated tablet,28.0,81.95,SAR,0.7804761904761904,Generic or other,KRKA D D NOVO MESTO
+140,Saudi Arabia,A10BH,SITAGLIPTIN,Janor,JANOR,100,Film-coated tablet,100.0,300.65,SAR,0.8017333333333333,Generic or other,Spectro Pharma
+141,Saudi Arabia,A10BH,SITAGLIPTIN,Sitagen,SITAGEN,100,Film-coated tablet,30.0,90.2,SAR,0.8017777777777778,Generic or other,Jamjoom Pharmaceuticals Factory Company
+142,Saudi Arabia,A10BH,SITAGLIPTIN,Juleen,JULEEN,100,Film-coated tablet,30.0,90.2,SAR,0.8017777777777778,Generic or other,SUDAIR PHARMA COMPANY
+143,Saudi Arabia,A10BH,SITAGLIPTIN,Sita,SITA,100,Film-coated tablet,30.0,90.2,SAR,0.8017777777777778,Generic or other,Alrai Pharmaceutical industry Co. (L.L.C)
+144,Saudi Arabia,A10BH,SITAGLIPTIN,SITAVIA,SITAVIA,100,Film-coated tablet,30.0,90.2,SAR,0.8017777777777778,Generic or other,Middle East Pharmaceutical Industries Co Ltd Avalon Pharma
+145,Saudi Arabia,A10BH,SITAGLIPTIN,SITAJUB,SITAJUB,100,Tablet,30.0,90.2,SAR,0.8017777777777778,Generic or other,Alhobail Pharm
+146,Saudi Arabia,A10BH,SITAGLIPTIN,Glyptinova,GLYPTINOVA,100,Film-coated tablet,30.0,90.2,SAR,0.8017777777777778,Generic or other,Kinnova manufacturing company
+147,Saudi Arabia,A10BH,SITAGLIPTIN,Wezovant,WEZOVANT,100,Film-coated tablet,30.0,90.2,SAR,0.8017777777777778,Generic or other,KEURO LIFE LIMITED COMPANY
+148,Saudi Arabia,A10BH,SITAGLIPTIN,Janor,JANOR,100,Film-coated tablet,30.0,90.2,SAR,0.8017777777777778,Generic or other,Spectro Pharma
+149,Saudi Arabia,A10BH,SITAGLIPTIN,Sitamend,SITAMEND,100,Film-coated tablet,28.0,84.2,SAR,0.8019047619047619,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+150,Saudi Arabia,A10BH,SITAGLIPTIN,Sitaglu,SITAGLU,100,Film-coated tablet,28.0,84.2,SAR,0.8019047619047619,Generic or other,Pharma Pharmaceutical Industries & Biological Products (PPI)
+151,Saudi Arabia,A10BH,SITAGLIPTIN,Balivio,BALIVIO,100,Film-coated tablet,28.0,84.2,SAR,0.8019047619047619,Generic or other,Honessan Pharma
+152,Saudi Arabia,A10BH,SITAGLIPTIN,Glytix,GLYTIX,100,Film-coated tablet,28.0,84.2,SAR,0.8019047619047619,Generic or other,MS PHARMA for Pharmaceuticals
+153,Saudi Arabia,A10BH,SITAGLIPTIN,Sitanova,SITANOVA,100,Film-coated tablet,28.0,84.2,SAR,0.8019047619047619,Generic or other,Laboratories SOTHEMA
+154,Saudi Arabia,A10BH,SITAGLIPTIN,Julista,JULISTA,100,Film-coated tablet,28.0,84.2,SAR,0.8019047619047619,Generic or other,Med City Pharma
+155,Saudi Arabia,A10BH,SITAGLIPTIN,Meliglptin,MELIGLPTIN,100,Film-coated tablet,30.0,91.2,SAR,0.8106666666666666,Generic or other,Saudi Amarox
+156,Saudi Arabia,A10BH,SITAGLIPTIN,JANUVIA 100MG F.C. TABLETS,JANUVIA,100,Film-coated tablet,28.0,94.75,SAR,0.9023809523809524,MSD,MERCK SHARP & DOHME
+157,Saudi Arabia,A10BH,VILDAGLIPTIN,Diaglipt,DIAGLIPT,50,Tablet,56.0,62.05,SAR,0.2954761904761904,Generic or other,Middle East Pharmaceutical Industries Co Ltd Avalon Pharma
+158,Saudi Arabia,A10BH,VILDAGLIPTIN,Vtreat,VTREAT,50,Tablet,56.0,62.05,SAR,0.2954761904761904,Generic or other,Spectro Pharma
+159,Saudi Arabia,A10BH,VILDAGLIPTIN,GLEPTAL 50MG TABLET,GLEPTAL,50,Tablet,30.0,33.25,SAR,0.2955555555555555,Generic or other,Al-Taqaddom pharmaceutical Industries
+160,Saudi Arabia,A10BH,VILDAGLIPTIN,Vildus,VILDUS,50,Tablet,30.0,33.25,SAR,0.2955555555555555,Generic or other,Jamjoom Pharmaceuticals Factory Company
+161,Saudi Arabia,A10BH,VILDAGLIPTIN,Vildus,VILDUS,50,Tablet,60.0,66.5,SAR,0.2955555555555555,Generic or other,Jamjoom Pharmaceuticals Factory Company
+162,Saudi Arabia,A10BH,VILDAGLIPTIN,Iylus,IYLUS,50,Tablet,30.0,33.25,SAR,0.2955555555555555,Generic or other,Savvy Pharma
+163,Saudi Arabia,A10BH,VILDAGLIPTIN,Gleptal,GLEPTAL,50,Tablet,60.0,66.5,SAR,0.2955555555555555,Generic or other,Al-Taqaddom pharmaceutical Industries
+164,Saudi Arabia,A10BH,VILDAGLIPTIN,Geuvid,GEUVID,50,Tablet,60.0,66.5,SAR,0.2955555555555555,Generic or other,Saudi Amarox
+165,Saudi Arabia,A10BH,VILDAGLIPTIN,Geuvid,GEUVID,50,Tablet,30.0,33.25,SAR,0.2955555555555555,Generic or other,Saudi Amarox
+166,Saudi Arabia,A10BH,VILDAGLIPTIN,Gliptus,GLIPTUS,50,Tablet,60.0,66.5,SAR,0.2955555555555555,Generic or other,Eva pharma for Industry
+167,Saudi Arabia,A10BH,VILDAGLIPTIN,Galdiva,GALDIVA,50,Tablet,30.0,33.25,SAR,0.2955555555555555,Generic or other,Soul Pharma
+168,Saudi Arabia,A10BH,VILDAGLIPTIN,Galdiva,GALDIVA,50,Tablet,60.0,66.5,SAR,0.2955555555555555,Generic or other,Soul Pharma
+169,Saudi Arabia,A10BH,VILDAGLIPTIN,Glypvilo,GLYPVILO,50,Tablet,30.0,33.25,SAR,0.2955555555555555,Generic or other,KRKA D D NOVO MESTO
+170,Saudi Arabia,A10BH,VILDAGLIPTIN,VILTIN 50 mg Tablet,VILTIN,50,Tablet,28.0,31.05,SAR,0.2957142857142857,Generic or other,Pharma International Co.
+171,Saudi Arabia,A10BH,VILDAGLIPTIN,Vtreat,VTREAT,50,Tablet,28.0,31.05,SAR,0.2957142857142857,Generic or other,Spectro Pharma
+172,Saudi Arabia,A10BH,VILDAGLIPTIN,VALDATIN 50MG TABLET,VALDATIN,50,Tablet,28.0,33.25,SAR,0.3166666666666666,Generic or other,SPIMACO ADDWAEIH
+173,Saudi Arabia,A10BH,VILDAGLIPTIN,VALDATIN 50MG TABLET,VALDATIN,50,Tablet,56.0,66.5,SAR,0.3166666666666666,Generic or other,SPIMACO ADDWAEIH
+174,Saudi Arabia,A10BH,VILDAGLIPTIN,GAVILDA 50MG TABLET     28S,GAVILDA,50,Tablet,28.0,33.25,SAR,0.3166666666666666,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+175,Saudi Arabia,A10BH,VILDAGLIPTIN,GAVILDA 50MG TABLET      56S,GAVILDA,50,Tablet,56.0,66.5,SAR,0.3166666666666666,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+176,Saudi Arabia,A10BH,VILDAGLIPTIN,Vdia,VDIA,50,Tablet,28.0,33.25,SAR,0.3166666666666666,Generic or other,ALPHA PHARMA INDUSTRY
+177,Saudi Arabia,A10BH,VILDAGLIPTIN,Vdia,VDIA,50,Tablet,56.0,66.5,SAR,0.3166666666666666,Generic or other,ALPHA PHARMA INDUSTRY
+178,Saudi Arabia,A10BH,VILDAGLIPTIN,VILDATIN 50 mg Tablet,VILDATIN,50,Tablet,60.0,79.15,SAR,0.3517777777777778,Generic or other,Med City Pharma
+179,Saudi Arabia,A10BH,VILDAGLIPTIN,VILDATIN 50 mg Tablet,VILDATIN,50,Tablet,28.0,36.95,SAR,0.3519047619047619,Generic or other,Med City Pharma
+180,Saudi Arabia,A10BH,VILDAGLIPTIN,Vtreat Met,VTREAT,"50,850",Film-coated tablet,60.0,80.35,SAR,0.3571111111111111,Generic or other,Spectro Pharma
+181,Saudi Arabia,A10BH,VILDAGLIPTIN,Vtreat Met,VTREAT,"50,1000",Film-coated tablet,60.0,84.6,SAR,0.376,Generic or other,Spectro Pharma
+182,Saudi Arabia,A10BH,VILDAGLIPTIN,JALRA 50 mg tablet,JALRA,50,Tablet,28.0,45.6,SAR,0.4342857142857143,Generic or other,SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO
+183,Saudi Arabia,A10BH,VILDAGLIPTIN,JALRA 50 mg tablet,JALRA,50,Tablet,56.0,91.2,SAR,0.4342857142857143,Generic or other,SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO
+184,Saudi Arabia,A10BH,VILDAGLIPTIN,GALVUS 50MG TABLETS,GALVUS,50,Tablet,28.0,56.1,SAR,0.5342857142857143,Originator,NOVARTIS
+185,Saudi Arabia,A10BH,VILDAGLIPTIN,GALVUS 50MG TABLETS,GALVUS,50,Tablet,56.0,112.3,SAR,0.5347619047619047,Originator,NOVARTIS
+186,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Volzamet XR,VOLZAMET XR,5/1000,Film-coated tablet,60.0,109.7,SAR,0.4875555555555556,Generic or other,Cooper Pharma Arabia
+187,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Metflozin XR,METFLOZIN XR,"5,1000",Film-coated tablet,30.0,54.85,SAR,0.4875555555555556,Generic or other,SAUDI PHARMACEUTICAL INDUSTRIES
+188,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dezeroga-Met,DEZEROGA,"5,1000",Prolonged-release film-coated tablet,56.0,110.9,SAR,0.5280952380952381,Generic or other,Med City Pharma
+189,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dapagloz,DAPAGLOZ,5,Film-coated tablet,30.0,65.3,SAR,0.5804444444444444,Generic or other,Apex Pharma
+190,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Pafazin,PAFAZIN,10,Film-coated tablet,30.0,93.3,SAR,0.8293333333333333,Generic or other,Pharma Pharmaceutical Industries (PPI)
+191,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Pafazin,PAFAZIN,5,Film-coated tablet,30.0,93.3,SAR,0.8293333333333333,Generic or other,Pharma Pharmaceutical Industries & Biological Products (PPI)
+192,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Gripdi,GRIPDI,10,Film-coated tablet,30.0,93.3,SAR,0.8293333333333333,Generic or other,APOTEX
+193,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Gripdi,GRIPDI,5,Film-coated tablet,30.0,93.3,SAR,0.8293333333333333,Generic or other,APOTEX
+194,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dapagloz,DAPAGLOZ,10,Film-coated tablet,30.0,93.3,SAR,0.8293333333333333,Generic or other,Apex Pharma
+195,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Depaxa,DEPAXA,5,Film-coated tablet,30.0,93.3,SAR,0.8293333333333333,Generic or other,Pharco International pharmaceutical company
+196,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Depaxa,DEPAXA,10,Film-coated tablet,30.0,93.3,SAR,0.8293333333333333,Generic or other,Pharco International pharmaceutical company
+197,Saudi Arabia,A10BK,DAPAGLIFLOZIN,DIFIA,DIFIA,5,Film-coated tablet,30.0,93.3,SAR,0.8293333333333333,Generic or other,ALPHA PHARMA INDUSTRY
+198,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Xija,XIJA,10,Film-coated tablet,30.0,98.2,SAR,0.8728888888888889,Generic or other,Cooper Pharma Arabia
+199,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Xija,XIJA,5,Film-coated tablet,30.0,98.2,SAR,0.8728888888888889,Generic or other,Cooper Pharma Arabia
+200,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Xija plus,XIJA,10/1000,Film-coated tablet,30.0,106.6,SAR,0.9475555555555556,Generic or other,Cooper Pharma Arabia
+201,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Metflozin XR,METFLOZIN XR,"10,1000",Film-coated tablet,30.0,106.6,SAR,0.9475555555555556,Generic or other,SAUDI PHARMACEUTICAL INDUSTRIES
+202,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dezeroga-Met,DEZEROGA,"10,1000",Prolonged-release film-coated tablet,28.0,107.8,SAR,1.0266666666666666,Generic or other,Med City Pharma
+203,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dapxiga,DAPXIGA,5,Film-coated tablet,30.0,135.95,SAR,1.2084444444444444,Generic or other,Saudi Amarox
+204,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dapxiga,DAPXIGA,10,Film-coated tablet,30.0,135.95,SAR,1.2084444444444444,Generic or other,Saudi Amarox
+205,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Forsdapa,FORSDAPA,10,Film-coated tablet,30.0,135.95,SAR,1.2084444444444444,Generic or other,SAUDI PHARMACEUTICAL INDUSTRIES
+206,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Forsdapa,FORSDAPA,5,Film-coated tablet,30.0,135.95,SAR,1.2084444444444444,Generic or other,SAUDI PHARMACEUTICAL INDUSTRIES
+207,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dapinzo,DAPINZO,5,Film-coated tablet,30.0,135.95,SAR,1.2084444444444444,Generic or other,SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO
+208,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dapinzo,DAPINZO,10,Film-coated tablet,30.0,135.95,SAR,1.2084444444444444,Generic or other,SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO
+209,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Daglozin,DAGLOZIN,5,Film-coated tablet,30.0,144.8,SAR,1.287111111111111,Generic or other,SUDAIR PHARMA COMPANY
+210,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Daglozin,DAGLOZIN,10,Film-coated tablet,30.0,144.8,SAR,1.287111111111111,Generic or other,SUDAIR PHARMA COMPANY
+211,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dapagliflozin Evapharma,DAPAGLIFLOZIN,10,Film-coated tablet,30.0,144.8,SAR,1.287111111111111,Generic or other,Eva pharma for Industry
+212,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dapagliflozin Evapharma,DAPAGLIFLOZIN,5,Film-coated tablet,30.0,144.8,SAR,1.287111111111111,Generic or other,Eva pharma for Industry
+213,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dezeroga,DEZEROGA,10,Film-coated tablet,28.0,135.15,SAR,1.2871428571428571,Generic or other,Med City Pharma
+214,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dapazin,DAPAZIN,5,Film-coated tablet,30.0,153.1,SAR,1.360888888888889,Generic or other,Jamjoom Pharmaceuticals Factory Company
+215,Saudi Arabia,A10BK,DAPAGLIFLOZIN,Dapazin,DAPAZIN,10,Film-coated tablet,30.0,153.1,SAR,1.360888888888889,Generic or other,Jamjoom Pharmaceuticals Factory Company
+216,Saudi Arabia,A10BK,EMPAGLIFLOZIN,Empamac Met,EMPAMAC,"12.5,1000",Tablet,30.0,60.5,SAR,0.5377777777777778,Generic or other,Pharma Pharmaceutical Industries & Biological Products (PPI)
+217,Saudi Arabia,A10BK,EMPAGLIFLOZIN,EMBA,EMBA,25,Film-coated tablet,30.0,128.4,SAR,1.1413333333333333,Generic or other,Saudi Amarox
+218,Saudi Arabia,A10BK,EMPAGLIFLOZIN,EMBA,EMBA,10,Film-coated tablet,30.0,128.4,SAR,1.1413333333333333,Generic or other,Saudi Amarox
+219,Saudi Arabia,A10BK,EMPAGLIFLOZIN,Empamac,EMPAMAC,25,Film-coated tablet,30.0,128.4,SAR,1.1413333333333333,Generic or other,Pharma Pharmaceutical Industries (PPI)
+220,Saudi Arabia,A10BK,EMPAGLIFLOZIN,Empamac,EMPAMAC,10,Film-coated tablet,30.0,128.4,SAR,1.1413333333333333,Generic or other,Pharma Pharmaceutical Industries (PPI)
+221,Saudi Arabia,A10BK,EMPAGLIFLOZIN,Gutirek,GUTIREK,10,Film-coated tablet,30.0,128.4,SAR,1.1413333333333333,Generic or other,Eva pharma for Industry
+222,Saudi Arabia,A10BK,EMPAGLIFLOZIN,Gutirek,GUTIREK,25,Film-coated tablet,30.0,128.4,SAR,1.1413333333333333,Generic or other,Eva pharma for Industry
+223,Saudi Arabia,A10BK,EMPAGLIFLOZIN,Monzeva,MONZEVA,25,Film-coated tablet,30.0,135.15,SAR,1.2013333333333334,Generic or other,SUDAIR PHARMA COMPANY
+224,Saudi Arabia,A10BK,EMPAGLIFLOZIN,Monzeva,MONZEVA,10,Film-coated tablet,30.0,135.15,SAR,1.2013333333333334,Generic or other,SUDAIR PHARMA COMPANY
+225,Saudi Arabia,A10BX,DAPAGLIFLOZIN,DIVINUS 5 mg film-coated tablet,DIVINUS,5,Film-coated tablet,30.0,151.0,SAR,1.3422222222222222,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+226,Saudi Arabia,A10BX,DAPAGLIFLOZIN,DIVINUS 10 mg film-coated tablet,DIVINUS,10,Film-coated tablet,30.0,151.0,SAR,1.3422222222222222,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+227,Saudi Arabia,A10BX,EMPAGLIFLOZIN,JARDIANCE 10 mg film-coated tablet,JARDIANCE,10,Film-coated tablet,30.0,159.0,SAR,1.413333333333333,Originator,BOEHRINGER INGELHEIM
+228,Saudi Arabia,A10BX,EMPAGLIFLOZIN,JARDIANCE 25 mg film-coated tablet,JARDIANCE,25,Film-coated tablet,30.0,159.0,SAR,1.413333333333333,Originator,BOEHRINGER INGELHEIM
+229,Saudi Arabia,B05CB,DAPAGLIFLOZIN,FORXIGA 10 mg film-coated tablet,FORXIGA,10,Solution for injection,1.0,159.0,SAR,42.4,Originator,Pharmaceutical Solution Industries (PSI)
+230,Saudi Arabia,B05CB,DAPAGLIFLOZIN,FORXIGA 5 mg film-coated tablet,FORXIGA,5,Solution for injection,1.0,159.0,SAR,42.4,Originator,Pharmaceutical Solution Industries (PSI)
+231,Saudi Arabia,B05CB,NIVOLUMAB,OPDIVO 10 mg/ml solution for injection,OPDIVO,10,Solution for injection,1.0,3385.15,SAR,902.7066666666668,Originator,Pharmaceutical Solution Industries (PSI)
+232,Saudi Arabia,C01EB,VERICIGUAT,Verquvo,VERQUVO,10,Film-coated tablet,28.0,422.45,SAR,4.023333333333333,Originator,BAYER AG
+233,Saudi Arabia,C01EB,VERICIGUAT,Verquvo,VERQUVO,2.5,Film-coated tablet,14.0,220.8,SAR,4.2057142857142855,Originator,BAYER AG
+234,Saudi Arabia,C01EB,VERICIGUAT,Verquvo,VERQUVO,5,Film-coated tablet,14.0,220.8,SAR,4.2057142857142855,Originator,BAYER AG
+235,Saudi Arabia,C02KX,SOTATERCEPT,Winrevair,WINREVAIR,45,Powder and solvent for solution for injection,1.0,36247.2,SAR,9665.92,MSD,MERCK SHARP & DOHME
+236,Saudi Arabia,C02KX,SOTATERCEPT,Winrevair,WINREVAIR,45,Powder and solvent for solution for injection,2.0,72494.4,SAR,9665.92,MSD,MERCK SHARP & DOHME
+237,Saudi Arabia,C02KX,SOTATERCEPT,Winrevair,WINREVAIR,60,Powder and solvent for solution for injection,2.0,90750.0,SAR,12100.0,MSD,Merck Sharp & Dohme B.V
+238,Saudi Arabia,C02KX,SOTATERCEPT,Winrevair,WINREVAIR,60,Powder and solvent for solution for injection,1.0,45375.0,SAR,12100.0,MSD,Merck Sharp & Dohme B.V
+239,Saudi Arabia,J01DD,AVIBACTAM,Zidav,ZIDAV,"2,0.5",Powder for concentrate for solution for infusion,10.0,2949.35,SAR,78.64933333333333,Generic or other,Med City Pharma
+240,Saudi Arabia,J01DD,AVIBACTAM,Cazovy,CAZOVY,"0.5, 2",Powder for concentrate for solution for infusion,10.0,3176.25,SAR,84.7,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+241,Saudi Arabia,J01DD,AVIBACTAM,ZAVICEFTA 2 g/0.5 g Vial,ZAVICEFTA,"2,0.5",Powder for concentrate for solution for infusion,10.0,4537.5,SAR,121.0,Originator,PFIZER SAUDI LIMITED
+242,Saudi Arabia,J01DD,NIVOLUMAB,OPDIVO 10 mg/ml solution for injection,OPDIVO,10,Tablet,10.0,6785.1,SAR,180.936,Originator,SANOFI WINTHROP INDUSTRIE
+243,Saudi Arabia,J01DF,AVIBACTAM,EMBLAVEO,EMBLAVEO,"1.5, 0.5",Powder for concentrate for solution for infusion,10.0,9011.3,SAR,240.3013333333333,Generic or other,Pfizer Europe MA EEIG
+244,Saudi Arabia,J01DH,RELEBACTAM,Recarbrio,RECARBRIO,"500,500,250",Powder for solution for infusion,25.0,15509.4,SAR,165.43359999999998,MSD,Merck Sharp & Dohme B.V
+245,Saudi Arabia,J01DI,CEFTOLOZANE,ZERBAXA Powder For Injection Vial,ZERBAXA,"0.5,1",Powder for injection,10.0,3282.1,SAR,87.52266666666667,MSD,MERCK SHARP & DOHME
+246,Saudi Arabia,J01XX,,LINDEC 600 mg Film-coated Tablet,LINDEC,600,Film-coated tablet,30.0,1535.75,SAR,13.651111111111112,Generic or other,APOTEX INC. (SIGNET SITE)
+247,Saudi Arabia,J01XX,,Zenix,ZENIX,600,Film-coated tablet,20.0,1137.6,SAR,15.168,Generic or other,STADA ARZNEIMITTEL GmbH
+248,Saudi Arabia,J01XX,,Lidolinz,LIDOLINZ,600,Film-coated tablet,10.0,625.65,SAR,16.684,Generic or other,CALIFORNIA GREENS CORPORATION FACTORY
+249,Saudi Arabia,J01XX,,Zodinex,ZODINEX,600,Film-coated tablet,20.0,1251.35,SAR,16.684666666666665,Generic or other,Middle East Pharmaceutical Industries Co Ltd Avalon Pharma
+250,Saudi Arabia,J01XX,,Lenzal,LENZAL,600,Film-coated tablet,30.0,1877.1,SAR,16.685333333333332,Generic or other,Alrai Pharmaceutical industry Co. (L.L.C)
+251,Saudi Arabia,J01XX,,DILIZOLEN 600MG TABLET,DILIZOLEN,600,Tablet,20.0,1404.45,SAR,18.726,Generic or other,Glenmark Pharmaceuticals Limited
+252,Saudi Arabia,J01XX,,Lozned,LOZNED,2,Solution for infusion,1.0,136.15,SAR,36.306666666666665,Generic or other,MS PHARMA for Pharmaceuticals
+253,Saudi Arabia,J01XX,,Zersa,ZERSA,2,Solution for infusion,1.0,136.9,SAR,36.50666666666667,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+254,Saudi Arabia,J01XX,,LINID 2 MG/ML SOLUTION FOR INFUSION,LINID,2,Solution for infusion,1.0,144.15,SAR,38.440000000000005,Generic or other,AJA PHARMACEUTICAL INDUSTRIES
+255,Saudi Arabia,J01XX,,KINZADO,KINZADO,600,Film-coated tablet,10.0,1447.2,SAR,38.592,Generic or other,SPIMACO ADDWAEIH
+256,Saudi Arabia,J01XX,,Zillion,ZILLION,600,Film-coated tablet,10.0,1447.2,SAR,38.592,Generic or other,Saudi Amarox
+257,Saudi Arabia,J01XX,,Zextro,ZEXTRO,600,Film-coated tablet,20.0,2894.4,SAR,38.592,Generic or other,Med City Pharma
+258,Saudi Arabia,J01XX,,ZYVOX 2 MG/ML SOLUTION FOR INFUSION,ZYVOX,2,Solution for infusion,10.0,1521.65,SAR,40.577333333333335,Generic or other,PFIZER INC
+259,Saudi Arabia,J01XX,,ZERSA 600 mg Film-coated Tablet,ZERSA,600,Film-coated tablet,10.0,1929.6,SAR,51.456,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+260,Saudi Arabia,J01XX,,Zillion,ZILLION,20,Oral suspension,1.0,598.5,SAR,159.6,Generic or other,Saudi Amarox
+261,Saudi Arabia,J01XX,,Zersa,ZERSA,20,Oral suspension,1.0,630.0,SAR,168.0,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+262,Saudi Arabia,J05AB,,VALGAN,VALGAN,450,Film-coated tablet,60.0,2066.0,SAR,9.18222222222222,Generic or other,Saudi Amarox
+263,Saudi Arabia,J05AB,,Valgiver,VALGIVER,450,Film-coated tablet,60.0,2499.85,SAR,11.110444444444443,Generic or other,ADEL AHMED AL-SHAEIR PHARMACEUTICAL COMPANY
+264,Saudi Arabia,J05AB,,Valgaset,VALGASET,450,Tablet,60.0,2499.85,SAR,11.110444444444443,Generic or other,ALTAIF PHARMACEUTICALS COMPANY
+265,Saudi Arabia,J05AB,,VERCANZA 450 MG FILM COATED TABLET,VERCANZA,450,Film-coated tablet,60.0,3686.5,SAR,16.384444444444444,Generic or other,SPIMACO ADDWAEIH
+266,Saudi Arabia,J05AB,,VALCYTE 450MG FILM - COATED TABLETS,VALCYTE,450,Film-coated tablet,60.0,3791.75,SAR,16.85222222222222,Generic or other,CHEPLAPHARM Arzneimittel GmbH
+267,Saudi Arabia,J05AB,,valganciclovir,VALGANCICLOVIR,50,Oral solution,1.0,1206.95,SAR,321.8533333333333,Generic or other,Granules Pharmaceuticals Inc
+268,Saudi Arabia,J05AB,,VALGAN 50MG/ML POWDER FOR ORAL SOLUTION,VALGAN,50,Powder for oral solution,1.0,1270.5,SAR,338.8,Generic or other,Saudi Amarox
+269,Saudi Arabia,J05AF,DOLUTEGRAVIR,Dovato,DOVATO,"300,52.6",Film-coated tablet,30.0,2740.9,SAR,24.36355555555556,Originator,Glaxo Saudi Arabia Ltd.
+270,Saudi Arabia,J05AG,DORAVIRINE,Pifeltro,PIFELTRO,100,Film-coated tablet,30.0,1361.8,SAR,12.104888888888889,MSD,Merck Sharp & Dohme B.V
+271,Saudi Arabia,J05AG,DORAVIRINE,Delstrigo,DELSTRIGO,"100,300,245",Film-coated tablet,30.0,2413.85,SAR,21.456444444444443,MSD,Merck Sharp & Dohme B.V
+272,Saudi Arabia,J05AR,BICTEGRAVIR,BIKTARVY,BIKTARVY,"200,52.45,25",Film-coated tablet,30.0,2881.95,SAR,25.61733333333333,Originator,Gilead Sciences Ireland UC
+273,Saudi Arabia,J05AX,DOLUTEGRAVIR,Dolutegravir Eva,DOLUTEGRAVIR,50,Film-coated tablet,30.0,1568.0,SAR,13.937777777777775,Generic or other,Eva pharma for Industry
+274,Saudi Arabia,J05AX,DOLUTEGRAVIR,TIVICAY 50 mg Tablet,TIVICAY,50,Film-coated tablet,30.0,1680.0,SAR,14.933333333333334,Originator,Glaxo Saudi Arabia Ltd.
+275,Saudi Arabia,J05AX,DOLUTEGRAVIR,TRIUMEQ 50mg/600mg/300mg film-coated tablet,TRIUMEQ,"50,300,600",Film-coated tablet,30.0,3128.8,SAR,27.81155555555556,Originator,Glaxo Saudi Arabia Ltd.
+276,Saudi Arabia,J05AX,LETERMOVIR,PREVYMIS,PREVYMIS,240,Film-coated tablet,28.0,20693.5,SAR,197.0809523809524,MSD,MERCK SHARP & DOHME
+277,Saudi Arabia,J05AX,LETERMOVIR,PREVYMIS,PREVYMIS,20,Concentrate for solution for infusion,1.0,884.95,SAR,235.98666666666668,MSD,Merck Sharp & Dohme B.V
+278,Saudi Arabia,J05AX,LETERMOVIR,PREVYMIS,PREVYMIS,480,Concentrate for solution for infusion,1.0,1452.0,SAR,387.2,MSD,Merck Sharp & Dohme B.V
+279,Saudi Arabia,J05AX,LETERMOVIR,PREVYMIS,PREVYMIS,480,Film-coated tablet,28.0,40656.0,SAR,387.2,MSD,MERCK SHARP & DOHME
+280,Saudi Arabia,J05AX,RALTEGRAVIR,Raltavir,RALTAVIR,400,Film-coated tablet,60.0,1567.8,SAR,6.968,Generic or other,Saudi Amarox
+281,Saudi Arabia,J05AX,RALTEGRAVIR,ISENTRESS 600MG F.C.TABLET,ISENTRESS,600,Film-coated tablet,60.0,1679.95,SAR,7.466444444444445,MSD,MERCK SHARP & DOHME LIMITED
+282,Saudi Arabia,J07AL,Pneumococcal vaccines,Pneumovax 23 Pneumococcal Vaccine Polyvalent,PNEUMOVAX 23,50,Solution for injection,1.0,135.5,SAR,36.13333333333333,MSD,MERCK SHARP AND DOHME LLC
+283,Saudi Arabia,J07AL,Pneumococcal vaccines,SYNFLORIX VACCINE,SYNFLORIX,0.5,Suspension for injection,1.0,165.5,SAR,44.13333333333333,Originator,GLAXO SAUDI ARABIA
+284,Saudi Arabia,J07AL,Pneumococcal vaccines,PREVENAR 13 PRE-FILLED SYRINGE VACCINE,PREVENAR,"2.2,2.2,2.2,2.2,2.2,4.4,2.2,2.2,2.2,2.2,2.2,2.2,2.2",Suspension for injection,1.0,245.85,SAR,65.56,Originator,Pfizer Europe MA EEIG
+285,Saudi Arabia,J07AL,Pneumococcal vaccines,Vaxneuvance,VAXNEUVANCE,64,Suspension for injection in pre-filled syringe,1.0,270.45,SAR,72.11999999999999,MSD,Merck Sharp & Dohme B.V
+286,Saudi Arabia,J07AL,Pneumococcal vaccines,PREVENAR 20,PREVENAR,"2.2,4.4,51",Suspension for injection,1.0,270.45,SAR,72.11999999999999,Originator,Pharma Pharmaceutical Industries & Biological Products (PPI)
+287,Saudi Arabia,J07AL,Pneumococcal vaccines,PREVENAR 20,PREVENAR,"2.2,4.4,51",Suspension for injection,10.0,2704.5,SAR,72.11999999999999,Originator,Pfizer Europe MA EEIG
+288,Saudi Arabia,J07AL,Pneumococcal vaccines,Capvaxive,CAPVAXIVE,84,Solution for injection,1.0,382.3,SAR,101.94666666666669,MSD,Merck Sharp & Dohme B.V
+289,Saudi Arabia,J07BC,Hepatitis B vaccines,RECOMBIVAX HB,RECOMBIVAX,10,Suspension for injection,1.0,46.7,SAR,12.453333333333337,MSD,MERCK SHARP AND DOHME LLC
+290,Saudi Arabia,J07BD,"Measles, mumps and rubella vaccines",Priorix,PRIORIX,"103.0,103.7,103.0",Powder and solvent for solution for injection,100.0,4550.7,SAR,12.1352,Originator,GLAXO SAUDI ARABIA
+291,Saudi Arabia,J07BD,"Measles, mumps and rubella vaccines",PRIORIX 0.5ML VIAL,PRIORIX,"5011.87,1000,1000",Powder and solvent for solution for injection,1.0,51.9,SAR,13.84,Originator,GLAXO SAUDI ARABIA
+292,Saudi Arabia,J07BD,"Measles, mumps and rubella vaccines",M.M.R II 0.5ML VACCINE+ 0.7ML DILUENT,M-M-R II,"1000,12.5,1000",Powder and solvent for suspension for injection,1.0,51.9,SAR,13.84,MSD,MERCK SHARP AND DOHME LLC
+293,Saudi Arabia,J07BH,Rotavirus vaccines,ROTATEQ ORAL VACCINE,ROTATEQ,"nlt2.2*106,nlt2.8*106,nlt2.2*106,nlt2.0*106,nlt2.3*106",Oral solution,1.0,199.55,SAR,53.21333333333334,MSD,MERCK SHARP & DOHME
+294,Saudi Arabia,J07BH,Rotavirus vaccines,ROTARIX ORAL SUSPENSION VACCINE,ROTARIX,1000000,Oral suspension,1.0,200.65,SAR,53.50666666666667,Originator,GLAXO SAUDI ARABIA
+295,Saudi Arabia,J07BK,Varicella and zoster vaccines,VARIVAX 1350 PFU VIAL,VARIVAX,1350,Powder and solvent for suspension for injection,1.0,152.1,SAR,40.56,MSD,MERCK SHARP & DOHME
+296,Saudi Arabia,J07BK,Varicella and zoster vaccines,VARILRIX 2000 PFU -0.5ML VIAL,VARILRIX,1995.26,Solution for injection,1.0,166.6,SAR,44.42666666666666,Originator,GLAXO SAUDI ARABIA
+297,Saudi Arabia,J07BK,Varicella and zoster vaccines,SHINGRIX,SHINGRIX,50,Powder for suspension for injection,1.0,774.9,SAR,206.64,Originator,Glaxo Saudi Arabia Ltd.
+298,Saudi Arabia,J07BM,HPV vaccines,CERVARIX VACCINE,CERVARIX,"20,20",Suspension for injection,1.0,266.25,SAR,71.0,Originator,GLAXO SAUDI ARABIA
+299,Saudi Arabia,J07BM,HPV vaccines,Gardasil 9,GARDASIL 9,"30,40,60,40,20,20,20,20,20",Suspension for injection,1.0,605.0,SAR,161.33333333333334,MSD,MERCK SHARP AND DOHME LLC
+300,Saudi Arabia,L01FF,DOSTARLIMAB,Jemperli,JEMPERLI,50,Concentrate for solution for infusion,1.0,27974.2,SAR,7459.786666666667,Originator,GLAXO SAUDI ARABIA
+301,Saudi Arabia,L01FF,PEMBROLIZUMAB,Keytruda,KEYTRUDA,165,Solution for injection,1.0,29359.8,SAR,7829.28,MSD,Merck Sharp & Dohme B.V
+302,Saudi Arabia,L01FF,PEMBROLIZUMAB,Keytruda,KEYTRUDA,165,Solution for injection,1.0,58719.6,SAR,15658.56,MSD,Merck Sharp & Dohme B.V
+303,Saudi Arabia,L01FF,,Tevimbra,TEVIMBRA,10,Concentrate for solution for infusion,1.0,10694.85,SAR,2851.96,Generic or other,BeiGene Switzerland GmbH
+304,Saudi Arabia,L01XC,ATEZOLIZUMAB,TECENTRIQ 60 mg/ml Concentrate For Solution For Infusion,TECENTRIQ,60,Injection,1.0,29065.25,SAR,7750.733333333334,Originator,ROCHE
+305,Saudi Arabia,L01XC,BELZUTIFAN,Welireg,WELIREG,40,Film-coated tablet,90.0,68062.5,SAR,201.66666666666663,MSD,MERCK SHARP & DOHME LIMITED
+306,Saudi Arabia,L01XC,DURVALUMAB,IMFINZI 120 mg / 2.4 ml,IMFINZI,50,Solution for infusion,1.0,2787.5,SAR,743.3333333333334,Originator,AstraZeneca UK Limited
+307,Saudi Arabia,L01XC,DURVALUMAB,IMFINZI 500 mg / 10 ml,IMFINZI,50,Solution for infusion,1.0,11614.5,SAR,3097.2,Originator,AstraZeneca UK Limited
+308,Saudi Arabia,L01XC,PEMBROLIZUMAB,KEYTRUDA 25 mg/ml Concentrate For Solution For Infusion,KEYTRUDA,25,Concentrate for solution for infusion,1.0,14680.0,SAR,3914.6666666666665,MSD,MERCK SHARP & DOHME
+309,Saudi Arabia,N02BE,LINAGLIPTIN,GLYXAMBI,GLYXAMBI,"25,5",Tablet,20.0,226.05,SAR,3.014,Generic or other,National Pharmaceutical Industries Co SAOC
+310,Saudi Arabia,N05CF,LEMBOREXANT,DAYVIGO,DAYVIGO,5,Film-coated tablet,28.0,219.6,SAR,2.091428571428571,Originator,EISAI
+311,Saudi Arabia,N05CF,LEMBOREXANT,DAYVIGO,DAYVIGO,10,Film-coated tablet,28.0,219.6,SAR,2.091428571428571,Originator,EISAI
+312,Saudi Arabia,QA10B,SITAGLIPTIN,Glyptinova Met,GLYPTINOVA,"50,850",Film-coated tablet,60.0,94.3,SAR,0.4191111111111111,Generic or other,Kinnova manufacturing company
+313,Saudi Arabia,QA10B,SITAGLIPTIN,Glunexa,GLUNEXA,50,Film-coated tablet,28.0,45.0,SAR,0.4285714285714286,Generic or other,STADA ARZNEIMITTEL GmbH
+314,Saudi Arabia,QA10B,SITAGLIPTIN,Glyptinova Met,GLYPTINOVA,"50,1000",Film-coated tablet,60.0,97.7,SAR,0.4342222222222222,Generic or other,Kinnova manufacturing company
+315,Saudi Arabia,QA10B,SITAGLIPTIN,Glunexa,GLUNEXA,100,Film-coated tablet,28.0,84.2,SAR,0.8019047619047619,Generic or other,STADA ARZNEIMITTEL GmbH
+316,Saudi Arabia,V03AB,SUGAMMADEX,Sugammadex ALH,SUGAMMADEX,100,Solution for injection,10.0,1414.2,SAR,37.712,Generic or other,Alhobail Pharm
+317,Saudi Arabia,V03AB,SUGAMMADEX,Sugarelax-TV,SUGARELAX,100,Solution for injection,10.0,1414.2,SAR,37.712,Generic or other,Ratiopharm GmbH
+318,Saudi Arabia,V03AB,SUGAMMADEX,sugmadon,SUGMADON,100,Injection,1.0,147.6,SAR,39.36,Generic or other,Pharma Pharmaceutical Industries (PPI)
+319,Saudi Arabia,V03AB,SUGAMMADEX,Relavers,RELAVERS,100,Solution for injection,10.0,1476.4,SAR,39.37066666666667,Generic or other,AL RAZI PHARMA INDUSTRIES
+320,Saudi Arabia,V03AB,SUGAMMADEX,Sudex 200 mg per 2 ml,SUDEX,100,Solution for injection,1.0,174.25,SAR,46.46666666666667,Generic or other,Saudi Amarox
+321,Saudi Arabia,V03AB,SUGAMMADEX,Sugmastad,SUGMASTAD,100,Solution for injection,10.0,1742.5,SAR,46.46666666666667,Generic or other,Hemofarm AD Vrsac
+322,Saudi Arabia,V03AB,SUGAMMADEX,Plibadex,PLIBADEX,100,Solution for injection,10.0,1742.5,SAR,46.46666666666667,Generic or other,SANDOZ GMBH
+323,Saudi Arabia,V03AB,SUGAMMADEX,Sumadix 200 per 2 ml Vials,SUMADIX,100,Solution for injection,10.0,1742.6,SAR,46.46933333333333,Generic or other,MS PHARMA for Pharmaceuticals
+324,Saudi Arabia,V03AB,SUGAMMADEX,Wekasurg 200 mg per 2 ml,WEKASURG,100,Solution for injection,10.0,1742.6,SAR,46.46933333333333,Generic or other,SAJA-SAUDI ARABIAN JAPANESE PHARMACEUTICAL CO
+325,Saudi Arabia,V03AB,SUGAMMADEX,Muscodex,MUSCODEX,100,Solution for injection,10.0,1742.6,SAR,46.46933333333333,Generic or other,Tabuk Pharmaceutical Manufacturing Company
+326,Saudi Arabia,V03AB,SUGAMMADEX,Sugammadex Kabi,SUGAMMADEX,100,Solution for injection,10.0,1742.6,SAR,46.46933333333333,Generic or other,Fresenius Kabi Deutschland GmbH
+327,Saudi Arabia,V03AB,SUGAMMADEX,Malsy,MALSY,100,Solution for injection,10.0,1742.6,SAR,46.46933333333333,Generic or other,SPIMACO
+328,Saudi Arabia,V03AB,SUGAMMADEX,Ricavo,RICAVO,100,Solution for injection,10.0,1887.8,SAR,50.34133333333333,Generic or other,Jazeera Pharmaceutical Industries (JPI)
+329,Saudi Arabia,V03AB,SUGAMMADEX,Surlex 200 mg  / 2 ml,SURLEX,100,Solution for injection,10.0,2033.05,SAR,54.214666666666666,Generic or other,SUDAIR PHARMA COMPANY
+330,Saudi Arabia,V03AB,SUGAMMADEX,BRIDION 100 mg/ml Solution for Injection,BRIDION,100,Solution for injection,10.0,2178.25,SAR,58.086666666666666,MSD,MERCK SHARP & DOHME LIMITED
+331,Saudi Arabia,V03AB,SUGAMMADEX,Sugmastad,SUGMASTAD,100,Solution for injection,10.0,4356.5,SAR,116.17333333333332,Generic or other,Hemofarm AD Vrsac
+332,Saudi Arabia,V03AB,SUGAMMADEX,Sumadix 500 per 5 ml Vials,SUMADIX,100,Solution for injection,10.0,4356.55,SAR,116.17466666666668,Generic or other,MS PHARMA for Pharmaceuticals
+333,Saudi Arabia,V03AB,SUGAMMADEX,Plibadex,PLIBADEX,100,Solution for injection,10.0,4356.55,SAR,116.17466666666668,Generic or other,SANDOZ GMBH
+334,Saudi Arabia,V03AB,SUGAMMADEX,Sugammadex Kabi,SUGAMMADEX,100,Solution for injection,10.0,4356.6,SAR,116.176,Generic or other,Fresenius Kabi Deutschland GmbH
+335,Saudi Arabia,V03AB,SUGAMMADEX,Surlex 500 mg / 5 ml,SURLEX,100,Solution for injection,10.0,5082.65,SAR,135.53733333333332,Generic or other,SUDAIR PHARMA COMPANY
+336,Saudi Arabia,V03AB,SUGAMMADEX,BRIDION 100 MG/ML SOLUTION FOR INJECTION,BRIDION,100,Solution for injection,10.0,5445.65,SAR,145.21733333333333,MSD,MERCK SHARP & DOHME LIMITED
+337,Saudi Arabia,V08AB,PAPILLOMA,GARDASIL RECOMBINANT VACCINE,GARDASIL,"20,40,40,20",Injection,12.0,411.9,SAR,9.153333333333332,Originator,LIEBEL FLARSHEIM COMPANY LLC
+338,Bahrain,A10BH,LINAGLIPTIN,TRAJENTA,TRAJENTA,5,FILM COATED TABLET,30.0,12.17,BHD,1.078900709219858,Originator,"BOEHRINGER INGELHEIM INTERNATIONAL GMBH, GERMANY."
+339,Bahrain,J07BK,Varicella and zoster vaccines,VARILRIX,VARILRIX,nan,POWDER AND SOLVENT FOR SOLUTION FOR INJECTION,1.0,17.87,BHD,47.52659574468085,Originator,"GLAXOSMITHKLINE BIOLOGICALS SA, BELGIUM."
+340,Bahrain,J07BD,"Measles, mumps and rubella vaccines",M-M-R II VACCINE,M-M-R II,nan,POWDER AND SOLVENT FOR SUSPENSION FOR INJECTION,10.0,47.26,BHD,12.569148936170214,MSD,"MERCK SHARP & DOHME LLC, USA."
+341,Bahrain,J07BH,Rotavirus vaccines,ROTATEQ,ROTATEQ,nan,ORAL SOLUTION,1.0,19.57,BHD,52.047872340425535,MSD,"MERCK SHARP & DOHME LLC, USA."
+342,Bahrain,A10BH,SITAGLIPTIN,JANUVIA,JANUVIA,25,FILM COATED TABLET,28.0,4.52,BHD,0.4293313069908814,MSD,"MERCK SHARP & DOHME LLC, USA."
+343,Bahrain,A10BH,SITAGLIPTIN,JANUVIA,JANUVIA,50,FILM COATED TABLET,28.0,7.53,BHD,0.7152355623100305,MSD,"MERCK SHARP & DOHME LLC, USA."
+344,Bahrain,A10BH,SITAGLIPTIN,JANUVIA,JANUVIA,100,FILM COATED TABLET,28.0,15.06,BHD,1.430471124620061,MSD,"MERCK SHARP & DOHME LLC, USA."
+345,Bahrain,A10BH,VILDAGLIPTIN,GALVUS,GALVUS,50,TABLET,28.0,5.52,BHD,0.5243161094224923,Originator,"NOVARTIS PHARMA AG, SWITZERLAND."
+346,Bahrain,A10BH,SITAGLIPTIN,JANUMET,JANUMET,1000/50,TABLET,56.0,16.31,BHD,0.7746010638297871,MSD,"MERCK SHARP & DOHME LLC, USA."
+347,Bahrain,A10BH,SITAGLIPTIN,JANUMET,JANUMET,500/50,TABLET,56.0,15.74,BHD,0.7475303951367781,MSD,"MERCK SHARP & DOHME LLC, USA."
+348,Bahrain,A10BH,VILDAGLIPTIN,GALVUSMET,GALVUSMET,850/50,FILM COATED TABLET,60.0,11.39,BHD,0.5048758865248227,Originator,"NOVARTIS PHARMA AG, SWITZERLAND."
+349,Bahrain,A10BH,VILDAGLIPTIN,GALVUSMET,GALVUSMET,1000/50,FILM COATED TABLET,60.0,12.15,BHD,0.538563829787234,Originator,"NOVARTIS PHARMA AG, SWITZERLAND."
+350,Bahrain,J05AX,RALTEGRAVIR,ISENTRESS,ISENTRESS,400,FILM COATED TABLET,60.0,467.9,BHD,20.740248226950357,MSD,"MERCK SHARP & DOHME (UK) LIMITED, UK."
+351,Bahrain,A04AD,APREPITANT,EMEND,EMEND,80/125,CAPSULE,3.0,33.54,BHD,29.73404255319149,MSD,"MERCK SHARP & DOHME (UK) LIMITED, UK."
+352,Bahrain,A10BH,SAXAGLIPTIN,ONGLYZA,ONGLYZA,5,TABLET,30.0,15.01,BHD,1.3306737588652482,Originator,"ASTRAZENECA AB, SWEDEN."
+353,Bahrain,J07BH,Rotavirus vaccines,ROTARIX,ROTARIX,nan,ORAL SUSPENSION,1.0,24.54,BHD,65.26595744680851,Originator,"GLAXOSMITHKLINE BIOLOGICALS SA, BELGIUM."
+354,Bahrain,A10BH,SAXAGLIPTIN,KOMBIGLYZE XR,KOMBIGLYZE XR,5/500,TABLET,28.0,15.29,BHD,1.4523176291793312,Originator,"ASTRAZENECA AB, SWEDEN."
+355,Bahrain,A10BH,SAXAGLIPTIN,KOMBIGLYZE XR,KOMBIGLYZE XR,5/1000,TABLET,28.0,15.73,BHD,1.4941109422492402,Originator,"ASTRAZENECA AB, SWEDEN."
+356,Bahrain,A10BH,SAXAGLIPTIN,KOMBIGLYZE XR,KOMBIGLYZE XR,2.5/1000,TABLET,56.0,16.4,BHD,0.7788753799392096,Originator,"ASTRAZENECA AB, SWEDEN."
+357,Bahrain,J07BH,Rotavirus vaccines,ROTARIX,ROTARIX,nan,ORAL SUSPENSION,1.0,21.41,BHD,56.941489361702125,Originator,"GLAXOSMITHKLINE BIOLOGICALS SA, BELGIUM."
+358,Bahrain,J07AL,Pneumococcal vaccines,PREVENAR 13,PREVENAR,nan,SUSPENSION FOR INJECTION IN PRE-FILLED SYRINGE,1.0,28.52,BHD,75.85106382978724,Originator,"PFIZER EUROPE MA EEIG, BELGIUM."
+359,Bahrain,A10BH,SITAGLIPTIN,JANUMET XR,JANUMET XR,50/500,EXTENDED RELEASE TABLET,56.0,18.09,BHD,0.8591375379939209,MSD,"MERCK SHARP & DOHME LLC, USA."
+360,Bahrain,A10BH,SITAGLIPTIN,JANUMET XR,JANUMET XR,50/1000,EXTENDED RELEASE TABLET,56.0,18.09,BHD,0.8591375379939209,MSD,"MERCK SHARP & DOHME LLC, USA."
+361,Bahrain,A10BH,SITAGLIPTIN,JANUMET XR,JANUMET XR,100/1000,EXTENDED RELEASE TABLET,28.0,18.09,BHD,1.7182750759878418,MSD,"MERCK SHARP & DOHME LLC, USA."
+362,Bahrain,A10BH,VILDAGLIPTIN,GALVUSMET,GALVUSMET,500/50,FILM COATED TABLET,60.0,10.43,BHD,0.462322695035461,Originator,"NOVARTIS PHARMA AG, SWITZERLAND."
+363,Bahrain,J05AX,DOLUTEGRAVIR,TIVICAY,TIVICAY,50,FILM COATED TABLET,30.0,232.63,BHD,20.62322695035461,Originator,VIIV HEALTHCARE UK LIMITED
+364,Bahrain,B05CB,NIVOLUMAB,OPDIVO,OPDIVO,10,CONCENTRATE FOR SOLUTION FOR INFUSION,1.0,426.91,BHD,1135.398936170213,Originator,"BRISTOL-MYERS SQUIBB COMPANY, USA."
+365,Bahrain,B05CB,NIVOLUMAB,OPDIVO,OPDIVO,10,CONCENTRATE FOR SOLUTION FOR INFUSION,1.0,1067.27,BHD,2838.484042553192,Originator,"BRISTOL-MYERS SQUIBB COMPANY, USA."
+366,Bahrain,A10BK,EMPAGLIFLOZIN,JARDIANCE,JARDIANCE,10,FILM COATED TABLET,30.0,17.06,BHD,1.5124113475177303,Originator,"BOEHRINGER INGELHEIM INTERNATIONAL GMBH, GERMANY."
+367,Bahrain,A10BK,EMPAGLIFLOZIN,JARDIANCE,JARDIANCE,25,FILM COATED TABLET,30.0,17.06,BHD,1.5124113475177303,Originator,"BOEHRINGER INGELHEIM INTERNATIONAL GMBH, GERMANY."
+368,Bahrain,A01BX,CANAGLIFLOZIN,INVOKANA,INVOKANA,100,FILM COATED TABLET,30.0,17.06,BHD,1.5124113475177303,Originator,"JANSSEN CILAG INTERNATIONAL NV, BELGIUM."
+369,Bahrain,A10BK,DAPAGLIFLOZIN,FORXIGA,FORXIGA,5,FILM COATED TABLET,28.0,17.06,BHD,1.6204407294832823,Originator,"ASTRAZENECA UK LIMITED (CAMBRIDGE), UK."
+370,Bahrain,A10BK,DAPAGLIFLOZIN,FORXIGA,FORXIGA,10,FILM COATED TABLET,28.0,17.06,BHD,1.6204407294832823,Originator,"ASTRAZENECA UK LIMITED (CAMBRIDGE), UK."
+371,Bahrain,A04AA,NETUPITANT,AKYNZEO,AKYNZEO,300/0.5,HARD CAPSULE,1.0,31.84,BHD,84.68085106382979,Originator,"HELSINN BIREX PHARMACEUTICALS LTD, IRELAND."
+372,Bahrain,L01FF,PEMBROLIZUMAB,KEYTRUDA,KEYTRUDA,25,CONCENTRATE FOR SOLUTION FOR INFUSION,1.0,1968.36,BHD,5235.0,MSD,"MERCK SHARP & DOHME LLC, USA."
+373,Bahrain,A01BX,CANAGLIFLOZIN,INVOKANA,INVOKANA,300,FILM COATED TABLET,30.0,17.06,BHD,1.5124113475177303,Originator,"JANSSEN CILAG INTERNATIONAL NV, BELGIUM."
+374,Bahrain,J07BM,HPV vaccines,GARDASIL 9,GARDASIL 9,nan,SUSPENSION FOR INJECTION IN PRE-FILLED SYRINGE,1.0,66.56,BHD,177.0212765957447,MSD,"MERCK SHARP & DOHME LLC, USA."
+375,Bahrain,V03AB,SUGAMMADEX,BRIDION,BRIDION,100,SOLUTION FOR INJECTION,10.0,301.64,BHD,80.22340425531914,MSD,"MERCK SHARP & DOHME (UK) LIMITED, UK."
+376,Bahrain,A10BD,ALOGLIPTIN,INCRESYNC,INCRESYNC,25/30,TABLET,28.0,17.14,BHD,1.6280395136778116,Generic or other,"THE ARAB PHARMACEUTICAL MANUFACTURING PSC (APM), JORDAN."
+377,Bahrain,A10BD,ALOGLIPTIN,VIPDOMET,VIPDOMET,12.5/1000,TABLET,56.0,12.52,BHD,0.5946048632218844,Originator,"THE ARAB PHARMACEUTICAL MANUFACTURING PSC (APM), JORDAN."
+378,Bahrain,A10BK,EMPAGLIFLOZIN,SYNJARDY,SYNJARDY,5/850,FILM COATED TABLET,60.0,17.79,BHD,0.788563829787234,Originator,"BOEHRINGER INGELHEIM INTERNATIONAL GMBH, GERMANY."
+379,Bahrain,A10BK,EMPAGLIFLOZIN,SYNJARDY,SYNJARDY,5/1000,FILM COATED TABLET,60.0,18.4,BHD,0.8156028368794326,Originator,"BOEHRINGER INGELHEIM INTERNATIONAL GMBH, GERMANY."
+380,Bahrain,A10BK,EMPAGLIFLOZIN,SYNJARDY,SYNJARDY,12.5/850,FILM COATED TABLET,60.0,17.79,BHD,0.788563829787234,Originator,"BOEHRINGER INGELHEIM INTERNATIONAL GMBH, GERMANY."
+381,Bahrain,A10BK,EMPAGLIFLOZIN,SYNJARDY,SYNJARDY,12.5/1000,FILM COATED TABLET,60.0,18.4,BHD,0.8156028368794326,Originator,"BOEHRINGER INGELHEIM INTERNATIONAL GMBH, GERMANY."
+382,Bahrain,A10BD,ALOGLIPTIN,VIPIDIA,VIPIDIA,12.5,FILM COATED TABLET,28.0,5.2,BHD,0.4939209726443769,Originator,"THE ARAB PHARMACEUTICAL MANUFACTURING PSC (APM), JORDAN."
+383,Bahrain,A10BD,ALOGLIPTIN,VIPIDIA,VIPIDIA,25,FILM COATED TABLET,28.0,11.35,BHD,1.0780775075987843,Originator,"THE ARAB PHARMACEUTICAL MANUFACTURING PSC (APM), JORDAN."
+384,Bahrain,J07BH,ROTAVIRUS,ROTASIIL,ROTASIIL,nan,POWDER FOR ORAL SOLUTION,1.0,5.09,BHD,13.537234042553193,Generic or other,"SERUM INSTITUTE OF INDIA PVT LTD, INDIA."
+385,Bahrain,J07BH,ROTAVIRUS,ROTASIIL,ROTASIIL,nan,ORAL SOLUTION,50.0,188.5,BHD,10.02659574468085,Generic or other,"SERUM INSTITUTE OF INDIA PVT LTD, INDIA."
+386,Bahrain,J07AL,Pneumococcal vaccines,PREVENAR 13,PREVENAR,nan,SUSPENSION FOR INJECTION IN PRE-FILLED SYRINGE,10.0,285.15,BHD,75.8377659574468,Originator,"PFIZER EUROPE MA EEIG, BELGIUM."
+387,Bahrain,J01DI,CEFTOLOZANE,ZERBAXA,ZERBAXA,1/0.5,POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION,10.0,402.37,BHD,107.01329787234044,Originator,"MERCK CANADA INC, CANADA."
+388,Bahrain,J05AX,DOLUTEGRAVIR,TRIUMEQ,TRIUMEQ,50/600/300,FILM COATED TABLET,30.0,361.05,BHD,32.00797872340426,Originator,"VIIV HEALTHCARE UK LIMITED, UK."
+389,Bahrain,J01DD,AVIBACTAM,ZAVICEFTA,ZAVICEFTA,2/0.5,POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION,10.0,486.5,BHD,129.38829787234042,Originator,PFIZER IRELAND PHARMACEUTICALS UNLIMITED COMPANY
+390,Bahrain,J07BC,Hepatitis B vaccines,ENGERIX-B JUNIOR,ENGERIX,10,SUSPENSION FOR INJECTION,100.0,377.0,BHD,10.02659574468085,Originator,"GLAXOSMITHKLINE BIOLOGICALS SA, BELGIUM."
+391,Bahrain,J07BC,Hepatitis B vaccines,ENGERIX-B,ENGERIX,20,SUSPENSION FOR INJECTION,100.0,565.5,BHD,15.039893617021278,Originator,"GLAXOSMITHKLINE BIOLOGICALS SA, BELGIUM."
+392,Bahrain,J07BD,"Measles, mumps and rubella vaccines",PRIORIX ,PRIORIX,nan,POWDER AND SOLVENT FOR SOLUTION FOR INJECTION,1.0,5.1,BHD,13.563829787234042,Originator,"GLAXOSMITHKLINE BIOLOGICALS SA, BELGIUM."
+393,Bahrain,L01XC,ATEZOLIZUMAB,TECENTRIQ,TECENTRIQ,1200,CONCENTRATE FOR SOLUTION FOR INFUSION,1.0,3016.66,BHD,8023.031914893617,Originator,"F. HOFFMANN LA ROCHE LTD, SWITZERLAND."
+394,Bahrain,A10BK,DAPAGLIFLOZIN,XIGDUO XR,XIGDUO XR,5/500,TABLET,30.0,15.5,BHD,1.3741134751773052,Originator,"ASTRAZENECA AB, SWEDEN."
+395,Bahrain,A10BK,DAPAGLIFLOZIN,XIGDUO XR,XIGDUO XR,5/1000,TABLET,60.0,17.3,BHD,0.7668439716312057,Originator,"ASTRAZENECA AB, SWEDEN."
+396,Bahrain,A10BK,DAPAGLIFLOZIN,XIGDUO XR,XIGDUO XR,10/500,TABLET,30.0,17.51,BHD,1.552304964539007,Originator,"ASTRAZENECA AB, SWEDEN."
+397,Bahrain,A10BK,DAPAGLIFLOZIN,XIGDUO XR,XIGDUO XR,10/1000,TABLET,30.0,17.51,BHD,1.552304964539007,Originator,"ASTRAZENECA AB, SWEDEN."
+398,Bahrain,L01XC,DURVALUMAB,IMFINZI,IMFINZI,120,SOLUTION FOR INJECTION,1.0,289.5,BHD,769.9468085106383,Originator,"ASTRAZENECA UK LIMITED (CAMBRIDGE), UK."
+399,Bahrain,L01XC,DURVALUMAB,IMFINZI,IMFINZI,500,SOLUTION FOR INJECTION,1.0,1206.24,BHD,3208.0851063829787,Originator,"ASTRAZENECA UK LIMITED (CAMBRIDGE), UK."
+400,Bahrain,A10BH,VILDAGLIPTIN,GLIPTUS,GLIPTUS,50,TABLET,30.0,4.69,BHD,0.4157801418439716,Generic or other,"EVA PHARMA FOR PHARMACEUTICALS & MEDICAL APPLIANCES, EGYPT."
+401,Bahrain,J05AG,DORAVIRINE,DELSTRIGO,DELSTRIGO,100/300/300,FILM COATED TABLET,30.0,250.7,BHD,22.225177304964536,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+402,Bahrain,J05AX,DOLUTEGRAVIR,DOVATO,DOVATO,50/300,FILM COATED TABLET,30.0,299.56,BHD,26.55673758865248,Originator,VIIV HEALTHCARE UK LIMITED
+403,Bahrain,J07BC,Hepatitis B vaccines,ENGERIX-B ADULT,ENGERIX,20,SUSPENSION FOR INJECTION,1.0,6.36,BHD,16.914893617021278,Originator,"GLAXOSMITHKLINE BIOLOGICALS SA, BELGIUM."
+404,Bahrain,J07BC,Hepatitis B vaccines,ENGERIX-B JUNIOR,ENGERIX,10,SUSPENSION FOR INJECTION,1.0,4.33,BHD,11.51595744680851,Originator,"GLAXOSMITHKLINE BIOLOGICALS SA, BELGIUM."
+405,Bahrain,J07AL,Pneumococcal vaccines,PNEUMOVAX 23,PNEUMOVAX 23,nan,SOLUTION FOR INJECTION,1.0,14.54,BHD,38.67021276595744,MSD,"MERCK SHARP & DOHME LLC, USA."
+406,Bahrain,J05AG,DORAVIRINE,PIFELTRO,PIFELTRO,100,FILM COATED TABLET,30.0,141.43,BHD,12.538120567375886,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+407,Bahrain,J07AL,PNEUMOCOCC,PNEUMOSIL,PNEUMOSIL,nan,SUSPENSION FOR INJECTION,1.0,11.71,BHD,31.1436170212766,Generic or other,"SERUM INSTITUTE OF INDIA PVT LTD, INDIA."
+408,Bahrain,J05AX,LETERMOVIR,PREVYMIS,PREVYMIS,240,FILM COATED TABLET,28.0,2148.9,BHD,204.1128419452888,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+409,Bahrain,J07BK,Varicella and zoster vaccines,VARIVAX,VARIVAX,1350,POWDER AND SOLVENT FOR SUSPENSION FOR INJECTION,1.0,16.32,BHD,43.40425531914894,MSD,"MERCK SHARP & DOHME LLC, USA."
+410,Bahrain,J05AR,BICTEGRAVIR,BIKTARVY,BIKTARVY,50/200/25,FILM COATED TABLET,30.0,299.23,BHD,26.527482269503547,Originator,"GILEAD SCIENCES IRELAND UC, IRELAND."
+411,Bahrain,J05AX,LETERMOVIR,PREVYMIS,PREVYMIS,240,CONCENTRATE FOR SOLUTION FOR INFUSION,1.0,89.31,BHD,237.5265957446809,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+412,Bahrain,J07BH,ROTAVIRUS,ROTASIIL LIQUID ,ROTASIIL,nan,ORAL LIQUID,1.0,7.69,BHD,20.45212765957447,Generic or other,"SERUM INSTITUTE OF INDIA PVT LTD, INDIA."
+413,Bahrain,J07AL,Pneumococcal vaccines,VAXNEUVANCE,VAXNEUVANCE,nan,SUSPENSION FOR INJECTION IN PRE-FILLED SYRINGE,1.0,30.4,BHD,80.85106382978724,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+414,Bahrain,J01DH,RELEBACTAM,RECARBRIO,RECARBRIO,500/500/250,POWDER FOR SOLUTION FOR INFUSION,25.0,1610.76,BHD,171.35744680851064,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+415,Bahrain,C01EB,VERICIGUAT,VERQUVO,VERQUVO,2.5,FILM COATED TABLET,14.0,23.69,BHD,4.500379939209727,Originator,"BAYER AG (LEVERKUSEN), GERMANY."
+416,Bahrain,C01EB,VERICIGUAT,VERQUVO,VERQUVO,5,FILM COATED TABLET,14.0,23.69,BHD,4.500379939209727,Originator,"BAYER AG (LEVERKUSEN), GERMANY."
+417,Bahrain,C01EB,VERICIGUAT,VERQUVO,VERQUVO,10,FILM COATED TABLET,28.0,43.86,BHD,4.166033434650456,Originator,"BAYER AG (LEVERKUSEN), GERMANY."
+418,Bahrain,A10BD,ALOGLIPTIN,INCRESYNC,INCRESYNC,25/15,FILM COATED TABLET,28.0,14.76,BHD,1.4019756838905777,Generic or other,"THE ARAB PHARMACEUTICAL MANUFACTURING PSC (APM), JORDAN."
+419,Bahrain,L01XC,ATEZOLIZUMAB,TECENTRIQ,TECENTRIQ,840,CONCENTRATE FOR SOLUTION FOR INFUSION,1.0,1619.58,BHD,4307.393617021276,Originator,"F. HOFFMANN LA ROCHE LTD, SWITZERLAND."
+420,Bahrain,A10BH,SAXAGLIPTIN,ENFORZA,ENFORZA,5/10,FILM COATED TABLET,30.0,23.04,BHD,2.042553191489361,Generic or other,"HIKMA PHARMACEUTICALS CO. LTD, JORDAN."
+421,Bahrain,J07AL,Pneumococcal vaccines,PREVENAR 20,PREVENAR,nan,SUSPENSION FOR INJECTION IN PRE-FILLED SYRINGE,1.0,28.75,BHD,76.4627659574468,Originator,"PFIZER EUROPE MA EEIG, BELGIUM."
+422,Bahrain,J07AL,Pneumococcal vaccines,PREVENAR 20,PREVENAR,nan,SUSPENSION FOR INJECTION IN PRE-FILLED SYRINGE,10.0,265.43,BHD,70.59308510638297,Originator,"PFIZER EUROPE MA EEIG, BELGIUM."
+423,Bahrain,A10BD,ALOGLIPTIN,VIPDOMET,VIPDOMET,12.5/500,FILM COATED TABLET,56.0,11.79,BHD,0.5599354103343465,Originator,"THE ARAB PHARMACEUTICAL MANUFACTURING PSC (APM), JORDAN."
+424,Bahrain,L01XC,BELZUTIFAN,WELIREG,WELIREG,40,FILM COATED TABLET,90.0,7068.75,BHD,208.8874113475177,MSD,"MERCK SHARP & DOHME (UK) LIMITED, UK."
+425,Bahrain,A10BK,DAPAGLIFLOZIN,DIVINUSMET,DIVINUSMET,10/1000,EXTENDED RELEASE TABLET,30.0,12.47,BHD,1.1054964539007093,Generic or other,"JAZEERA PHARMACEUTICALS INDUSTRIES, KSA."
+426,Bahrain,A10BK,DAPAGLIFLOZIN,DIVINUSMET,DIVINUSMET,5/1000,EXTENDED RELEASE TABLET,60.0,12.83,BHD,0.5687056737588653,Generic or other,"JAZEERA PHARMACEUTICALS INDUSTRIES, KSA."
+427,Bahrain,A10BH,SITAGLIPTIN,JOSIGLIP,JOSIGLIP,50,FILM COATED TABLET,28.0,4.93,BHD,0.4682750759878419,Generic or other,"1 A PHARMA GMBH, GERMANY."
+428,Bahrain,A10BH,SITAGLIPTIN,JOSIGLIP,JOSIGLIP,100,FILM COATED TABLET,28.0,9.85,BHD,0.9356003039513676,Generic or other,"1 A PHARMA GMBH, GERMANY."
+429,Bahrain,A10BH,SITAGLIPTIN,JOSIGLIP MET,JOSIGLIP,50/850,FILM COATED TABLET,56.0,9.06,BHD,0.4302811550151975,Generic or other,"1 A PHARMA GMBH, GERMANY."
+430,Bahrain,A10BH,SITAGLIPTIN,JOSIGLIP MET,JOSIGLIP,50/1000,FILM COATED TABLET,56.0,10.67,BHD,0.5067439209726443,Generic or other,"1 A PHARMA GMBH, GERMANY."
+431,Bahrain,A10BK,DAPAGLIFLOZIN,DIVINUS,DIVINUS,5,FILM COATED TABLET,30.0,11.08,BHD,0.9822695035460992,Generic or other,"JAZEERA PHARMACEUTICALS INDUSTRIES, KSA."
+432,Bahrain,A10BK,DAPAGLIFLOZIN,DIVINUS,DIVINUS,10,FILM COATED TABLET,30.0,11.08,BHD,0.9822695035460992,Generic or other,"JAZEERA PHARMACEUTICALS INDUSTRIES, KSA."
+433,Bahrain,A10BK,DAPAGLIFLOZIN,DAPAZIN,DAPAZIN,5,FILM COATED TABLET,30.0,13.2,BHD,1.1702127659574468,Generic or other,"JAMJOOM PHARMACEUTICALS COMPANY, KSA."
+434,Bahrain,A10BK,DAPAGLIFLOZIN,DAPAZIN,DAPAZIN,10,FILM COATED TABLET,30.0,13.2,BHD,1.1702127659574468,Generic or other,"JAMJOOM PHARMACEUTICALS COMPANY, KSA."
+435,Bahrain,A10BH,SITAGLIPTIN,REMEVIA,REMEVIA,25,FILM COATED TABLET,28.0,3.84,BHD,0.364741641337386,Generic or other,"REMEDICA LTD, CYPRUS."
+436,Bahrain,A10BH,SITAGLIPTIN,REMEVIA,REMEVIA,50,FILM COATED TABLET,28.0,6.31,BHD,0.599354103343465,Generic or other,"REMEDICA LTD, CYPRUS."
+437,Bahrain,A10BH,SITAGLIPTIN,REMEVIA,REMEVIA,100,FILM COATED TABLET,28.0,12.47,BHD,1.1844604863221886,Generic or other,"REMEDICA LTD, CYPRUS."
+438,Bahrain,A10BH,VILDAGLIPTIN,VILDUS,VILDUS,50,TABLET,30.0,4.22,BHD,0.374113475177305,Generic or other,"JAMJOOM PHARMACEUTICALS COMPANY, KSA."
+439,Bahrain,A10BH,VILDAGLIPTIN,VILDUS,VILDUS,50,TABLET,60.0,7.43,BHD,0.3293439716312056,Generic or other,"JAMJOOM PHARMACEUTICALS COMPANY, KSA."
+440,Bahrain,A10BH,SITAGLIPTIN,CRONOXAM,CRONOXAM,100,FILM COATED TABLET,28.0,11.22,BHD,1.065729483282675,Generic or other,"APOTEX INC, CANADA."
+441,Bahrain,A10BH,SITAGLIPTIN,CRONOXAM PLUS,CRONOXAM,50/850,FILM COATED TABLET,56.0,13.17,BHD,0.6254749240121581,Generic or other,"APOTEX INC, CANADA."
+442,Bahrain,A10BH,SITAGLIPTIN,CRONOXAM PLUS,CRONOXAM,50/1000,FILM COATED TABLET,56.0,13.65,BHD,0.6482712765957447,Generic or other,"APOTEX INC, CANADA."
+443,Bahrain,A10BH,VILDAGLIPTIN,VILDARAM,VILDARAM,50,TABLET,30.0,3.8,BHD,0.3368794326241134,Generic or other,"RAM PHARMACEUTICAL INDUSTRIES CO. LTD, JORDAN."
+444,Bahrain,J07BK,Varicella and zoster vaccines,SHINGRIX,SHINGRIX,50,POWDER AND SUSPENSION FOR SUSPENSION FOR INJECTION,1.0,80.48,BHD,214.04255319148936,Originator,"GLAXOSMITHKLINE BIOLOGICALS SA, BELGIUM."
+445,Bahrain,A10BK,DAPAGLIFLOZIN,DFLOZIN-10,DFLOZIN,10,FILM COATED TABLET,30.0,8.14,BHD,0.7216312056737589,Generic or other,"MICRO LABS LIMITED, INDIA."
+446,Bahrain,A10BH,LINAGLIPTIN,DIABETEN,DIABETEN,5,FILM COATED TABLET,30.0,8.94,BHD,0.7925531914893617,Generic or other,"UNITED PHARMACEUTICAL MANUFACTURING CO. LTD, JORDAN."
+447,Bahrain,V03AB,SUGAMMADEX,SEGAJET,SEGAJET,100,SOLUTION FOR INJECTION,10.0,205.66,BHD,54.69680851063829,Generic or other,"SANDOZ GMBH, AUSTRIA."
+448,Bahrain,V03AB,SUGAMMADEX,SEGAJET,SEGAJET,100,SOLUTION FOR INJECTION,10.0,514.15,BHD,136.74202127659575,Generic or other,"SANDOZ GMBH, AUSTRIA."
+449,Bahrain,L01XC,ATEZOLIZUMAB,TECENTRIQ,TECENTRIQ,1875,SOLUTION FOR INJECTION,1.0,3016.66,BHD,8023.031914893617,Originator,"F. HOFFMANN LA ROCHE LTD, SWITZERLAND."
+450,Bahrain,A10BK,DAPAGLIFLOZIN,DIAPAGLIF,DIAPAGLIF,5,FILM COATED TABLET,30.0,12.54,BHD,1.1117021276595744,Generic or other,"SANDOZ CANADA INC, CANADA."
+451,Bahrain,A10BK,DAPAGLIFLOZIN,DIAPAGLIF,DIAPAGLIF,10,FILM COATED TABLET,30.0,12.54,BHD,1.1117021276595744,Generic or other,"SANDOZ CANADA INC, CANADA."
+452,Bahrain,A10BK,DAPAGLIFLOZIN,GRIPDI,GRIPDI,5,FILM COATED TABLET,30.0,10.57,BHD,0.9370567375886524,Generic or other,"APOTEX INC, CANADA."
+453,Bahrain,A10BK,DAPAGLIFLOZIN,GRIPDI,GRIPDI,10,FILM COATED TABLET,30.0,10.57,BHD,0.9370567375886524,Generic or other,"APOTEX INC, CANADA."
+454,Bahrain,L01FF,DOSTARLIMAB,JEMPERLI,JEMPERLI,500,CONCENTRATE FOR SOLUTION FOR INFUSION,1.0,3520.81,BHD,9363.856382978724,Originator,"GLAXOSMITHKLINE UK LIMITED, UK."
+455,Bahrain,A10BK,DAPAGLIFLOZIN,DAPAGLIFLOZIN-EVAPHARMA,DAPAGLIFLOZIN,5,FILM COATED TABLET,30.0,6.82,BHD,0.6046099290780141,Generic or other,"EVA PHARMA FOR PHARMACEUTICALS & MEDICAL APPLIANCES, EGYPT."
+456,Bahrain,A10BK,DAPAGLIFLOZIN,DAPAGLIFLOZIN-EVAPHARMA,DAPAGLIFLOZIN,10,FILM COATED TABLET,30.0,6.82,BHD,0.6046099290780141,Generic or other,"EVA PHARMA FOR PHARMACEUTICALS & MEDICAL APPLIANCES, EGYPT."
+457,Bahrain,A10BH,VILDAGLIPTIN,VILGLAV 50,VILGLAV,50,TABLET,30.0,5.2,BHD,0.4609929078014184,Generic or other,"HETERO LABS LIMITED (UNIT-V), INDIA."
+458,Bahrain,A10BH,VILDAGLIPTIN,VILGLAV 50,VILGLAV,50,TABLET,60.0,10.4,BHD,0.4609929078014184,Generic or other,"HETERO LABS LIMITED (UNIT-V), INDIA."
+459,Bahrain,A10BH,VILDAGLIPTIN,GLEPTAL,GLEPTAL,50,TABLET,30.0,4.0,BHD,0.3546099290780142,Generic or other,"AL TAQADDOM PHARMACEUTICAL INDUSTRIES, JORDAN."
+460,Bahrain,A10BH,VILDAGLIPTIN,GLEPTAL,GLEPTAL,50,TABLET,60.0,6.62,BHD,0.2934397163120567,Generic or other,"AL TAQADDOM PHARMACEUTICAL INDUSTRIES, JORDAN."
+461,Bahrain,A10BH,LINAGLIPTIN,LAVINDA,LAVINDA,5,FILM COATED TABLET,30.0,7.91,BHD,0.7012411347517731,Generic or other,"SAUDI PHARMACEUTICAL INDUSTRIES AND MEDICAL APPLIANCES CORPORATION (SPIMACO), KSA."
+462,Bahrain,J05AX,LETERMOVIR,PREVYMIS,PREVYMIS,480,FILM COATED TABLET,28.0,4293.38,BHD,407.8058510638298,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+463,Bahrain,V03AB,SUGAMMADEX,RICAVO,RICAVO,100,SOLUTION FOR INJECTION,10.0,196.06,BHD,52.1436170212766,Generic or other,"JAZEERA PHARMACEUTICALS INDUSTRIES, KSA."
+464,Bahrain,J05AX,DOLUTEGRAVIR,TIVICAY,TIVICAY,5,DISPERSIBLE TABLET,60.0,63.01,BHD,2.792996453900709,Originator,"VIIV HEALTHCARE UK LIMITED, UK."
+465,Bahrain,A10BH,VILDAGLIPTIN,VILGLAV-M,VILGLAV,50/850,FILM COATED TABLET,60.0,9.6,BHD,0.425531914893617,Generic or other,"HETERO LABS LIMITED (UNIT-V), INDIA."
+466,Bahrain,A10BH,VILDAGLIPTIN,VILGLAV-M,VILGLAV,50/1000,FILM COATED TABLET,60.0,10.25,BHD,0.4543439716312056,Generic or other,"HETERO LABS LIMITED (UNIT-V), INDIA."
+467,Bahrain,A10BH,LINAGLIPTIN,LINESTA 5 ,LINESTA,5,FILM COATED TABLET,30.0,9.3,BHD,0.8244680851063829,Generic or other,"HETERO LABS LIMITED (UNIT-V), INDIA."
+468,Bahrain,J05AX,LETERMOVIR,PREVYMIS,PREVYMIS,480,CONCENTRATE FOR SOLUTION FOR INFUSION,1.0,178.36,BHD,474.3617021276596,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+469,Bahrain,A10BH,LINAGLIPTIN,LINTRA ,LINTRA,5,FILM COATED TABLET,30.0,16.29,BHD,1.444148936170213,Generic or other,"JAMJOOM PHARMACEUTICALS FACTORY COMPANY, KSA."
+470,Bahrain,A10BH,LINAGLIPTIN,PREVAGLIP,PREVAGLIP,5,FILM COATED TABLET,30.0,7.38,BHD,0.6542553191489362,Generic or other,"EVA PHARMA FOR PHARMACEUTICALS & MEDICAL APPLIANCES, EGYPT."
+471,Bahrain,A10BH,SITAGLIPTIN,METPLITIN M,METPLITIN,50/1000,FILM COATED TABLET,28.0,6.11,BHD,0.5803571428571429,Generic or other,"DR. REDDY’S LABORATORIES LIMITED, INDIA."
+472,Bahrain,A10BH,SITAGLIPTIN,SITASTAD,SITASTAD,50,FILM COATED TABLET,28.0,7.99,BHD,0.7589285714285714,Generic or other,"STADA ARZNEIMITTEL AG, GERMANY."
+473,Bahrain,A10BH,SITAGLIPTIN,SITASTAD,SITASTAD,100,FILM COATED TABLET,28.0,9.68,BHD,0.919452887537994,Generic or other,"STADA ARZNEIMITTEL AG, GERMANY."
+474,Bahrain,V03AB,SUGAMMADEX,SUMADIX,SUMADIX,200,SOLUTION FOR INJECTION,10.0,176.7,BHD,46.99468085106383,Generic or other,"MS PHARMA, JORDAN."
+475,Bahrain,V03AB,SUGAMMADEX,WEKASURG,WEKASURG,200,SOLUTION FOR INJECTION,10.0,235.28,BHD,62.57446808510638,Generic or other,"SAUDI ARABIAN JAPANESE PHARMACEUTICAL COMPANY LIMITED (SAJA), KSA."
+476,Bahrain,C02KX,SOTATERCEPT,WINREVAIR,WINREVAIR,45,POWDER AND SOLVENT FOR SOLUTION FOR INJECTION,1.0,3534.38,BHD,9399.946808510638,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+477,Bahrain,C02KX,SOTATERCEPT,WINREVAIR,WINREVAIR,45,POWDER AND SOLVENT FOR SOLUTION FOR INJECTION,2.0,7068.75,BHD,9399.9335106383,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+478,Bahrain,C02KX,SOTATERCEPT,WINREVAIR,WINREVAIR,60,POWDER AND SOLVENT FOR SOLUTION FOR INJECTION,1.0,4712.5,BHD,12533.244680851063,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+479,Bahrain,C02KX,SOTATERCEPT,WINREVAIR,WINREVAIR,60,POWDER AND SOLVENT FOR SOLUTION FOR INJECTION,2.0,9425.0,BHD,12533.244680851063,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+480,Bahrain,A10BH,SITAGLIPTIN,SITAGEN,SITAGEN,50,FILM-COATED TABLET,30.0,6.82,BHD,0.6046099290780141,Generic or other,"JAMJOOM PHARMACEUTICALS FACTORY COMPANY, KSA."
+481,Bahrain,A10BH,SITAGLIPTIN,SITAGEN,SITAGEN,100,FILM-COATED TABLET,30.0,12.85,BHD,1.1391843971631206,Generic or other,"JAMJOOM PHARMACEUTICALS FACTORY COMPANY, KSA."
+482,Bahrain,A10BK,DAPAGLIFLOZIN,ZAPAFLO,ZAPAFLO,5,FILM COATED TABLET,28.0,15.24,BHD,1.4475683890577506,Generic or other,"OMAN PHARMACEUTICAL PRODUCTS CO. LLC (ZYNOVA), OMAN."
+483,Bahrain,A10BK,DAPAGLIFLOZIN,ZAPAFLO,ZAPAFLO,10,FILM COATED TABLET,28.0,15.24,BHD,1.4475683890577506,Generic or other,"OMAN PHARMACEUTICAL PRODUCTS CO. LLC (ZYNOVA), OMAN."
+484,Bahrain,A10BH,SITAGLIPTIN,METPLITIN,METPLITIN,50,TABLET,28.0,5.6,BHD,0.5319148936170213,Generic or other,"DR. REDDY’S LABORATORIES LIMITED, INDIA."
+485,Bahrain,A10BH,SITAGLIPTIN,METPLITIN,METPLITIN,100,TABLET,28.0,11.2,BHD,1.0638297872340423,Generic or other,"DR. REDDY’S LABORATORIES LIMITED, INDIA."
+486,Bahrain,A10BH,LINAGLIPTIN,DIABETEN M ,DIABETEN,2.5/850,FILM-COATED TABLET,60.0,8.96,BHD,0.3971631205673759,Generic or other,"UNITED PHARMACEUTICAL MANUFACTURING CO. LTD, JORDAN."
+487,Bahrain,A10BH,LINAGLIPTIN,DIABETEN M ,DIABETEN,2.5/1000,FILM-COATED TABLET,60.0,8.96,BHD,0.3971631205673759,Generic or other,"UNITED PHARMACEUTICAL MANUFACTURING CO. LTD, JORDAN."
+488,Bahrain,A10BK,DAPAGLIFLOZIN,DEZEROGA,DEZEROGA,10,FILM COATED TABLET,28.0,9.34,BHD,0.8871580547112462,Generic or other,"MED CITY PHARMA, KSA."
+489,Bahrain,A10BH,LINAGLIPTIN,TRALIX,TRALIX,5,FILM COATED TABLET,30.0,7.54,BHD,0.6684397163120568,Generic or other,"ALRAI PHARMACEUTICAL INDUSTRIES CO. (L.L.C), KSA."
+490,Bahrain,A10BH,SITAGLIPTIN,SITA,SITA,50,FILM COATED TABLET,30.0,6.77,BHD,0.600177304964539,Generic or other,"ALRAI PHARMACEUTICAL INDUSTRIES CO. (L.L.C), KSA."
+491,Bahrain,A10BH,SITAGLIPTIN,SITA,SITA,100,FILM COATED TABLET,30.0,13.37,BHD,1.1852836879432624,Generic or other,"ALRAI PHARMACEUTICAL INDUSTRIES CO. (L.L.C), KSA."
+492,Bahrain,A10BH,LINAGLIPTIN,LEENA,LEENA,5,FILM COATED TABLET,30.0,12.79,BHD,1.1338652482269502,Generic or other,"PHARMA INTERNATIONAL COMPANY, JORDAN."
+493,Bahrain,A10BK,DAPAGLIFLOZIN,DFLOZIN 5 M,DFLOZIN,5/500,TABLET,30.0,7.13,BHD,0.6320921985815603,Generic or other,"MICRO LABS LIMITED, INDIA."
+494,Bahrain,A10BK,DAPAGLIFLOZIN,DFLOZIN 5 M PLUS,DFLOZIN,5/1000,TABLET,30.0,7.13,BHD,0.6320921985815603,Generic or other,"MICRO LABS LIMITED, INDIA."
+495,Bahrain,A10BK,DAPAGLIFLOZIN,DFLOZIN 10 M ,DFLOZIN,10/500,TABLET,30.0,8.14,BHD,0.7216312056737589,Generic or other,"MICRO LABS LIMITED, INDIA."
+496,Bahrain,A10BK,DAPAGLIFLOZIN,DFLOZIN 10 M PLUS,DFLOZIN,10/1000,TABLET,30.0,8.14,BHD,0.7216312056737589,Generic or other,"MICRO LABS LIMITED, INDIA."
+497,Bahrain,A10BK,DAPAGLIFLOZIN,XIGLIF 5,XIGLIF,5,FILM COATED TABLET,30.0,11.9,BHD,1.0549645390070923,Generic or other,"MSN LABORATORIES PRIVATE LIMITED, INDIA."
+498,Bahrain,A10BK,DAPAGLIFLOZIN,XIGLIF 10,XIGLIF,10,FILM COATED TABLET,30.0,11.9,BHD,1.0549645390070923,Generic or other,"MSN LABORATORIES PRIVATE LIMITED, INDIA."
+499,Bahrain,A10BH,VILDAGLIPTIN,VILDASTAT,VILDASTAT,50,FILM COATED TABLET,60.0,11.2,BHD,0.4964539007092198,Generic or other,"STADA ARZNEIMITTEL AG, GERMANY."
+500,Bahrain,A10BH,VILDAGLIPTIN,GLEPTAL PLUS,GLEPTAL,850/50,FILM COATED TABLET,60.0,10.18,BHD,0.451241134751773,Generic or other,"AL TAQADDOM PHARMACEUTICAL INDUSTRIES, JORDAN."
+501,Bahrain,A10BH,VILDAGLIPTIN,GLEPTAL PLUS,GLEPTAL,1000/50,FILM COATED TABLET,60.0,11.2,BHD,0.4964539007092198,Generic or other,"AL TAQADDOM PHARMACEUTICAL INDUSTRIES, JORDAN."
+502,Bahrain,A10BH,SITAGLIPTIN,SIACRET,SIACRET,50,FILM COATED TABLET,30.0,6.81,BHD,0.6037234042553191,Generic or other,"MSN LABORATORIES PRIVATE LIMITED, INDIA."
+503,Bahrain,A10BH,SITAGLIPTIN,SIACRET,SIACRET,100,FILM COATED TABLET,30.0,12.02,BHD,1.0656028368794326,Generic or other,"MSN LABORATORIES PRIVATE LIMITED, INDIA."
+504,Bahrain,B05CB,NIVOLUMAB,OPDUALAG,OPDUALAG,12/4,SOLUTION FOR INJECTION,1.0,4030.36,BHD,10719.04255319149,Generic or other,"BRISTOL-MYERS SQUIBB COMPANY, USA."
+505,Bahrain,A10BK,EMPAGLIFLOZIN,GLONZA,GLONZA,10,FILM-COATED TABLET,30.0,26.16,BHD,2.3191489361702127,Generic or other,"JORDAN RIVER PHARMACEUTICAL INDUSTRIES LLC, JORDAN."
+506,Bahrain,A10BK,EMPAGLIFLOZIN,GLONZA,GLONZA,25,FILM-COATED TABLET,30.0,26.16,BHD,2.3191489361702127,Generic or other,"JORDAN RIVER PHARMACEUTICAL INDUSTRIES LLC, JORDAN."
+507,Bahrain,A10BK,EMPAGLIFLOZIN,EMPAGLINAZ 10,EMPAGLINAZ,10,FILM-COATED TABLET,30.0,10.05,BHD,0.8909574468085107,Generic or other,"AUROBINDO PHARMA LTD, INDIA."
+508,Bahrain,A10BK,EMPAGLIFLOZIN,EMPAGLINAZ 25,EMPAGLINAZ,25,FILM-COATED TABLET,30.0,12.07,BHD,1.0700354609929077,Generic or other,"AUROBINDO PHARMA LTD, INDIA."
+509,Bahrain,A10BH,SITAGLIPTIN,SITAVIC,SITAVIC,50/850,FILM COATED TABLET,56.0,11.32,BHD,0.537613981762918,Generic or other,"JAMJOOM PHARMACEUTICALS FACTORY COMPANY, KSA."
+510,Bahrain,A10BH,SITAGLIPTIN,SITAVIC,SITAVIC,50/1000,FILM COATED TABLET,56.0,11.73,BHD,0.5570858662613982,Generic or other,"JAMJOOM PHARMACEUTICALS FACTORY COMPANY, KSA."
+511,Bahrain,A10BK,DAPAGLIFLOZIN,DAFASGLIT,DAFASGLIT,5,FILM-COATED TABLET,30.0,9.7,BHD,0.8599290780141843,Generic or other,"AUROBINDO PHARMA LTD, INDIA."
+512,Bahrain,A10BK,DAPAGLIFLOZIN,DAFASGLIT,DAFASGLIT,10,FILM-COATED TABLET,30.0,9.7,BHD,0.8599290780141843,Generic or other,"AUROBINDO PHARMA LTD, INDIA."
+513,Bahrain,A10BH,LINAGLIPTIN,AUROLENA 5,AUROLENA,5,FILM COATED TABLET,30.0,7.21,BHD,0.6391843971631206,Generic or other,"AUROBINDO PHARMA LTD, INDIA."
+514,Bahrain,J05AX,DOLUTEGRAVIR,INSTGRA,INSTGRA,50,FILM COATED TABLET,30.0,84.83,BHD,7.5203900709219855,Generic or other,"EMCURE PHARMACEUTICALS LTD, INDIA."
+515,Bahrain,A10BH,LINAGLIPTIN,MELLITOFIX TRIO,MELLITOFIX,10 /5/1000,EXTENDED-RELEASE TABLET,30.0,11.42,BHD,1.0124113475177303,Generic or other,"EVA PHARMA FOR PHARMACEUTICALS & MEDICAL APPLIANCES, EGYPT."
+516,Bahrain,A10BH,LINAGLIPTIN,MELLITOFIX TRIO,MELLITOFIX,25/5/1000,EXTENDED-RELEASE TABLET,30.0,11.42,BHD,1.0124113475177303,Generic or other,"EVA PHARMA FOR PHARMACEUTICALS & MEDICAL APPLIANCES, EGYPT."
+517,Bahrain,A10BH,LINAGLIPTIN,LINAJENT,LINAJENT,5,FILM-COATED TABLET,30.0,8.03,BHD,0.7118794326241135,Generic or other,"TABUK PHARMACEUTICAL MANUFACTURING COMPANY, KSA."
+518,Bahrain,A10BK,EMPAGLIFLOZIN,EMPAGLINAZ-M,EMPAGLINAZ,12.5/850,FILM-COATED TABLET,30.0,10.29,BHD,0.9122340425531914,Generic or other,"AUROBINDO PHARMA LTD, INDIA."
+519,Bahrain,A10BK,EMPAGLIFLOZIN,EMPAGLINAZ-M,EMPAGLINAZ,5/850,FILM-COATED TABLET,30.0,7.21,BHD,0.6391843971631206,Generic or other,"AUROBINDO PHARMA LTD, INDIA."
+520,Bahrain,A10BK,EMPAGLIFLOZIN,EMPAGLINAZ-M,EMPAGLINAZ,12.5/1000,FILM-COATED TABLET,30.0,10.29,BHD,0.9122340425531914,Generic or other,"AUROBINDO PHARMA LTD, INDIA."
+521,Bahrain,A10BK,EMPAGLIFLOZIN,EMPAGLINAZ-M,EMPAGLINAZ,5/1000,FILM-COATED TABLET,30.0,10.29,BHD,0.9122340425531914,Generic or other,"AUROBINDO PHARMA LTD, INDIA."
+522,Bahrain,A10BH,VILDAGLIPTIN,VDIA,VDIA,50,FILM-COATED TABLET,28.0,3.6,BHD,0.3419452887537994,Generic or other,"ALPHA PHARMA INDUSTRY,KSA."
+523,Bahrain,A10BH,VILDAGLIPTIN,VDIA,VDIA,50,FILM-COATED TABLET,56.0,7.2,BHD,0.3419452887537994,Generic or other,"ALPHA PHARMA INDUSTRY,KSA."
+524,Bahrain,J07AL,Pneumococcal vaccines,CAPVAXIVE,CAPVAXIVE,0.5,SOLUTION FOR INJECTION,1.0,45.45,BHD,120.8776595744681,MSD,"MERCK SHARP & DOHME BV, THE NETHERLANDS."
+525,Bahrain,A10BH,VILDAGLIPTIN,VILACRET,VILACRET,50,TABLET,30.0,4.2,BHD,0.3723404255319149,Generic or other,"MSN LABORATORIES PRIVATE LIMITED, INDIA."
+526,Bahrain,A10BK,EMPAGLIFLOZIN,EMFLODIAZ,EMFLODIAZ,10,FILM-COATED TABLET,30.0,10.05,BHD,0.8909574468085107,Generic or other,"DR. REDDY’S LABORATORIES LIMITED, INDIA."
+527,Bahrain,A10BK,EMPAGLIFLOZIN,EMFLODIAZ,EMFLODIAZ,25,FILM-COATED TABLET,30.0,12.07,BHD,1.0700354609929077,Generic or other,"DR. REDDY’S LABORATORIES LIMITED, INDIA."
+528,Bahrain,A10BH,LINAGLIPTIN,LINCRET 5,LINCRET,5,FILM COATED TABLET,30.0,8.02,BHD,0.7109929078014183,Generic or other,"MSN LABORATORIES PRIVATE LIMITED, INDIA."
+529,Bahrain,A10BH,VILDAGLIPTIN,SENSITYN,SENSITYN,50/850,FILM -COATED TABLET,60.0,10.27,BHD,0.4552304964539007,Generic or other,"ALPHA PHARMA INDUSTRY,KSA."
+530,Bahrain,A10BH,VILDAGLIPTIN,SENSITYN,SENSITYN,50/1000,FILM -COATED TABLET,60.0,10.82,BHD,0.4796099290780142,Generic or other,"ALPHA PHARMA INDUSTRY,KSA."
+531,Bahrain,A10BH,SITAGLIPTIN,PEPTISITA-M,PEPTISITA,50/500,FILM -COATED TABLET,60.0,7.17,BHD,0.3178191489361702,Generic or other,"AUROBINDO PHARMA LTD, INDIA."
+532,Bahrain,A10BH,SITAGLIPTIN,PEPTISITA-M,PEPTISITA,50/850,FILM -COATED TABLET,60.0,10.65,BHD,0.4720744680851064,Generic or other,"AUROBINDO PHARMA LTD, INDIA."
+533,Bahrain,A10BH,SITAGLIPTIN,PEPTISITA-M,PEPTISITA,50/1000,FILM -COATED TABLET,60.0,12.54,BHD,0.5558510638297872,Generic or other,"AUROBINDO PHARMA LTD, INDIA."
+534,Bahrain,L01FF,PEMBROLIZUMAB,KETRUDA SC,KEYTRUDA SC,395/4800,SOLUTION FOR INJECTION,1.0,4330.4,BHD,11517.021276595744,MSD,"MERCK SHARP & DOHME LLC, USA."
+535,Bahrain,L01FF,PEMBROLIZUMAB,KETRUDA SC,KEYTRUDA SC,790/9600,SOLUTION FOR INJECTION,1.0,8660.8,BHD,23034.042553191488,MSD,"MERCK SHARP & DOHME LLC, USA."
+536,Bahrain,J07BM,PAPILLOMA,CERVAVAC,CERVAVAC,0.5,SUSPENSION FOR INJECTION,1.0,12.72,BHD,33.82978723404256,Generic or other,SERUM INSTITUTE OF INDIA PVT LTD
+537,Bahrain,B05CB,NIVOLUMAB,OPDIVO SC,OPDIVO SC,600,SOLUTION FOR INJECTION,1.0,2561.46,BHD,6812.393617021276,Originator,"BRISTOL-MYERS SQUIBB-PHARMA EEIG, IRELAND."
+538,Bahrain,A10BH,LINAGLIPTIN,GLIPACT,GLIPACT,10/05,FILM COATED TABLET,30.0,34.98,BHD,3.101063829787234,Generic or other,"JORDAN RIVER PHARMACEUTICAL INDUSTRIES LLC, JORDAN."
+539,Bahrain,A10BH,LINAGLIPTIN,GLIPACT,GLIPACT,25/5,FILM COATED TABLET,30.0,34.98,BHD,3.101063829787234,Generic or other,"JORDAN RIVER PHARMACEUTICAL INDUSTRIES LLC, JORDAN."
+540,Bahrain,A10BH,SITAGLIPTIN,SITAVITAE,SITAVITAE,100,FILM COATED TABLET,30.0,11.92,BHD,1.056737588652482,Generic or other,GALENICUM VITAE S L U
+541,Bahrain,A10BK,DAPAGLIFLOZIN,DAPXIGA,DAPXIGA,5,FILM COATED TABLET,30.0,14.59,BHD,1.2934397163120568,Generic or other,SAUDI AMAROX
+542,Bahrain,A10BK,DAPAGLIFLOZIN,DAPXIGA,DAPXIGA,10,FILM COATED TABLET,30.0,14.59,BHD,1.2934397163120568,Generic or other,SAUDI AMAROX
+543,Bahrain,A10BK,EMPAGLIFLOZIN,MELLITOFIX,MELLITOFIX,10,FILM COATED TABLET,30.0,9.67,BHD,0.8572695035460992,Generic or other,"EVA PHARMA FOR PHARMACEUTICALS & MEDICAL APPLIANCES, EGYPT."
+544,Bahrain,A10BK,EMPAGLIFLOZIN,MELLITOFIX,MELLITOFIX,25,FILM COATED TABLET,30.0,11.71,BHD,1.0381205673758866,Generic or other,"EVA PHARMA FOR PHARMACEUTICALS & MEDICAL APPLIANCES, EGYPT."
+545,Bahrain,A10BH,SITAGLIPTIN,METSITAG,METSITAG,50/500,FILM COATED TABLET,30.0,5.25,BHD,0.4654255319148936,Generic or other,"MACLEODS PHARMACEUTICALS LIMITED, INDIA."
+546,Bahrain,A10BH,SITAGLIPTIN,METSITAG,METSITAG,50/1000,FILM COATED TABLET,30.0,5.83,BHD,0.5168439716312057,Generic or other,"MACLEODS PHARMACEUTICALS LIMITED, INDIA."
+547,Bahrain,A10BH,VILDAGLIPTIN,VILDASTAD DUO,VILDASTAD,50/850,FILM COATED TABLET,60.0,10.18,BHD,0.451241134751773,Generic or other,"STADA ARZNEIMITTEL AG, GERMANY."
+548,Bahrain,A10BH,VILDAGLIPTIN,VILDASTAD DUO,VILDASTAD,50/1000,FILM COATED TABLET,60.0,11.55,BHD,0.511968085106383,Generic or other,"STADA ARZNEIMITTEL AG, GERMANY."
+549,Bahrain,A10BH,LINAGLIPTIN,GLYNTA,GLYNTA,5,FILM COATED TABLET,30.0,8.4,BHD,0.7446808510638299,Generic or other,"SAUDI ARABIAN JAPANESE PHARMACEUTICAL COMPANY LIMITED (SAJA), KSA."
+550,Bahrain,A10BK,EMPAGLIFLOZIN,GLUXIT,GLUXIT,10,FILM COATED TABLET,30.0,15.24,BHD,1.3510638297872342,Generic or other,"OMAN PHARMACEUTICAL PRODUCTS CO. LLC (ZYNOVA), OMAN."
+551,Bahrain,A10BK,EMPAGLIFLOZIN,GLUXIT,GLUXIT,25,FILM COATED TABLET,30.0,15.24,BHD,1.3510638297872342,Generic or other,"OMAN PHARMACEUTICAL PRODUCTS CO. LLC (ZYNOVA), OMAN."
+552,Bahrain,A10BH,SITAGLIPTIN,EMIJAN,EMIJAN,50,FILM COATED TABLET,28.0,6.36,BHD,0.6041033434650456,Generic or other,"GLOBALPHARMA CO. LLC, UAE."
+553,Bahrain,A10BH,SITAGLIPTIN,EMIJAN,EMIJAN,100,FILM COATED TABLET,28.0,12.48,BHD,1.1854103343465046,Generic or other,"GLOBALPHARMA CO. LLC, UAE."
+554,Bahrain,A10BK,DAPAGLIFLOZIN,DAPINZO,DAPINZO,10,FILM COATED TABLET,30.0,16.77,BHD,1.4867021276595742,Generic or other,"SAUDI ARABIAN JAPANESE PHARMACEUTICAL COMPANY LIMITED (SAJA), KSA."
+555,Bahrain,A10BK,DAPAGLIFLOZIN,DAPINZO,DAPINZO,5,FILM COATED TABLET,30.0,16.77,BHD,1.4867021276595742,Generic or other,"SAUDI ARABIAN JAPANESE PHARMACEUTICAL COMPANY LIMITED (SAJA), KSA."
